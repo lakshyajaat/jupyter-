@@ -35,17 +35,40 @@ def postorder(root, result):
         result.append(root.key)
 
 
-keys = [8, 3, 10, 1, 4, 14, 7, 13]
+# --- Main program ---
+# Take user input for keys
+keys = list(map(int, input("Enter numbers to insert into BST (space-separated): ").split()))
 
 root = None
 for key in keys:
     root = insert(root, key)
 
-pre, ino, post = [], [], []
-preorder(root, pre)
-inorder(root, ino)
-postorder(root, post)
+# Ask for traversal choice
+choice = input("Enter traversal type (preorder / inorder / postorder / all): ").lower()
 
-print("Preorder:", pre)
-print("Inorder:", ino)
-print("Postorder:", post)
+if choice == "preorder":
+    result = []
+    preorder(root, result)
+    print("Preorder:", result)
+
+elif choice == "inorder":
+    result = []
+    inorder(root, result)
+    print("Inorder:", result)
+
+elif choice == "postorder":
+    result = []
+    postorder(root, result)
+    print("Postorder:", result)
+
+elif choice == "all":
+    pre, ino, post = [], [], []
+    preorder(root, pre)
+    inorder(root, ino)
+    postorder(root, post)
+    print("Preorder:", pre)
+    print("Inorder:", ino)
+    print("Postorder:", post)
+
+else:
+    print("Invalid choice! Please enter preorder, inorder, postorder, or all.")
