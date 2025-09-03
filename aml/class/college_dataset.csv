@@ -1,0 +1,2001 @@
+student_id,state,category,gender,quota,12th_percentage,entrance_score,effective_score,extracurriculars,preferences_count,assigned_college,admission_chance
+S0001,Karnataka,GEN,Male,None,80.96,207,207,2,4,State Tech University,0.627
+S0002,Karnataka,OBC,Male,None,78.35,228,228,1,6,NIT Example,0.653
+S0003,Maharashtra,OBC,Female,None,68.03,163,163,1,9,Regional Engineering College,0.497
+S0004,Uttar Pradesh,GEN,Male,NRI,43.65,137,97,2,5,Community College,0.477
+S0005,Rajasthan,GEN,Male,TFW,64.1,131,131,2,8,Local Government College,0.482
+S0006,Karnataka,GEN,Male,None,99.0,267,267,0,7,IIT Example,0.8
+S0007,Maharashtra,SC,Female,Defence,61.19,168,178,0,9,State Tech University,0.495
+S0008,Karnataka,OBC,Female,None,67.8,199,199,0,8,State Tech University,0.591
+S0009,Uttar Pradesh,OBC,Male,None,67.78,222,222,0,7,NIT Example,0.625
+S0010,Karnataka,SC,Female,None,68.6,178,178,3,10,State Tech University,0.495
+S0011,Gujarat,GEN,Male,None,99.0,287,287,3,4,IIT Example,0.891
+S0012,Tamil Nadu,OBC,Male,None,77.62,223,223,1,7,NIT Example,0.63
+S0013,Uttar Pradesh,OBC,Female,None,62.89,123,123,2,6,Local Government College,0.445
+S0014,Maharashtra,SC,Male,None,79.12,161,161,1,8,State Tech University,0.418
+S0015,Uttar Pradesh,OBC,Male,TFW,66.88,189,189,0,10,State Tech University,0.545
+S0016,Tamil Nadu,GEN,Male,None,81.99,235,235,2,7,NIT Example,0.685
+S0017,Rajasthan,ST,Male,None,64.93,161,161,3,5,State Tech University,0.418
+S0018,Haryana,GEN,Male,None,61.72,130,130,4,5,Local Government College,0.477
+S0019,Rajasthan,OBC,Male,None,86.68,245,245,3,10,NIT Example,0.73
+S0020,Delhi,EWS,Female,None,70.22,181,181,0,4,State Tech University,0.509
+S0021,Delhi,SC,Male,None,76.04,190,190,3,5,State Tech University,0.55
+S0022,Haryana,GEN,Female,None,92.73,228,228,1,5,NIT Example,0.653
+S0023,Karnataka,ST,Male,None,65.3,157,157,5,6,State Tech University,0.4
+S0024,Tamil Nadu,GEN,Male,TFW,76.16,222,222,3,3,NIT Example,0.625
+S0025,Gujarat,OBC,Male,None,70.29,146,146,2,7,Regional Engineering College,0.42
+S0026,Uttar Pradesh,GEN,Female,TFW,43.14,120,120,1,4,Local Government College,0.432
+S0027,Haryana,SC,Female,None,80.44,204,204,2,5,NIT Example,0.544
+S0028,Tamil Nadu,OBC,Female,None,78.09,201,201,2,9,State Tech University,0.6
+S0029,Uttar Pradesh,ST,Female,None,62.13,136,136,0,7,Regional Engineering College,0.375
+S0030,Rajasthan,EWS,Female,None,75.72,258,258,0,10,IIT Example,0.759
+S0031,Karnataka,GEN,Male,None,80.73,203,203,1,6,State Tech University,0.609
+S0032,Uttar Pradesh,GEN,Female,None,79.08,205,205,2,4,State Tech University,0.618
+S0033,Maharashtra,SC,Male,None,84.49,196,196,3,10,State Tech University,0.577
+S0034,Uttar Pradesh,OBC,Female,NRI,63.11,149,109,0,10,Community College,0.532
+S0035,Uttar Pradesh,SC,Female,None,95.48,270,270,0,4,IIT Example,0.814
+S0036,Rajasthan,GEN,Male,NRI,56.39,148,108,1,3,Community College,0.527
+S0037,Karnataka,GEN,Female,None,63.97,205,205,1,4,State Tech University,0.618
+S0038,Uttar Pradesh,GEN,Female,None,65.6,162,162,4,5,Regional Engineering College,0.493
+S0039,Delhi,OBC,Female,None,91.37,300,300,1,4,IIT Example,0.95
+S0040,Maharashtra,OBC,Female,None,57.72,179,179,5,4,State Tech University,0.5
+S0041,Uttar Pradesh,GEN,Female,None,77.72,223,223,0,9,NIT Example,0.63
+S0042,Maharashtra,GEN,Male,None,78.52,186,186,0,10,State Tech University,0.532
+S0043,Delhi,GEN,Female,Defence,77.1,170,180,2,10,State Tech University,0.505
+S0044,Tamil Nadu,GEN,Male,None,63.3,184,184,3,3,State Tech University,0.523
+S0045,Gujarat,GEN,Female,None,84.86,268,268,0,5,IIT Example,0.805
+S0046,Maharashtra,EWS,Male,None,58.56,132,132,2,4,Local Government College,0.486
+S0047,Uttar Pradesh,GEN,Female,None,78.32,224,224,3,3,NIT Example,0.635
+S0048,Karnataka,GEN,Female,None,82.51,193,193,1,7,State Tech University,0.564
+S0049,Uttar Pradesh,OBC,Male,None,62.15,173,173,4,5,State Tech University,0.473
+S0050,Delhi,OBC,Female,TFW,73.51,209,209,4,3,State Tech University,0.636
+S0051,Haryana,OBC,Female,None,69.64,202,202,1,6,State Tech University,0.605
+S0052,Delhi,GEN,Male,None,77.08,210,210,1,6,State Tech University,0.641
+S0053,Gujarat,GEN,Male,None,75.7,168,168,4,7,Regional Engineering College,0.52
+S0054,Maharashtra,OBC,Female,TFW,85.86,208,208,5,4,State Tech University,0.632
+S0055,Tamil Nadu,GEN,Female,None,90.97,261,261,3,5,IIT Example,0.773
+S0056,Delhi,GEN,Male,None,76.98,178,178,0,7,Regional Engineering College,0.565
+S0057,Haryana,GEN,Female,None,99.0,210,210,2,9,State Tech University,0.641
+S0058,Delhi,GEN,Male,None,64.28,158,158,2,7,Regional Engineering College,0.475
+S0059,Tamil Nadu,SC,Female,None,66.24,177,177,0,3,State Tech University,0.491
+S0060,Karnataka,GEN,Female,TFW,99.0,300,300,4,3,IIT Example,0.95
+S0061,Gujarat,OBC,Male,None,67.06,195,195,1,7,State Tech University,0.573
+S0062,Gujarat,ST,Female,NRI,81.06,232,192,1,8,State Tech University,0.559
+S0063,Uttar Pradesh,OBC,Female,None,69.3,163,163,3,9,Regional Engineering College,0.497
+S0064,Tamil Nadu,ST,Male,None,99.0,283,283,1,5,IIT Example,0.873
+S0065,Rajasthan,GEN,Female,None,90.2,216,216,0,9,State Tech University,0.668
+S0066,Uttar Pradesh,GEN,Female,None,72.15,234,234,0,3,NIT Example,0.68
+S0067,Haryana,GEN,Female,None,36.1,68,68,1,7,No Seat / Private Coaching,0.01
+S0068,Uttar Pradesh,GEN,Female,None,94.59,210,210,1,7,State Tech University,0.641
+S0069,Karnataka,EWS,Male,None,92.3,204,204,3,9,State Tech University,0.614
+S0070,Gujarat,ST,Male,Defence,77.39,186,196,0,5,NIT Example,0.507
+S0071,Delhi,GEN,Female,None,82.77,218,218,3,8,State Tech University,0.677
+S0072,Rajasthan,OBC,Female,None,83.24,218,218,3,6,NIT Example,0.607
+S0073,Delhi,GEN,Male,None,69.16,185,185,2,6,State Tech University,0.527
+S0074,Gujarat,GEN,Female,TFW,67.93,197,197,0,8,State Tech University,0.582
+S0075,Karnataka,OBC,Male,None,86.42,261,261,4,9,IIT Example,0.773
+S0076,Gujarat,GEN,Male,None,83.97,233,233,3,9,NIT Example,0.675
+S0077,Rajasthan,OBC,Female,None,81.57,207,207,4,7,State Tech University,0.627
+S0078,Rajasthan,OBC,Male,None,75.15,218,218,3,9,NIT Example,0.607
+S0079,Gujarat,OBC,Male,None,71.75,171,171,5,10,State Tech University,0.464
+S0080,Tamil Nadu,OBC,Male,None,89.46,202,202,3,8,State Tech University,0.605
+S0081,Karnataka,SC,Female,None,66.61,172,172,3,6,State Tech University,0.468
+S0082,Uttar Pradesh,GEN,Male,Defence,82.37,248,258,0,4,NIT Example,0.789
+S0083,Haryana,GEN,Female,None,77.94,189,189,0,9,State Tech University,0.545
+S0084,Haryana,GEN,Male,None,81.71,234,234,0,4,NIT Example,0.68
+S0085,Rajasthan,GEN,Female,None,57.62,114,114,5,10,Community College,0.555
+S0086,Maharashtra,OBC,Female,None,78.73,241,241,2,5,NIT Example,0.712
+S0087,Haryana,OBC,Other,None,71.37,185,185,1,10,State Tech University,0.527
+S0088,Rajasthan,SC,Female,NRI,90.25,253,213,3,10,NIT Example,0.585
+S0089,Haryana,GEN,Male,None,70.88,195,195,1,10,State Tech University,0.573
+S0090,Uttar Pradesh,GEN,Male,None,75.84,221,221,1,7,NIT Example,0.621
+S0091,Gujarat,GEN,Female,None,80.68,211,211,3,6,State Tech University,0.645
+S0092,Rajasthan,OBC,Female,None,89.4,277,277,1,9,IIT Example,0.845
+S0093,Gujarat,OBC,Male,None,73.67,215,215,2,9,NIT Example,0.594
+S0094,Rajasthan,ST,Female,None,49.51,115,115,1,9,Local Government College,0.409
+S0095,Haryana,GEN,Male,None,79.1,252,252,3,9,NIT Example,0.762
+S0096,Uttar Pradesh,OBC,Male,None,59.16,199,199,2,9,State Tech University,0.591
+S0097,Gujarat,OBC,Female,None,74.12,185,185,2,10,State Tech University,0.527
+S0098,Tamil Nadu,EWS,Female,TFW,54.44,175,175,4,3,State Tech University,0.482
+S0099,Karnataka,OBC,Male,None,73.7,190,190,8,3,State Tech University,0.55
+S0100,Delhi,GEN,Male,None,62.19,158,158,2,9,Regional Engineering College,0.475
+S0101,Delhi,SC,Female,None,87.73,266,266,1,4,IIT Example,0.795
+S0102,Haryana,GEN,Female,Defence,77.91,253,263,4,8,IIT Example,0.782
+S0103,Uttar Pradesh,OBC,Female,None,72.01,211,211,0,3,NIT Example,0.575
+S0104,Uttar Pradesh,GEN,Male,None,92.87,263,263,1,5,IIT Example,0.782
+S0105,Haryana,OBC,Female,None,54.23,177,177,3,7,State Tech University,0.491
+S0106,Gujarat,GEN,Female,None,69.16,213,213,3,4,State Tech University,0.655
+S0107,Tamil Nadu,EWS,Male,None,74.82,214,214,1,7,NIT Example,0.589
+S0108,Rajasthan,GEN,Female,None,74.93,204,204,2,6,State Tech University,0.614
+S0109,Karnataka,OBC,Male,None,79.4,182,182,1,4,State Tech University,0.514
+S0110,Maharashtra,GEN,Male,None,74.25,216,216,1,8,State Tech University,0.668
+S0111,Maharashtra,SC,Female,None,68.64,158,158,1,8,Regional Engineering College,0.475
+S0112,Haryana,OBC,Male,None,73.72,165,165,1,7,Regional Engineering College,0.506
+S0113,Haryana,OBC,Female,None,98.58,257,257,0,8,IIT Example,0.755
+S0114,Uttar Pradesh,SC,Male,NRI,81.18,241,201,0,6,NIT Example,0.53
+S0115,Haryana,OBC,Female,None,73.65,185,185,2,10,State Tech University,0.527
+S0116,Gujarat,GEN,Male,None,68.43,147,147,2,8,Local Government College,0.555
+S0117,Delhi,ST,Female,None,94.74,240,240,0,3,IIT Example,0.677
+S0118,Uttar Pradesh,GEN,Female,None,85.22,196,196,3,6,State Tech University,0.577
+S0119,Haryana,OBC,Female,None,93.29,181,181,1,4,State Tech University,0.509
+S0120,Delhi,GEN,Female,None,72.76,187,187,1,8,State Tech University,0.536
+S0121,Haryana,OBC,Male,Defence,65.72,162,172,5,8,State Tech University,0.468
+S0122,Gujarat,OBC,Male,None,99.0,282,282,2,4,IIT Example,0.868
+S0123,Uttar Pradesh,GEN,Female,TFW,64.49,133,133,2,5,Local Government College,0.491
+S0124,Uttar Pradesh,GEN,Female,None,75.33,199,199,1,7,State Tech University,0.591
+S0125,Karnataka,SC,Male,None,69.5,165,165,1,7,State Tech University,0.436
+S0126,Maharashtra,OBC,Male,None,65.06,155,155,1,3,Regional Engineering College,0.461
+S0127,Delhi,OBC,Male,NRI,44.97,134,94,1,10,Community College,0.464
+S0128,Karnataka,ST,Female,None,79.68,205,205,3,10,NIT Example,0.548
+S0129,Gujarat,GEN,Male,TFW,81.34,216,216,2,10,State Tech University,0.668
+S0130,Karnataka,SC,Male,None,67.05,188,188,2,3,State Tech University,0.541
+S0131,Tamil Nadu,GEN,Female,None,69.5,173,173,2,6,Regional Engineering College,0.543
+S0132,Karnataka,OBC,Male,None,74.21,162,162,1,6,Regional Engineering College,0.493
+S0133,Rajasthan,OBC,Male,NRI,64.68,158,118,0,9,Local Government College,0.423
+S0134,Delhi,OBC,Male,Defence,67.78,195,205,4,4,State Tech University,0.618
+S0135,Uttar Pradesh,OBC,Male,None,81.92,207,207,2,6,State Tech University,0.627
+S0136,Tamil Nadu,OBC,Male,None,77.04,202,202,1,10,State Tech University,0.605
+S0137,Delhi,GEN,Male,None,80.86,249,249,1,10,NIT Example,0.748
+S0138,Karnataka,OBC,Female,None,67.87,191,191,1,6,State Tech University,0.555
+S0139,Rajasthan,GEN,Male,None,81.52,237,237,3,7,NIT Example,0.694
+S0140,Tamil Nadu,GEN,Male,None,72.0,219,219,2,7,State Tech University,0.682
+S0141,Haryana,GEN,Female,None,75.22,237,237,2,7,NIT Example,0.694
+S0142,Haryana,GEN,Female,NRI,85.71,225,185,1,8,State Tech University,0.527
+S0143,Delhi,GEN,Male,None,76.98,214,214,1,3,State Tech University,0.659
+S0144,Delhi,OBC,Female,None,81.11,242,242,3,10,NIT Example,0.716
+S0145,Delhi,GEN,Female,None,61.9,140,140,1,10,Local Government College,0.523
+S0146,Karnataka,OBC,Male,None,93.12,252,252,3,4,IIT Example,0.732
+S0147,Tamil Nadu,GEN,Female,None,90.44,224,224,1,9,NIT Example,0.635
+S0148,Maharashtra,OBC,Male,None,86.57,249,249,3,9,NIT Example,0.748
+S0149,Maharashtra,OBC,Female,None,62.3,149,149,3,6,Regional Engineering College,0.434
+S0150,Gujarat,OBC,Female,None,77.17,266,266,1,3,IIT Example,0.795
+S0151,Uttar Pradesh,GEN,Male,None,96.39,265,265,2,10,IIT Example,0.791
+S0152,Karnataka,GEN,Female,None,97.58,287,287,4,5,IIT Example,0.891
+S0153,Delhi,OBC,Female,None,99.0,270,270,1,4,IIT Example,0.814
+S0154,Haryana,EWS,Female,None,87.85,213,213,0,7,NIT Example,0.585
+S0155,Delhi,GEN,Female,None,62.85,122,122,3,10,Local Government College,0.441
+S0156,Tamil Nadu,GEN,Female,None,70.97,226,226,1,5,NIT Example,0.644
+S0157,Karnataka,GEN,Female,None,72.05,180,180,3,7,State Tech University,0.505
+S0158,Maharashtra,GEN,Male,None,97.19,280,280,0,10,IIT Example,0.859
+S0159,Tamil Nadu,GEN,Female,None,62.79,176,176,2,9,Regional Engineering College,0.556
+S0160,Haryana,ST,Female,Defence,99.0,258,268,0,6,IIT Example,0.805
+S0161,Rajasthan,GEN,Female,None,65.61,187,187,2,10,State Tech University,0.536
+S0162,Rajasthan,GEN,Female,None,74.61,180,180,1,5,State Tech University,0.505
+S0163,Haryana,EWS,Male,Defence,71.94,224,234,2,8,NIT Example,0.68
+S0164,Karnataka,ST,Male,None,60.87,163,163,3,10,State Tech University,0.427
+S0165,Maharashtra,SC,Male,None,85.0,187,187,1,5,State Tech University,0.536
+S0166,Karnataka,OBC,Female,None,80.82,190,190,1,9,State Tech University,0.55
+S0167,Karnataka,SC,Female,NRI,66.55,154,114,1,9,Local Government College,0.405
+S0168,Gujarat,OBC,Female,None,76.18,194,194,1,3,State Tech University,0.568
+S0169,Karnataka,GEN,Female,None,70.79,178,178,3,6,Regional Engineering College,0.565
+S0170,Karnataka,GEN,Male,None,94.76,221,221,1,4,NIT Example,0.621
+S0171,Haryana,GEN,Male,None,54.96,187,187,3,8,State Tech University,0.536
+S0172,Maharashtra,GEN,Male,None,90.79,192,192,2,9,State Tech University,0.559
+S0173,Tamil Nadu,GEN,Male,NRI,50.02,172,132,3,6,Local Government College,0.486
+S0174,Haryana,ST,Male,None,74.55,221,221,3,7,NIT Example,0.621
+S0175,Haryana,GEN,Male,None,78.69,161,161,2,7,Regional Engineering College,0.488
+S0176,Tamil Nadu,GEN,Female,Defence,59.54,157,167,1,7,Regional Engineering College,0.515
+S0177,Rajasthan,OBC,Male,None,55.44,157,157,3,9,Regional Engineering College,0.47
+S0178,Haryana,GEN,Male,None,94.45,284,284,1,7,IIT Example,0.877
+S0179,Delhi,GEN,Female,None,73.1,210,210,2,3,State Tech University,0.641
+S0180,Maharashtra,ST,Female,None,81.21,193,193,0,7,State Tech University,0.564
+S0181,Uttar Pradesh,OBC,Male,None,57.79,164,164,1,7,Regional Engineering College,0.502
+S0182,Tamil Nadu,OBC,Female,None,91.1,214,214,2,7,NIT Example,0.589
+S0183,Haryana,GEN,Male,None,80.92,215,215,2,7,State Tech University,0.664
+S0184,Gujarat,SC,Male,None,82.29,175,175,0,8,State Tech University,0.482
+S0185,Delhi,SC,Male,None,99.0,254,254,2,10,IIT Example,0.741
+S0186,Delhi,SC,Male,None,77.16,192,192,3,4,State Tech University,0.559
+S0187,Tamil Nadu,SC,Male,None,81.0,223,223,2,9,NIT Example,0.63
+S0188,Gujarat,GEN,Male,None,66.27,166,166,1,4,Regional Engineering College,0.511
+S0189,Haryana,GEN,Female,None,74.11,208,208,1,9,State Tech University,0.632
+S0190,Gujarat,GEN,Male,None,79.56,222,222,4,8,NIT Example,0.625
+S0191,Uttar Pradesh,OBC,Female,None,56.68,145,145,2,7,Regional Engineering College,0.415
+S0192,Rajasthan,GEN,Male,None,80.16,213,213,1,10,State Tech University,0.655
+S0193,Karnataka,GEN,Female,None,62.03,187,187,6,10,State Tech University,0.536
+S0194,Gujarat,OBC,Female,TFW,58.14,163,163,0,9,Regional Engineering College,0.497
+S0195,Tamil Nadu,ST,Female,None,77.67,189,189,2,9,State Tech University,0.545
+S0196,Delhi,GEN,Male,None,79.95,159,159,4,6,Regional Engineering College,0.479
+S0197,Gujarat,GEN,Female,None,75.99,224,224,5,8,NIT Example,0.635
+S0198,Maharashtra,GEN,Male,None,99.0,248,248,4,10,NIT Example,0.744
+S0199,Karnataka,OBC,Female,None,64.53,187,187,0,3,State Tech University,0.536
+S0200,Maharashtra,SC,Male,None,58.87,130,130,1,6,Regional Engineering College,0.347
+S0201,Karnataka,SC,Female,None,74.58,199,199,2,6,State Tech University,0.591
+S0202,Gujarat,SC,Female,None,73.01,169,169,4,7,State Tech University,0.455
+S0203,Tamil Nadu,EWS,Female,None,77.0,212,212,2,4,NIT Example,0.58
+S0204,Maharashtra,GEN,Male,None,68.79,163,163,2,8,Regional Engineering College,0.497
+S0205,Maharashtra,GEN,Male,None,92.05,225,225,1,4,NIT Example,0.639
+S0206,Karnataka,OBC,Female,None,68.37,193,193,1,4,State Tech University,0.564
+S0207,Haryana,OBC,Female,None,93.57,288,288,0,7,IIT Example,0.895
+S0208,Haryana,OBC,Male,Defence,70.65,198,208,0,9,State Tech University,0.632
+S0209,Rajasthan,OBC,Female,TFW,78.43,212,212,2,4,NIT Example,0.58
+S0210,Karnataka,GEN,Male,None,54.02,109,109,2,8,Community College,0.532
+S0211,Rajasthan,EWS,Female,None,68.79,184,184,3,9,State Tech University,0.523
+S0212,Karnataka,SC,Male,None,69.13,205,205,2,6,NIT Example,0.548
+S0213,Rajasthan,OBC,Male,None,77.88,210,210,7,10,NIT Example,0.571
+S0214,Rajasthan,GEN,Male,None,67.21,186,186,2,7,State Tech University,0.532
+S0215,Gujarat,EWS,Female,None,72.99,193,193,2,4,State Tech University,0.564
+S0216,Karnataka,GEN,Male,None,80.02,218,218,1,5,State Tech University,0.677
+S0217,Maharashtra,OBC,Female,None,84.81,183,183,3,4,State Tech University,0.518
+S0218,Rajasthan,GEN,Female,None,92.94,246,246,0,3,NIT Example,0.735
+S0219,Delhi,OBC,Male,None,77.99,242,242,4,6,NIT Example,0.716
+S0220,Tamil Nadu,OBC,Male,None,77.11,210,210,0,8,NIT Example,0.571
+S0221,Karnataka,SC,Female,None,87.88,202,202,0,3,NIT Example,0.535
+S0222,Delhi,GEN,Male,None,53.28,162,162,1,8,Regional Engineering College,0.493
+S0223,Gujarat,GEN,Female,None,79.41,193,193,0,9,State Tech University,0.564
+S0224,Karnataka,GEN,Female,None,93.79,242,242,2,6,NIT Example,0.716
+S0225,Rajasthan,GEN,Male,None,60.24,152,152,2,8,Regional Engineering College,0.447
+S0226,Karnataka,ST,Male,None,77.93,188,188,3,3,State Tech University,0.541
+S0227,Karnataka,GEN,Female,None,82.8,212,212,2,10,State Tech University,0.65
+S0228,Rajasthan,GEN,Female,None,85.77,217,217,1,9,State Tech University,0.673
+S0229,Karnataka,GEN,Female,None,75.89,191,191,4,7,State Tech University,0.555
+S0230,Maharashtra,GEN,Other,None,79.11,217,217,4,6,State Tech University,0.673
+S0231,Delhi,EWS,Female,None,89.99,246,246,1,7,NIT Example,0.735
+S0232,Gujarat,GEN,Female,None,79.5,187,187,1,5,State Tech University,0.536
+S0233,Rajasthan,OBC,Male,None,66.11,171,171,2,8,State Tech University,0.464
+S0234,Karnataka,GEN,Female,None,69.65,133,133,0,10,Local Government College,0.491
+S0235,Karnataka,SC,Female,None,72.92,172,172,2,9,State Tech University,0.468
+S0236,Delhi,GEN,Male,None,84.43,230,230,1,10,NIT Example,0.662
+S0237,Gujarat,GEN,Female,None,63.4,163,163,2,9,Regional Engineering College,0.497
+S0238,Karnataka,GEN,Male,None,99.0,256,256,2,8,NIT Example,0.78
+S0239,Tamil Nadu,GEN,Female,None,77.5,150,150,0,6,Regional Engineering College,0.438
+S0240,Gujarat,GEN,Female,None,71.77,184,184,0,5,State Tech University,0.523
+S0241,Uttar Pradesh,GEN,Male,None,62.98,156,156,3,5,Regional Engineering College,0.465
+S0242,Karnataka,GEN,Female,None,91.79,261,261,0,10,IIT Example,0.773
+S0243,Gujarat,SC,Female,None,96.74,260,260,5,4,IIT Example,0.768
+S0244,Haryana,GEN,Male,None,76.37,222,222,3,3,NIT Example,0.625
+S0245,Gujarat,OBC,Male,None,70.57,188,188,0,3,State Tech University,0.541
+S0246,Gujarat,SC,Male,NRI,67.18,162,122,3,4,Local Government College,0.441
+S0247,Rajasthan,OBC,Female,None,81.27,196,196,3,3,State Tech University,0.577
+S0248,Haryana,ST,Female,None,75.46,199,199,2,10,NIT Example,0.521
+S0249,Tamil Nadu,EWS,Male,None,88.09,226,226,3,8,NIT Example,0.644
+S0250,Karnataka,OBC,Male,None,56.26,196,196,4,10,State Tech University,0.577
+S0251,Haryana,OBC,Female,None,82.83,175,175,2,7,State Tech University,0.482
+S0252,Rajasthan,GEN,Male,None,91.52,257,257,0,8,NIT Example,0.785
+S0253,Karnataka,GEN,Female,None,80.93,216,216,1,7,State Tech University,0.668
+S0254,Tamil Nadu,GEN,Female,None,74.69,223,223,2,8,NIT Example,0.63
+S0255,Delhi,EWS,Female,None,48.19,131,131,1,4,Local Government College,0.482
+S0256,Delhi,OBC,Female,None,79.49,204,204,2,5,State Tech University,0.614
+S0257,Karnataka,OBC,Male,None,69.39,189,189,2,8,State Tech University,0.545
+S0258,Delhi,GEN,Male,TFW,49.86,135,135,2,10,Local Government College,0.5
+S0259,Uttar Pradesh,GEN,Male,None,93.01,263,263,1,4,IIT Example,0.782
+S0260,Maharashtra,OBC,Female,None,71.14,236,236,4,9,NIT Example,0.689
+S0261,Tamil Nadu,GEN,Female,None,71.08,171,171,0,5,Regional Engineering College,0.534
+S0262,Haryana,GEN,Male,None,83.73,218,218,0,10,State Tech University,0.677
+S0263,Delhi,SC,Female,None,73.43,165,165,3,6,State Tech University,0.436
+S0264,Delhi,EWS,Female,TFW,76.67,210,210,3,6,State Tech University,0.641
+S0265,Gujarat,OBC,Female,None,64.55,177,177,0,7,State Tech University,0.491
+S0266,Rajasthan,OBC,Male,None,88.3,203,203,2,6,State Tech University,0.609
+S0267,Tamil Nadu,ST,Male,None,78.32,187,187,2,8,State Tech University,0.536
+S0268,Karnataka,OBC,Female,None,85.44,234,234,5,4,NIT Example,0.68
+S0269,Tamil Nadu,GEN,Female,None,88.27,259,259,2,9,NIT Example,0.794
+S0270,Karnataka,EWS,Male,None,65.74,178,178,2,8,State Tech University,0.495
+S0271,Maharashtra,GEN,Male,None,74.23,201,201,5,9,State Tech University,0.6
+S0272,Karnataka,GEN,Male,TFW,89.27,201,201,5,8,State Tech University,0.6
+S0273,Tamil Nadu,GEN,Male,None,72.92,189,189,1,5,State Tech University,0.545
+S0274,Haryana,GEN,Male,None,94.13,223,223,2,7,NIT Example,0.63
+S0275,Uttar Pradesh,SC,Female,None,59.48,139,139,0,9,Regional Engineering College,0.388
+S0276,Karnataka,SC,Male,None,94.7,271,271,2,6,IIT Example,0.818
+S0277,Rajasthan,OBC,Female,None,75.71,224,224,1,10,NIT Example,0.635
+S0278,Maharashtra,OBC,Female,None,61.12,120,120,2,7,Local Government College,0.432
+S0279,Rajasthan,GEN,Male,None,91.61,252,252,3,5,NIT Example,0.762
+S0280,Karnataka,OBC,Male,TFW,84.11,225,225,2,3,NIT Example,0.639
+S0281,Rajasthan,ST,Male,None,72.73,202,202,0,8,NIT Example,0.535
+S0282,Delhi,SC,Male,None,54.68,139,139,1,6,Regional Engineering College,0.388
+S0283,Karnataka,SC,Female,None,77.16,235,235,3,3,NIT Example,0.685
+S0284,Gujarat,OBC,Female,None,63.21,158,158,1,10,Regional Engineering College,0.475
+S0285,Haryana,OBC,Female,None,76.26,164,164,1,10,Regional Engineering College,0.502
+S0286,Maharashtra,GEN,Male,None,55.88,156,156,4,3,Regional Engineering College,0.465
+S0287,Gujarat,ST,Female,Defence,80.66,213,223,3,10,NIT Example,0.63
+S0288,Delhi,GEN,Female,None,81.0,178,178,3,3,Regional Engineering College,0.565
+S0289,Gujarat,GEN,Female,None,83.97,200,200,2,9,State Tech University,0.595
+S0290,Haryana,ST,Male,Defence,66.92,180,190,3,10,State Tech University,0.55
+S0291,Haryana,GEN,Female,None,82.61,225,225,1,4,NIT Example,0.639
+S0292,Rajasthan,GEN,Female,None,75.53,192,192,2,7,State Tech University,0.559
+S0293,Gujarat,GEN,Male,None,92.51,198,198,2,10,State Tech University,0.586
+S0294,Rajasthan,GEN,Male,None,65.36,210,210,4,8,State Tech University,0.641
+S0295,Rajasthan,GEN,Other,TFW,78.63,191,191,2,4,State Tech University,0.555
+S0296,Rajasthan,GEN,Female,None,68.02,151,151,1,3,Regional Engineering College,0.443
+S0297,Tamil Nadu,SC,Female,None,75.41,176,176,0,5,State Tech University,0.486
+S0298,Karnataka,GEN,Female,None,67.54,193,193,4,3,State Tech University,0.564
+S0299,Tamil Nadu,OBC,Female,None,89.73,203,203,4,4,State Tech University,0.609
+S0300,Tamil Nadu,OBC,Male,None,76.16,180,180,2,6,State Tech University,0.505
+S0301,Karnataka,GEN,Male,None,77.03,164,164,0,4,Regional Engineering College,0.502
+S0302,Delhi,SC,Female,None,94.0,236,236,4,7,NIT Example,0.689
+S0303,Haryana,GEN,Male,None,61.89,153,153,6,5,Regional Engineering College,0.452
+S0304,Haryana,EWS,Female,Defence,68.67,187,197,3,8,State Tech University,0.582
+S0305,Gujarat,OBC,Female,None,62.15,139,139,1,7,Local Government College,0.518
+S0306,Tamil Nadu,OBC,Female,None,76.05,215,215,1,8,NIT Example,0.594
+S0307,Uttar Pradesh,GEN,Male,None,99.0,229,229,5,10,NIT Example,0.657
+S0308,Maharashtra,GEN,Female,None,69.74,210,210,5,5,State Tech University,0.641
+S0309,Karnataka,GEN,Male,None,60.75,149,149,4,10,Local Government College,0.564
+S0310,Rajasthan,SC,Female,None,74.7,214,214,2,8,NIT Example,0.589
+S0311,Karnataka,GEN,Female,None,44.69,117,117,1,5,Community College,0.568
+S0312,Tamil Nadu,GEN,Female,None,81.09,212,212,1,4,State Tech University,0.65
+S0313,Tamil Nadu,GEN,Male,TFW,40.34,112,112,0,6,Community College,0.545
+S0314,Gujarat,EWS,Female,None,60.48,172,172,2,4,State Tech University,0.468
+S0315,Delhi,GEN,Female,None,66.74,171,171,1,7,Regional Engineering College,0.534
+S0316,Karnataka,OBC,Male,TFW,68.24,167,167,0,5,Regional Engineering College,0.515
+S0317,Tamil Nadu,OBC,Female,None,67.64,168,168,1,3,Regional Engineering College,0.52
+S0318,Maharashtra,GEN,Female,None,76.93,200,200,3,7,State Tech University,0.595
+S0319,Uttar Pradesh,SC,Male,None,44.35,138,138,0,10,Regional Engineering College,0.384
+S0320,Delhi,OBC,Male,None,73.46,215,215,1,9,NIT Example,0.594
+S0321,Delhi,OBC,Female,None,89.49,224,224,2,9,NIT Example,0.635
+S0322,Haryana,OBC,Male,None,68.08,112,112,0,8,Local Government College,0.395
+S0323,Gujarat,EWS,Male,None,85.36,202,202,1,4,State Tech University,0.605
+S0324,Gujarat,GEN,Male,None,63.07,163,163,3,5,Regional Engineering College,0.497
+S0325,Karnataka,GEN,Female,NRI,60.68,156,116,2,9,Community College,0.564
+S0326,Uttar Pradesh,EWS,Female,None,58.54,111,111,5,8,Community College,0.541
+S0327,Uttar Pradesh,SC,Female,None,67.73,221,221,2,10,NIT Example,0.621
+S0328,Delhi,OBC,Male,None,73.94,215,215,5,10,NIT Example,0.594
+S0329,Uttar Pradesh,GEN,Male,None,60.7,159,159,3,10,Regional Engineering College,0.479
+S0330,Haryana,GEN,Male,None,77.84,191,191,0,5,State Tech University,0.555
+S0331,Delhi,SC,Female,None,58.83,128,128,3,9,Local Government College,0.468
+S0332,Maharashtra,OBC,Male,None,89.23,249,249,1,4,NIT Example,0.748
+S0333,Rajasthan,OBC,Female,None,86.95,207,207,2,4,State Tech University,0.627
+S0334,Tamil Nadu,EWS,Male,None,78.37,180,180,3,8,State Tech University,0.505
+S0335,Gujarat,SC,Male,None,92.47,285,285,3,3,IIT Example,0.882
+S0336,Maharashtra,GEN,Female,None,81.68,207,207,1,10,State Tech University,0.627
+S0337,Tamil Nadu,OBC,Female,None,54.15,92,92,3,8,Community College,0.455
+S0338,Tamil Nadu,GEN,Female,None,77.53,197,197,3,8,State Tech University,0.582
+S0339,Haryana,OBC,Male,None,85.05,200,200,5,8,State Tech University,0.595
+S0340,Gujarat,OBC,Female,None,78.92,205,205,1,3,State Tech University,0.618
+S0341,Haryana,GEN,Female,Defence,73.87,189,199,2,6,State Tech University,0.591
+S0342,Maharashtra,OBC,Male,None,89.86,234,234,3,9,NIT Example,0.68
+S0343,Tamil Nadu,SC,Male,None,81.79,168,168,4,4,State Tech University,0.45
+S0344,Uttar Pradesh,GEN,Male,None,71.99,186,186,3,6,State Tech University,0.532
+S0345,Rajasthan,OBC,Female,None,90.46,224,224,1,3,NIT Example,0.635
+S0346,Tamil Nadu,OBC,Female,Defence,83.64,253,263,1,10,IIT Example,0.782
+S0347,Rajasthan,GEN,Male,TFW,78.34,240,240,0,8,NIT Example,0.707
+S0348,Gujarat,OBC,Female,None,65.58,186,186,2,7,State Tech University,0.532
+S0349,Haryana,GEN,Male,None,69.55,160,160,4,6,Regional Engineering College,0.484
+S0350,Delhi,SC,Female,None,77.7,225,225,2,10,NIT Example,0.639
+S0351,Gujarat,OBC,Female,TFW,89.0,217,217,0,7,NIT Example,0.603
+S0352,Delhi,GEN,Female,None,68.38,241,241,1,9,NIT Example,0.712
+S0353,Gujarat,EWS,Female,None,93.51,293,293,4,7,IIT Example,0.918
+S0354,Karnataka,GEN,Male,None,74.92,227,227,0,10,NIT Example,0.648
+S0355,Uttar Pradesh,GEN,Female,TFW,72.96,178,178,4,7,Regional Engineering College,0.565
+S0356,Tamil Nadu,GEN,Female,None,69.82,159,159,1,3,Regional Engineering College,0.479
+S0357,Uttar Pradesh,OBC,Male,None,80.76,175,175,5,10,State Tech University,0.482
+S0358,Karnataka,OBC,Male,Defence,70.8,190,200,2,5,State Tech University,0.595
+S0359,Rajasthan,OBC,Female,None,97.62,292,292,1,6,IIT Example,0.914
+S0360,Delhi,GEN,Female,TFW,76.69,155,155,2,4,Regional Engineering College,0.461
+S0361,Uttar Pradesh,OBC,Female,TFW,87.4,222,222,2,5,NIT Example,0.625
+S0362,Rajasthan,ST,Male,TFW,60.96,86,86,0,9,Community College,0.45
+S0363,Haryana,GEN,Female,NRI,77.47,191,151,3,7,Regional Engineering College,0.443
+S0364,Maharashtra,GEN,Female,None,79.26,178,178,1,8,Regional Engineering College,0.565
+S0365,Delhi,OBC,Female,None,79.24,209,209,0,5,State Tech University,0.636
+S0366,Haryana,GEN,Female,None,73.8,186,186,1,10,State Tech University,0.532
+S0367,Delhi,OBC,Male,None,72.28,197,197,2,7,State Tech University,0.582
+S0368,Uttar Pradesh,GEN,Female,NRI,68.69,178,138,0,9,Local Government College,0.514
+S0369,Gujarat,GEN,Female,None,45.91,141,141,2,5,Local Government College,0.527
+S0370,Haryana,GEN,Male,None,77.96,204,204,2,6,State Tech University,0.614
+S0371,Haryana,SC,Female,None,56.25,133,133,3,3,Regional Engineering College,0.361
+S0372,Delhi,OBC,Female,None,78.52,170,170,3,4,State Tech University,0.459
+S0373,Haryana,GEN,Male,None,66.18,151,151,3,7,Regional Engineering College,0.443
+S0374,Karnataka,OBC,Female,None,80.15,225,225,0,6,NIT Example,0.639
+S0375,Uttar Pradesh,EWS,Male,None,79.55,252,252,0,8,IIT Example,0.732
+S0376,Rajasthan,OBC,Female,None,62.13,88,88,2,6,Community College,0.45
+S0377,Uttar Pradesh,OBC,Female,None,69.62,231,231,3,10,NIT Example,0.666
+S0378,Gujarat,GEN,Female,None,91.77,240,240,1,6,NIT Example,0.707
+S0379,Tamil Nadu,GEN,Female,None,67.46,190,190,1,6,State Tech University,0.55
+S0380,Haryana,GEN,Female,None,88.94,212,212,1,10,State Tech University,0.65
+S0381,Tamil Nadu,OBC,Male,None,70.67,196,196,3,10,State Tech University,0.577
+S0382,Delhi,SC,Male,None,74.27,174,174,3,6,State Tech University,0.477
+S0383,Karnataka,GEN,Male,None,87.46,240,240,3,3,NIT Example,0.707
+S0384,Karnataka,EWS,Male,None,53.03,142,142,4,5,Regional Engineering College,0.402
+S0385,Tamil Nadu,SC,Female,None,75.81,218,218,1,9,NIT Example,0.607
+S0386,Gujarat,EWS,Male,NRI,67.28,200,160,4,9,Regional Engineering College,0.484
+S0387,Rajasthan,GEN,Female,NRI,68.44,165,125,2,5,Local Government College,0.455
+S0388,Gujarat,GEN,Other,None,99.0,230,230,0,5,NIT Example,0.662
+S0389,Uttar Pradesh,SC,Female,Defence,77.3,207,217,4,10,NIT Example,0.603
+S0390,Rajasthan,OBC,Female,None,62.25,172,172,2,8,State Tech University,0.468
+S0391,Tamil Nadu,GEN,Female,None,75.39,189,189,3,4,State Tech University,0.545
+S0392,Maharashtra,SC,Male,None,65.34,184,184,4,3,State Tech University,0.523
+S0393,Uttar Pradesh,GEN,Male,None,90.81,233,233,2,3,NIT Example,0.675
+S0394,Uttar Pradesh,SC,Male,None,69.02,204,204,1,6,NIT Example,0.544
+S0395,Maharashtra,GEN,Other,None,68.22,167,167,2,8,Regional Engineering College,0.515
+S0396,Gujarat,GEN,Female,Defence,89.61,271,281,4,6,IIT Example,0.864
+S0397,Rajasthan,GEN,Male,TFW,79.47,186,186,2,5,State Tech University,0.532
+S0398,Rajasthan,OBC,Male,None,78.4,197,197,2,9,State Tech University,0.582
+S0399,Gujarat,OBC,Male,None,91.51,263,263,2,5,IIT Example,0.782
+S0400,Haryana,GEN,Male,NRI,81.17,215,175,4,5,Regional Engineering College,0.552
+S0401,Haryana,ST,Female,Defence,78.27,219,229,1,5,NIT Example,0.657
+S0402,Rajasthan,GEN,Male,None,54.54,84,84,4,10,No Seat / Private Coaching,0.01
+S0403,Gujarat,GEN,Female,None,68.58,176,176,4,7,Regional Engineering College,0.556
+S0404,Rajasthan,OBC,Female,NRI,77.35,209,169,1,6,Regional Engineering College,0.525
+S0405,Uttar Pradesh,OBC,Female,None,85.66,209,209,2,3,State Tech University,0.636
+S0406,Uttar Pradesh,ST,Female,None,79.41,252,252,0,10,IIT Example,0.732
+S0407,Uttar Pradesh,OBC,Female,None,52.38,128,128,2,6,Local Government College,0.468
+S0408,Gujarat,SC,Male,None,86.4,267,267,2,8,IIT Example,0.8
+S0409,Delhi,GEN,Female,None,83.81,201,201,0,4,State Tech University,0.6
+S0410,Haryana,SC,Male,None,75.84,226,226,0,8,NIT Example,0.644
+S0411,Rajasthan,GEN,Female,None,79.17,234,234,0,3,NIT Example,0.68
+S0412,Delhi,OBC,Female,None,86.7,237,237,3,7,NIT Example,0.694
+S0413,Tamil Nadu,GEN,Male,None,67.15,128,128,4,6,Local Government College,0.468
+S0414,Haryana,OBC,Female,None,89.66,276,276,2,10,IIT Example,0.841
+S0415,Haryana,OBC,Female,None,72.05,166,166,4,5,Regional Engineering College,0.511
+S0416,Haryana,GEN,Female,Defence,99.0,260,270,0,3,IIT Example,0.814
+S0417,Maharashtra,SC,Male,None,66.09,138,138,1,3,Regional Engineering College,0.384
+S0418,Maharashtra,GEN,Female,None,69.85,164,164,3,5,Regional Engineering College,0.502
+S0419,Maharashtra,GEN,Male,None,56.94,167,167,1,10,Regional Engineering College,0.515
+S0420,Haryana,GEN,Female,None,71.29,166,166,3,3,Regional Engineering College,0.511
+S0421,Delhi,OBC,Male,None,73.08,206,206,0,9,State Tech University,0.623
+S0422,Tamil Nadu,GEN,Male,None,64.37,174,174,3,6,Regional Engineering College,0.547
+S0423,Delhi,SC,Male,None,70.21,166,166,2,8,State Tech University,0.441
+S0424,Rajasthan,OBC,Male,None,78.21,216,216,4,7,NIT Example,0.598
+S0425,Karnataka,OBC,Female,None,76.74,184,184,1,4,State Tech University,0.523
+S0426,Rajasthan,GEN,Female,None,65.01,113,113,1,3,Community College,0.55
+S0427,Tamil Nadu,GEN,Female,None,93.26,230,230,0,8,NIT Example,0.662
+S0428,Karnataka,ST,Female,None,72.3,171,171,4,10,State Tech University,0.464
+S0429,Delhi,GEN,Male,TFW,77.48,220,220,2,3,NIT Example,0.616
+S0430,Tamil Nadu,ST,Male,Defence,61.28,162,172,0,5,State Tech University,0.468
+S0431,Rajasthan,ST,Male,None,54.63,125,125,2,9,Regional Engineering College,0.325
+S0432,Gujarat,GEN,Female,None,76.92,174,174,4,4,Regional Engineering College,0.547
+S0433,Gujarat,GEN,Male,None,97.08,233,233,1,8,NIT Example,0.675
+S0434,Rajasthan,EWS,Male,None,71.81,222,222,5,10,NIT Example,0.625
+S0435,Haryana,GEN,Female,None,52.97,167,167,3,5,Regional Engineering College,0.515
+S0436,Rajasthan,GEN,Female,None,71.96,156,156,1,4,Regional Engineering College,0.465
+S0437,Karnataka,GEN,Male,None,63.43,154,154,0,5,Regional Engineering College,0.456
+S0438,Rajasthan,GEN,Male,None,90.72,270,270,1,7,IIT Example,0.814
+S0439,Haryana,GEN,Male,None,54.8,122,122,3,5,Local Government College,0.441
+S0440,Rajasthan,GEN,Female,None,74.68,201,201,1,3,State Tech University,0.6
+S0441,Karnataka,GEN,Male,None,69.31,179,179,3,8,Regional Engineering College,0.57
+S0442,Rajasthan,GEN,Male,None,73.94,182,182,1,6,State Tech University,0.514
+S0443,Tamil Nadu,OBC,Male,None,71.89,226,226,2,7,NIT Example,0.644
+S0444,Haryana,GEN,Male,None,73.88,197,197,4,7,State Tech University,0.582
+S0445,Haryana,SC,Male,TFW,73.71,202,202,1,10,NIT Example,0.535
+S0446,Uttar Pradesh,OBC,Male,None,60.67,161,161,4,9,Regional Engineering College,0.488
+S0447,Gujarat,SC,Male,NRI,62.24,139,99,1,10,Community College,0.486
+S0448,Gujarat,GEN,Female,None,59.86,134,134,3,5,Local Government College,0.495
+S0449,Delhi,GEN,Female,None,72.94,161,161,2,8,Regional Engineering College,0.488
+S0450,Tamil Nadu,EWS,Female,None,88.21,278,278,1,10,IIT Example,0.85
+S0451,Uttar Pradesh,GEN,Male,None,69.42,177,177,2,8,Regional Engineering College,0.561
+S0452,Karnataka,ST,Male,Defence,78.19,247,257,1,5,IIT Example,0.755
+S0453,Maharashtra,EWS,Male,None,70.66,190,190,4,10,State Tech University,0.55
+S0454,Delhi,SC,Male,None,79.53,206,206,3,9,NIT Example,0.553
+S0455,Haryana,GEN,Male,None,64.13,150,150,3,5,Regional Engineering College,0.438
+S0456,Rajasthan,SC,Male,Defence,87.67,233,243,6,10,IIT Example,0.691
+S0457,Rajasthan,OBC,Female,NRI,88.99,226,186,1,9,State Tech University,0.532
+S0458,Maharashtra,SC,Male,NRI,73.38,215,175,3,4,State Tech University,0.482
+S0459,Karnataka,SC,Female,None,98.48,250,250,2,3,IIT Example,0.723
+S0460,Rajasthan,EWS,Male,None,63.34,130,130,2,4,Local Government College,0.477
+S0461,Maharashtra,GEN,Male,None,68.57,199,199,0,6,State Tech University,0.591
+S0462,Haryana,GEN,Male,None,83.7,230,230,1,5,NIT Example,0.662
+S0463,Gujarat,EWS,Female,None,84.6,238,238,4,4,NIT Example,0.698
+S0464,Karnataka,SC,Female,None,65.16,168,168,2,8,State Tech University,0.45
+S0465,Haryana,SC,Female,None,65.49,162,162,2,4,State Tech University,0.423
+S0466,Haryana,SC,Male,None,75.36,211,211,1,3,NIT Example,0.575
+S0467,Karnataka,GEN,Male,None,92.46,240,240,1,5,NIT Example,0.707
+S0468,Uttar Pradesh,OBC,Female,None,73.06,172,172,1,9,State Tech University,0.468
+S0469,Haryana,GEN,Male,None,85.48,206,206,3,9,State Tech University,0.623
+S0470,Rajasthan,GEN,Female,None,56.51,143,143,4,9,Local Government College,0.536
+S0471,Rajasthan,GEN,Male,None,38.77,105,105,2,4,Community College,0.514
+S0472,Karnataka,SC,Female,None,61.74,180,180,5,6,State Tech University,0.505
+S0473,Haryana,GEN,Female,None,66.13,194,194,2,8,State Tech University,0.568
+S0474,Rajasthan,OBC,Female,None,68.71,182,182,2,10,State Tech University,0.514
+S0475,Tamil Nadu,SC,Female,None,67.49,175,175,2,4,State Tech University,0.482
+S0476,Tamil Nadu,GEN,Male,None,84.9,199,199,1,8,State Tech University,0.591
+S0477,Tamil Nadu,OBC,Male,None,58.85,132,132,4,9,Local Government College,0.486
+S0478,Rajasthan,GEN,Female,None,72.28,206,206,1,5,State Tech University,0.623
+S0479,Tamil Nadu,OBC,Male,None,74.21,242,242,3,10,NIT Example,0.716
+S0480,Maharashtra,SC,Female,None,81.27,190,190,5,6,State Tech University,0.55
+S0481,Rajasthan,EWS,Female,None,77.44,194,194,1,10,State Tech University,0.568
+S0482,Rajasthan,OBC,Male,None,79.9,204,204,2,3,State Tech University,0.614
+S0483,Uttar Pradesh,GEN,Male,None,68.39,147,147,1,5,Local Government College,0.555
+S0484,Haryana,OBC,Female,None,69.56,217,217,3,4,NIT Example,0.603
+S0485,Karnataka,GEN,Female,Defence,87.47,225,235,2,3,NIT Example,0.685
+S0486,Haryana,OBC,Other,None,66.1,161,161,3,6,Regional Engineering College,0.488
+S0487,Delhi,ST,Male,None,93.58,224,224,2,4,NIT Example,0.635
+S0488,Haryana,SC,Male,None,68.47,173,173,0,6,State Tech University,0.473
+S0489,Gujarat,SC,Female,None,54.07,143,143,1,5,Regional Engineering College,0.406
+S0490,Uttar Pradesh,SC,Female,None,56.7,119,119,0,7,Local Government College,0.427
+S0491,Tamil Nadu,GEN,Female,None,72.26,163,163,2,7,Regional Engineering College,0.497
+S0492,Karnataka,GEN,Female,None,74.07,192,192,4,3,State Tech University,0.559
+S0493,Delhi,SC,Male,NRI,83.58,235,195,2,6,State Tech University,0.573
+S0494,Tamil Nadu,OBC,Female,None,72.15,192,192,1,9,State Tech University,0.559
+S0495,Haryana,GEN,Female,None,86.77,207,207,2,9,State Tech University,0.627
+S0496,Haryana,GEN,Female,None,76.98,201,201,1,9,State Tech University,0.6
+S0497,Delhi,OBC,Female,None,77.08,206,206,3,10,State Tech University,0.623
+S0498,Gujarat,OBC,Female,None,73.76,150,150,2,4,Regional Engineering College,0.438
+S0499,Haryana,OBC,Female,NRI,81.45,213,173,0,9,State Tech University,0.473
+S0500,Uttar Pradesh,EWS,Female,None,59.88,140,140,1,8,Local Government College,0.523
+S0501,Delhi,GEN,Female,None,90.38,248,248,1,10,NIT Example,0.744
+S0502,Gujarat,ST,Female,None,80.98,239,239,2,10,IIT Example,0.673
+S0503,Maharashtra,GEN,Female,None,82.66,208,208,2,3,State Tech University,0.632
+S0504,Rajasthan,GEN,Female,None,71.16,188,188,1,7,State Tech University,0.541
+S0505,Tamil Nadu,ST,Female,None,64.98,221,221,0,8,NIT Example,0.621
+S0506,Delhi,GEN,Female,None,75.45,210,210,1,3,State Tech University,0.641
+S0507,Rajasthan,OBC,Female,None,68.64,184,184,2,9,State Tech University,0.523
+S0508,Karnataka,OBC,Male,None,48.46,164,164,0,5,Regional Engineering College,0.502
+S0509,Uttar Pradesh,OBC,Male,None,72.59,157,157,1,8,Regional Engineering College,0.47
+S0510,Karnataka,EWS,Male,None,80.37,218,218,2,4,NIT Example,0.607
+S0511,Uttar Pradesh,GEN,Female,None,55.82,156,156,2,8,Regional Engineering College,0.465
+S0512,Gujarat,ST,Male,None,76.95,201,201,3,5,NIT Example,0.53
+S0513,Tamil Nadu,GEN,Female,None,75.32,210,210,2,5,State Tech University,0.641
+S0514,Haryana,GEN,Male,None,96.65,246,246,2,9,NIT Example,0.735
+S0515,Haryana,SC,Male,None,77.79,172,172,2,4,State Tech University,0.468
+S0516,Rajasthan,GEN,Male,None,60.0,171,171,3,6,Regional Engineering College,0.534
+S0517,Delhi,OBC,Male,None,69.76,179,179,2,7,State Tech University,0.5
+S0518,Maharashtra,SC,Female,None,65.9,132,132,2,6,Regional Engineering College,0.356
+S0519,Rajasthan,GEN,Male,NRI,67.21,207,167,5,6,Regional Engineering College,0.515
+S0520,Haryana,GEN,Male,None,66.78,193,193,2,4,State Tech University,0.564
+S0521,Maharashtra,EWS,Female,None,66.48,157,157,1,9,Regional Engineering College,0.47
+S0522,Gujarat,OBC,Male,None,56.68,148,148,0,4,Regional Engineering College,0.429
+S0523,Maharashtra,OBC,Male,None,70.12,199,199,4,3,State Tech University,0.591
+S0524,Rajasthan,OBC,Female,None,65.34,193,193,4,9,State Tech University,0.564
+S0525,Rajasthan,OBC,Male,None,73.47,228,228,1,5,NIT Example,0.653
+S0526,Delhi,GEN,Male,TFW,59.97,165,165,2,5,Regional Engineering College,0.506
+S0527,Gujarat,GEN,Female,None,75.13,213,213,3,4,State Tech University,0.655
+S0528,Delhi,OBC,Female,None,87.44,245,245,1,3,NIT Example,0.73
+S0529,Uttar Pradesh,GEN,Male,None,76.31,224,224,1,3,NIT Example,0.635
+S0530,Delhi,OBC,Female,None,83.28,152,152,0,3,Regional Engineering College,0.447
+S0531,Tamil Nadu,OBC,Male,TFW,61.95,133,133,1,7,Local Government College,0.491
+S0532,Tamil Nadu,GEN,Female,NRI,83.15,187,147,3,4,Local Government College,0.555
+S0533,Maharashtra,GEN,Male,None,89.33,207,207,2,7,State Tech University,0.627
+S0534,Karnataka,OBC,Female,None,92.52,197,197,1,5,State Tech University,0.582
+S0535,Gujarat,GEN,Female,NRI,96.63,260,220,1,4,NIT Example,0.616
+S0536,Uttar Pradesh,SC,Male,NRI,81.82,215,175,0,3,State Tech University,0.482
+S0537,Uttar Pradesh,GEN,Male,TFW,82.81,177,177,3,5,Regional Engineering College,0.561
+S0538,Maharashtra,OBC,Female,None,98.95,300,300,5,9,IIT Example,0.95
+S0539,Uttar Pradesh,GEN,Male,None,77.76,214,214,4,7,State Tech University,0.659
+S0540,Karnataka,OBC,Male,None,59.41,123,123,6,3,Local Government College,0.445
+S0541,Tamil Nadu,GEN,Female,None,61.9,151,151,3,9,Regional Engineering College,0.443
+S0542,Karnataka,ST,Female,None,56.79,138,138,4,7,Regional Engineering College,0.384
+S0543,Gujarat,GEN,Male,None,96.83,252,252,2,7,NIT Example,0.762
+S0544,Delhi,SC,Male,None,49.16,155,155,0,10,Regional Engineering College,0.461
+S0545,Uttar Pradesh,SC,Female,None,61.59,134,134,3,5,Regional Engineering College,0.365
+S0546,Maharashtra,ST,Male,None,88.34,278,278,2,3,IIT Example,0.85
+S0547,Gujarat,GEN,Female,None,70.57,187,187,2,7,State Tech University,0.536
+S0548,Karnataka,GEN,Other,None,90.0,196,196,2,3,State Tech University,0.577
+S0549,Tamil Nadu,OBC,Male,TFW,68.57,135,135,2,9,Local Government College,0.5
+S0550,Gujarat,OBC,Female,None,81.49,208,208,3,5,State Tech University,0.632
+S0551,Rajasthan,GEN,Female,None,93.24,230,230,0,5,NIT Example,0.662
+S0552,Uttar Pradesh,GEN,Female,TFW,63.43,140,140,2,9,Local Government College,0.523
+S0553,Gujarat,GEN,Male,None,59.06,155,155,1,6,Regional Engineering College,0.461
+S0554,Tamil Nadu,SC,Female,None,93.16,226,226,2,5,NIT Example,0.644
+S0555,Haryana,OBC,Male,None,57.04,132,132,1,6,Local Government College,0.486
+S0556,Haryana,GEN,Male,None,63.94,141,141,3,5,Local Government College,0.527
+S0557,Delhi,SC,Female,None,68.44,171,171,3,8,State Tech University,0.464
+S0558,Tamil Nadu,GEN,Male,None,84.74,191,191,2,3,State Tech University,0.555
+S0559,Delhi,GEN,Other,None,82.87,177,177,2,9,Regional Engineering College,0.561
+S0560,Haryana,OBC,Female,None,81.62,220,220,1,4,NIT Example,0.616
+S0561,Tamil Nadu,GEN,Male,None,87.57,256,256,1,6,NIT Example,0.78
+S0562,Tamil Nadu,GEN,Male,None,56.63,160,160,4,4,Regional Engineering College,0.484
+S0563,Delhi,ST,Male,Defence,64.63,164,174,3,6,State Tech University,0.477
+S0564,Haryana,SC,Male,None,95.13,235,235,0,8,NIT Example,0.685
+S0565,Karnataka,GEN,Male,None,96.0,284,284,2,9,IIT Example,0.877
+S0566,Rajasthan,OBC,Male,None,79.31,220,220,0,8,NIT Example,0.616
+S0567,Uttar Pradesh,ST,Male,None,65.59,153,153,1,5,Regional Engineering College,0.452
+S0568,Maharashtra,OBC,Female,None,74.19,175,175,3,10,State Tech University,0.482
+S0569,Rajasthan,ST,Male,None,81.0,222,222,2,9,NIT Example,0.625
+S0570,Tamil Nadu,GEN,Female,None,92.0,256,256,2,6,NIT Example,0.78
+S0571,Maharashtra,EWS,Female,None,83.2,211,211,2,10,State Tech University,0.645
+S0572,Gujarat,ST,Female,None,84.72,213,213,4,5,NIT Example,0.585
+S0573,Maharashtra,GEN,Male,NRI,67.73,219,179,3,7,Regional Engineering College,0.57
+S0574,Maharashtra,SC,Male,None,68.41,199,199,1,6,State Tech University,0.591
+S0575,Tamil Nadu,GEN,Female,None,75.3,147,147,0,3,Local Government College,0.555
+S0576,Uttar Pradesh,OBC,Other,None,84.52,219,219,0,5,NIT Example,0.612
+S0577,Tamil Nadu,GEN,Male,None,69.08,215,215,2,8,State Tech University,0.664
+S0578,Maharashtra,OBC,Male,None,81.51,185,185,3,5,State Tech University,0.527
+S0579,Uttar Pradesh,SC,Female,Defence,62.91,135,145,1,7,Regional Engineering College,0.415
+S0580,Tamil Nadu,OBC,Male,None,49.26,141,141,3,6,Regional Engineering College,0.397
+S0581,Maharashtra,OBC,Male,TFW,61.25,125,125,3,6,Local Government College,0.455
+S0582,Tamil Nadu,GEN,Male,None,87.78,174,174,1,8,Regional Engineering College,0.547
+S0583,Maharashtra,GEN,Female,TFW,80.01,229,229,5,4,NIT Example,0.657
+S0584,Gujarat,EWS,Male,TFW,63.15,177,177,2,9,State Tech University,0.491
+S0585,Karnataka,GEN,Male,Defence,86.71,248,258,1,9,NIT Example,0.789
+S0586,Haryana,OBC,Male,Defence,66.49,141,151,0,8,Regional Engineering College,0.443
+S0587,Uttar Pradesh,OBC,Female,None,76.27,160,160,2,7,Regional Engineering College,0.484
+S0588,Tamil Nadu,GEN,Male,None,58.47,137,137,2,9,Local Government College,0.509
+S0589,Maharashtra,GEN,Male,None,49.89,165,165,3,6,Regional Engineering College,0.506
+S0590,Karnataka,ST,Male,None,75.01,162,162,3,6,State Tech University,0.423
+S0591,Gujarat,EWS,Male,NRI,78.02,179,139,0,4,Local Government College,0.518
+S0592,Gujarat,GEN,Male,None,64.26,156,156,2,4,Regional Engineering College,0.465
+S0593,Gujarat,GEN,Male,None,73.41,195,195,2,9,State Tech University,0.573
+S0594,Haryana,SC,Female,NRI,99.0,229,189,2,10,State Tech University,0.545
+S0595,Rajasthan,GEN,Male,None,89.93,237,237,3,6,NIT Example,0.694
+S0596,Tamil Nadu,OBC,Female,None,72.13,223,223,3,3,NIT Example,0.63
+S0597,Gujarat,GEN,Male,None,72.78,171,171,3,9,Regional Engineering College,0.534
+S0598,Tamil Nadu,SC,Female,NRI,71.69,209,169,2,4,State Tech University,0.455
+S0599,Gujarat,OBC,Female,None,67.72,181,181,2,3,State Tech University,0.509
+S0600,Rajasthan,EWS,Male,NRI,62.07,144,104,1,5,Community College,0.509
+S0601,Maharashtra,GEN,Male,None,72.76,173,173,4,7,Regional Engineering College,0.543
+S0602,Delhi,GEN,Male,None,82.82,186,186,1,10,State Tech University,0.532
+S0603,Tamil Nadu,GEN,Male,None,82.19,230,230,1,10,NIT Example,0.662
+S0604,Uttar Pradesh,GEN,Male,None,80.49,245,245,4,4,NIT Example,0.73
+S0605,Haryana,SC,Male,None,87.89,266,266,1,10,IIT Example,0.795
+S0606,Delhi,GEN,Female,None,76.81,196,196,6,9,State Tech University,0.577
+S0607,Gujarat,GEN,Male,None,62.61,172,172,2,7,Regional Engineering College,0.538
+S0608,Uttar Pradesh,SC,Female,None,67.44,150,150,1,4,Regional Engineering College,0.438
+S0609,Karnataka,OBC,Female,None,85.21,217,217,1,6,NIT Example,0.603
+S0610,Maharashtra,SC,Female,None,77.67,189,189,4,10,State Tech University,0.545
+S0611,Uttar Pradesh,OBC,Male,TFW,61.9,183,183,3,3,State Tech University,0.518
+S0612,Tamil Nadu,GEN,Female,None,82.17,189,189,1,5,State Tech University,0.545
+S0613,Uttar Pradesh,SC,Male,None,85.18,190,190,3,9,State Tech University,0.55
+S0614,Uttar Pradesh,EWS,Female,None,78.13,189,189,2,7,State Tech University,0.545
+S0615,Gujarat,ST,Female,None,71.01,196,196,1,9,NIT Example,0.507
+S0616,Rajasthan,OBC,Female,None,60.18,185,185,7,3,State Tech University,0.527
+S0617,Rajasthan,GEN,Male,None,66.51,176,176,0,4,Regional Engineering College,0.556
+S0618,Karnataka,OBC,Male,None,84.08,233,233,3,8,NIT Example,0.675
+S0619,Rajasthan,GEN,Female,None,62.8,157,157,0,10,Regional Engineering College,0.47
+S0620,Maharashtra,GEN,Male,None,89.58,217,217,2,9,State Tech University,0.673
+S0621,Maharashtra,GEN,Female,None,82.46,247,247,1,3,NIT Example,0.739
+S0622,Haryana,ST,Female,None,79.64,234,234,4,7,NIT Example,0.68
+S0623,Delhi,GEN,Female,None,96.23,237,237,1,4,NIT Example,0.694
+S0624,Uttar Pradesh,GEN,Female,None,83.44,220,220,3,8,NIT Example,0.616
+S0625,Delhi,SC,Female,None,88.42,243,243,2,10,IIT Example,0.691
+S0626,Uttar Pradesh,ST,Male,None,98.45,243,243,3,8,IIT Example,0.691
+S0627,Maharashtra,OBC,Male,None,98.55,256,256,2,9,IIT Example,0.75
+S0628,Tamil Nadu,SC,Female,None,79.85,182,182,1,5,State Tech University,0.514
+S0629,Uttar Pradesh,ST,Male,None,70.23,228,228,2,3,NIT Example,0.653
+S0630,Haryana,GEN,Male,None,93.65,264,264,5,8,IIT Example,0.786
+S0631,Haryana,OBC,Female,None,77.9,173,173,3,3,State Tech University,0.473
+S0632,Uttar Pradesh,GEN,Female,None,69.41,176,176,0,10,Regional Engineering College,0.556
+S0633,Gujarat,GEN,Female,None,65.31,166,166,4,4,Regional Engineering College,0.511
+S0634,Delhi,GEN,Male,NRI,82.55,194,154,3,6,Regional Engineering College,0.456
+S0635,Uttar Pradesh,OBC,Female,None,78.04,223,223,3,9,NIT Example,0.63
+S0636,Maharashtra,SC,Female,None,68.8,173,173,4,10,State Tech University,0.473
+S0637,Tamil Nadu,OBC,Female,None,67.0,169,169,1,7,Regional Engineering College,0.525
+S0638,Delhi,OBC,Female,None,54.24,135,135,0,9,Local Government College,0.5
+S0639,Gujarat,OBC,Male,None,71.93,180,180,4,9,State Tech University,0.505
+S0640,Karnataka,GEN,Other,Defence,67.65,202,212,1,8,State Tech University,0.65
+S0641,Delhi,GEN,Male,None,70.42,168,168,2,7,Regional Engineering College,0.52
+S0642,Gujarat,SC,Male,None,82.14,199,199,1,7,State Tech University,0.591
+S0643,Uttar Pradesh,GEN,Female,NRI,74.62,172,132,3,9,Local Government College,0.486
+S0644,Gujarat,OBC,Female,None,77.21,268,268,1,7,IIT Example,0.805
+S0645,Delhi,ST,Male,None,73.85,147,147,0,6,Regional Engineering College,0.425
+S0646,Gujarat,SC,Male,None,52.37,126,126,1,10,Local Government College,0.459
+S0647,Gujarat,OBC,Female,None,60.77,99,99,5,5,Community College,0.486
+S0648,Delhi,GEN,Male,None,89.69,236,236,3,5,NIT Example,0.689
+S0649,Gujarat,OBC,Male,None,95.43,246,246,3,7,NIT Example,0.735
+S0650,Rajasthan,SC,Male,None,71.72,212,212,2,7,NIT Example,0.58
+S0651,Haryana,SC,Male,NRI,72.08,179,139,2,4,Regional Engineering College,0.388
+S0652,Haryana,ST,Female,NRI,70.79,251,211,2,9,NIT Example,0.575
+S0653,Delhi,GEN,Female,None,92.72,211,211,1,6,State Tech University,0.645
+S0654,Gujarat,GEN,Female,TFW,67.93,155,155,1,10,Regional Engineering College,0.461
+S0655,Tamil Nadu,GEN,Female,None,68.42,198,198,3,10,State Tech University,0.586
+S0656,Gujarat,OBC,Male,None,89.62,220,220,1,3,NIT Example,0.616
+S0657,Haryana,GEN,Female,None,89.16,236,236,2,5,NIT Example,0.689
+S0658,Haryana,SC,Female,None,66.81,156,156,2,9,Regional Engineering College,0.465
+S0659,Rajasthan,GEN,Female,None,81.42,242,242,1,3,NIT Example,0.716
+S0660,Uttar Pradesh,SC,Female,NRI,49.96,115,75,0,6,Community College,0.45
+S0661,Maharashtra,OBC,Female,None,84.95,220,220,0,8,NIT Example,0.616
+S0662,Delhi,GEN,Male,None,63.76,149,149,2,5,Local Government College,0.564
+S0663,Karnataka,SC,Male,None,94.09,239,239,1,8,NIT Example,0.703
+S0664,Rajasthan,ST,Other,None,98.27,220,220,4,10,NIT Example,0.616
+S0665,Gujarat,SC,Male,TFW,76.7,146,146,4,9,Regional Engineering College,0.42
+S0666,Maharashtra,GEN,Female,None,75.68,183,183,2,3,State Tech University,0.518
+S0667,Tamil Nadu,GEN,Female,None,74.45,182,182,1,9,State Tech University,0.514
+S0668,Delhi,SC,Female,None,68.16,185,185,2,3,State Tech University,0.527
+S0669,Karnataka,OBC,Male,None,89.65,220,220,2,9,NIT Example,0.616
+S0670,Haryana,GEN,Female,None,66.23,191,191,4,5,State Tech University,0.555
+S0671,Uttar Pradesh,OBC,Female,None,93.41,246,246,1,4,NIT Example,0.735
+S0672,Delhi,OBC,Female,None,81.06,215,215,2,4,NIT Example,0.594
+S0673,Karnataka,GEN,Female,None,85.43,210,210,4,6,State Tech University,0.641
+S0674,Delhi,SC,Female,None,86.9,251,251,3,9,IIT Example,0.727
+S0675,Delhi,GEN,Female,TFW,73.7,171,171,1,10,Regional Engineering College,0.534
+S0676,Gujarat,GEN,Male,None,69.38,151,151,1,4,Regional Engineering College,0.443
+S0677,Haryana,GEN,Male,None,61.86,168,168,3,4,Regional Engineering College,0.52
+S0678,Delhi,OBC,Male,Defence,99.0,248,258,6,7,IIT Example,0.759
+S0679,Haryana,GEN,Female,NRI,63.61,209,169,4,7,Regional Engineering College,0.525
+S0680,Gujarat,SC,Male,None,61.75,183,183,1,4,State Tech University,0.518
+S0681,Maharashtra,GEN,Male,None,64.97,121,121,1,8,Local Government College,0.436
+S0682,Gujarat,ST,Female,None,77.75,244,244,2,4,IIT Example,0.695
+S0683,Gujarat,SC,Male,None,58.58,201,201,1,10,NIT Example,0.53
+S0684,Delhi,SC,Female,None,85.94,226,226,4,9,NIT Example,0.644
+S0685,Tamil Nadu,GEN,Female,None,97.91,274,274,2,5,IIT Example,0.832
+S0686,Karnataka,GEN,Female,None,73.53,193,193,2,10,State Tech University,0.564
+S0687,Tamil Nadu,OBC,Female,None,76.79,182,182,1,5,State Tech University,0.514
+S0688,Haryana,ST,Male,None,80.08,260,260,0,3,IIT Example,0.768
+S0689,Karnataka,GEN,Male,None,78.09,171,171,4,6,Regional Engineering College,0.534
+S0690,Gujarat,OBC,Female,None,74.21,204,204,1,9,State Tech University,0.614
+S0691,Uttar Pradesh,OBC,Female,None,76.55,191,191,1,5,State Tech University,0.555
+S0692,Maharashtra,GEN,Female,None,58.0,167,167,4,10,Regional Engineering College,0.515
+S0693,Haryana,SC,Male,None,59.55,119,119,2,6,Local Government College,0.427
+S0694,Gujarat,EWS,Male,None,74.18,171,171,2,9,Regional Engineering College,0.534
+S0695,Rajasthan,SC,Male,None,89.4,220,220,3,10,NIT Example,0.616
+S0696,Karnataka,SC,Male,None,77.29,212,212,1,10,NIT Example,0.58
+S0697,Maharashtra,GEN,Male,None,45.14,100,100,1,3,Community College,0.491
+S0698,Karnataka,SC,Female,None,75.71,208,208,1,6,NIT Example,0.562
+S0699,Haryana,EWS,Male,None,63.45,159,159,3,6,Regional Engineering College,0.479
+S0700,Haryana,GEN,Female,None,83.58,166,166,4,8,Regional Engineering College,0.511
+S0701,Haryana,GEN,Female,None,69.42,173,173,2,8,Regional Engineering College,0.543
+S0702,Gujarat,SC,Female,None,68.33,182,182,1,8,State Tech University,0.514
+S0703,Karnataka,GEN,Male,None,78.81,196,196,0,9,State Tech University,0.577
+S0704,Karnataka,GEN,Male,None,60.6,150,150,2,9,Regional Engineering College,0.438
+S0705,Uttar Pradesh,OBC,Female,None,96.06,250,250,5,4,IIT Example,0.723
+S0706,Rajasthan,GEN,Female,None,59.77,197,197,3,4,State Tech University,0.582
+S0707,Haryana,OBC,Female,None,84.3,233,233,1,10,NIT Example,0.675
+S0708,Maharashtra,OBC,Male,TFW,89.41,235,235,3,10,NIT Example,0.685
+S0709,Tamil Nadu,OBC,Male,None,74.32,223,223,2,4,NIT Example,0.63
+S0710,Rajasthan,OBC,Female,None,72.29,185,185,1,9,State Tech University,0.527
+S0711,Rajasthan,EWS,Female,None,93.09,224,224,4,7,NIT Example,0.635
+S0712,Rajasthan,EWS,Female,None,66.52,194,194,1,5,State Tech University,0.568
+S0713,Tamil Nadu,GEN,Female,None,94.79,273,273,1,7,IIT Example,0.827
+S0714,Gujarat,OBC,Female,None,59.48,168,168,2,6,Regional Engineering College,0.52
+S0715,Uttar Pradesh,OBC,Male,None,71.07,176,176,3,5,State Tech University,0.486
+S0716,Tamil Nadu,OBC,Female,None,64.91,163,163,0,4,Regional Engineering College,0.497
+S0717,Gujarat,OBC,Female,TFW,87.58,269,269,1,9,IIT Example,0.809
+S0718,Delhi,ST,Male,None,80.89,201,201,2,4,NIT Example,0.53
+S0719,Maharashtra,GEN,Male,None,76.0,184,184,1,7,State Tech University,0.523
+S0720,Tamil Nadu,EWS,Female,None,72.81,190,190,2,3,State Tech University,0.55
+S0721,Delhi,GEN,Female,None,54.23,178,178,3,10,Regional Engineering College,0.565
+S0722,Karnataka,OBC,Female,None,80.68,203,203,2,6,State Tech University,0.609
+S0723,Rajasthan,GEN,Female,None,89.52,226,226,2,7,NIT Example,0.644
+S0724,Maharashtra,ST,Male,TFW,73.67,169,169,2,8,State Tech University,0.455
+S0725,Maharashtra,GEN,Male,None,83.13,196,196,0,10,State Tech University,0.577
+S0726,Uttar Pradesh,ST,Female,None,40.12,94,94,1,6,Community College,0.464
+S0727,Uttar Pradesh,GEN,Male,None,60.15,159,159,3,5,Regional Engineering College,0.479
+S0728,Tamil Nadu,SC,Male,None,69.49,163,163,2,7,State Tech University,0.427
+S0729,Delhi,GEN,Female,None,93.81,222,222,1,8,NIT Example,0.625
+S0730,Haryana,OBC,Male,None,81.28,203,203,2,8,State Tech University,0.609
+S0731,Maharashtra,SC,Female,None,57.4,136,136,4,7,Regional Engineering College,0.375
+S0732,Haryana,SC,Female,None,80.78,192,192,2,8,State Tech University,0.559
+S0733,Uttar Pradesh,EWS,Female,None,85.72,268,268,2,5,IIT Example,0.805
+S0734,Rajasthan,OBC,Male,None,59.23,198,198,2,6,State Tech University,0.586
+S0735,Gujarat,GEN,Male,TFW,70.53,194,194,5,10,State Tech University,0.568
+S0736,Maharashtra,GEN,Male,None,63.57,148,148,3,6,Local Government College,0.559
+S0737,Maharashtra,OBC,Male,TFW,85.8,234,234,2,4,NIT Example,0.68
+S0738,Rajasthan,GEN,Female,None,94.48,268,268,2,8,IIT Example,0.805
+S0739,Haryana,OBC,Male,None,66.18,190,190,2,8,State Tech University,0.55
+S0740,Karnataka,EWS,Male,TFW,65.3,187,187,0,3,State Tech University,0.536
+S0741,Karnataka,GEN,Female,None,78.41,179,179,1,9,Regional Engineering College,0.57
+S0742,Karnataka,GEN,Female,NRI,64.84,199,159,3,9,Regional Engineering College,0.479
+S0743,Karnataka,SC,Male,None,62.15,209,209,1,8,NIT Example,0.566
+S0744,Maharashtra,GEN,Male,None,87.09,195,195,1,4,State Tech University,0.573
+S0745,Uttar Pradesh,ST,Male,None,77.22,224,224,2,9,NIT Example,0.635
+S0746,Rajasthan,GEN,Male,None,77.36,181,181,2,3,State Tech University,0.509
+S0747,Karnataka,SC,Female,None,80.3,190,190,2,4,State Tech University,0.55
+S0748,Gujarat,ST,Male,None,76.34,202,202,3,7,NIT Example,0.535
+S0749,Karnataka,GEN,Female,None,82.83,186,186,2,3,State Tech University,0.532
+S0750,Haryana,GEN,Male,None,64.14,196,196,2,7,State Tech University,0.577
+S0751,Tamil Nadu,GEN,Female,Defence,65.88,178,188,3,8,State Tech University,0.541
+S0752,Maharashtra,OBC,Female,None,59.43,135,135,0,3,Local Government College,0.5
+S0753,Rajasthan,OBC,Female,None,89.04,234,234,3,8,NIT Example,0.68
+S0754,Uttar Pradesh,GEN,Female,None,49.17,149,149,2,5,Local Government College,0.564
+S0755,Tamil Nadu,GEN,Female,None,71.61,170,170,0,5,Regional Engineering College,0.529
+S0756,Maharashtra,SC,Female,Defence,92.02,177,187,4,10,State Tech University,0.536
+S0757,Karnataka,GEN,Male,None,65.19,128,128,3,10,Local Government College,0.468
+S0758,Gujarat,GEN,Female,None,64.0,174,174,5,7,Regional Engineering College,0.547
+S0759,Karnataka,ST,Male,None,83.94,254,254,1,7,IIT Example,0.741
+S0760,Tamil Nadu,OBC,Male,None,69.49,137,137,2,9,Local Government College,0.509
+S0761,Tamil Nadu,GEN,Male,None,74.35,168,168,2,9,Regional Engineering College,0.52
+S0762,Delhi,SC,Male,None,89.17,288,288,2,10,IIT Example,0.895
+S0763,Haryana,GEN,Female,None,74.97,180,180,2,4,State Tech University,0.505
+S0764,Tamil Nadu,OBC,Male,None,85.04,227,227,3,5,NIT Example,0.648
+S0765,Uttar Pradesh,GEN,Female,None,68.77,232,232,1,4,NIT Example,0.671
+S0766,Maharashtra,SC,Female,None,50.69,152,152,1,9,Regional Engineering College,0.447
+S0767,Uttar Pradesh,ST,Female,None,70.51,179,179,3,10,State Tech University,0.5
+S0768,Tamil Nadu,GEN,Male,None,92.11,225,225,3,7,NIT Example,0.639
+S0769,Tamil Nadu,OBC,Female,None,77.62,177,177,2,3,State Tech University,0.491
+S0770,Uttar Pradesh,SC,Female,None,75.94,144,144,1,5,Regional Engineering College,0.411
+S0771,Tamil Nadu,GEN,Male,TFW,61.16,116,116,0,5,Community College,0.564
+S0772,Haryana,ST,Male,None,72.44,212,212,2,6,NIT Example,0.58
+S0773,Karnataka,GEN,Male,None,68.69,183,183,4,8,State Tech University,0.518
+S0774,Rajasthan,OBC,Male,None,99.0,243,243,2,8,NIT Example,0.721
+S0775,Karnataka,OBC,Female,None,71.64,162,162,1,7,Regional Engineering College,0.493
+S0776,Tamil Nadu,GEN,Male,None,99.0,287,287,4,4,IIT Example,0.891
+S0777,Delhi,GEN,Female,None,76.49,179,179,2,8,Regional Engineering College,0.57
+S0778,Gujarat,OBC,Female,None,74.11,190,190,2,5,State Tech University,0.55
+S0779,Haryana,GEN,Male,None,89.43,240,240,0,6,NIT Example,0.707
+S0780,Tamil Nadu,GEN,Male,None,99.0,247,247,4,4,NIT Example,0.739
+S0781,Uttar Pradesh,GEN,Male,None,81.71,192,192,0,10,State Tech University,0.559
+S0782,Haryana,GEN,Male,None,80.23,145,145,5,3,Local Government College,0.545
+S0783,Uttar Pradesh,GEN,Female,None,66.9,163,163,2,3,Regional Engineering College,0.497
+S0784,Tamil Nadu,GEN,Male,None,76.58,184,184,2,9,State Tech University,0.523
+S0785,Maharashtra,ST,Female,None,67.71,174,174,4,4,State Tech University,0.477
+S0786,Uttar Pradesh,GEN,Other,NRI,90.23,239,199,3,5,State Tech University,0.591
+S0787,Uttar Pradesh,SC,Female,None,75.62,211,211,1,5,NIT Example,0.575
+S0788,Delhi,GEN,Female,TFW,88.24,277,277,1,4,IIT Example,0.845
+S0789,Uttar Pradesh,GEN,Male,None,91.8,252,252,1,9,NIT Example,0.762
+S0790,Tamil Nadu,OBC,Male,TFW,67.89,182,182,1,3,State Tech University,0.514
+S0791,Karnataka,GEN,Female,TFW,68.79,165,165,1,3,Regional Engineering College,0.506
+S0792,Rajasthan,OBC,Male,None,78.43,141,141,3,9,Regional Engineering College,0.397
+S0793,Uttar Pradesh,ST,Female,None,66.27,172,172,0,8,State Tech University,0.468
+S0794,Karnataka,GEN,Male,None,95.35,295,295,3,4,IIT Example,0.927
+S0795,Delhi,OBC,Female,None,77.1,167,167,1,3,Regional Engineering College,0.515
+S0796,Maharashtra,OBC,Male,None,69.55,175,175,1,6,State Tech University,0.482
+S0797,Gujarat,GEN,Male,None,75.63,170,170,1,7,Regional Engineering College,0.529
+S0798,Delhi,SC,Male,None,86.73,172,172,0,7,State Tech University,0.468
+S0799,Rajasthan,SC,Male,None,61.64,204,204,2,10,NIT Example,0.544
+S0800,Tamil Nadu,GEN,Female,None,62.87,150,150,0,7,Regional Engineering College,0.438
+S0801,Gujarat,SC,Male,None,76.32,211,211,2,4,NIT Example,0.575
+S0802,Uttar Pradesh,GEN,Female,None,71.08,179,179,2,6,Regional Engineering College,0.57
+S0803,Rajasthan,SC,Female,None,58.15,217,217,1,3,NIT Example,0.603
+S0804,Tamil Nadu,GEN,Female,None,64.23,134,134,5,5,Local Government College,0.495
+S0805,Haryana,ST,Male,None,56.67,104,104,3,6,Local Government College,0.359
+S0806,Gujarat,GEN,Male,None,68.35,217,217,4,9,State Tech University,0.673
+S0807,Delhi,OBC,Female,TFW,65.45,180,180,2,5,State Tech University,0.505
+S0808,Haryana,GEN,Male,None,76.89,200,200,0,7,State Tech University,0.595
+S0809,Uttar Pradesh,GEN,Female,None,63.41,205,205,0,6,State Tech University,0.618
+S0810,Tamil Nadu,OBC,Male,None,91.42,208,208,2,5,State Tech University,0.632
+S0811,Karnataka,EWS,Female,None,92.97,288,288,1,9,IIT Example,0.895
+S0812,Rajasthan,OBC,Female,None,99.0,297,297,2,4,IIT Example,0.936
+S0813,Karnataka,OBC,Female,None,89.46,216,216,2,8,NIT Example,0.598
+S0814,Gujarat,EWS,Male,None,91.52,245,245,3,6,NIT Example,0.73
+S0815,Haryana,ST,Female,None,68.62,139,139,2,9,Regional Engineering College,0.388
+S0816,Karnataka,OBC,Female,None,74.98,189,189,2,4,State Tech University,0.545
+S0817,Delhi,ST,Female,None,82.69,218,218,1,10,NIT Example,0.607
+S0818,Rajasthan,OBC,Female,None,77.79,183,183,2,10,State Tech University,0.518
+S0819,Haryana,ST,Female,None,74.54,195,195,0,7,NIT Example,0.503
+S0820,Karnataka,GEN,Female,None,77.75,229,229,5,6,NIT Example,0.657
+S0821,Gujarat,GEN,Male,None,59.76,162,162,1,7,Regional Engineering College,0.493
+S0822,Uttar Pradesh,GEN,Male,None,65.22,142,142,3,8,Local Government College,0.532
+S0823,Karnataka,OBC,Male,None,75.86,164,164,1,6,Regional Engineering College,0.502
+S0824,Delhi,GEN,Female,TFW,89.88,223,223,0,6,NIT Example,0.63
+S0825,Haryana,SC,Male,None,91.04,266,266,2,7,IIT Example,0.795
+S0826,Uttar Pradesh,GEN,Female,None,99.0,220,220,5,8,NIT Example,0.616
+S0827,Tamil Nadu,SC,Male,None,79.03,199,199,1,10,State Tech University,0.591
+S0828,Maharashtra,SC,Female,None,99.0,257,257,3,10,IIT Example,0.755
+S0829,Gujarat,OBC,Female,Defence,58.81,142,152,5,7,Regional Engineering College,0.447
+S0830,Haryana,GEN,Female,None,63.17,157,157,3,9,Regional Engineering College,0.47
+S0831,Uttar Pradesh,SC,Male,None,51.26,134,134,3,9,Regional Engineering College,0.365
+S0832,Haryana,ST,Male,None,56.49,131,131,3,5,Regional Engineering College,0.352
+S0833,Haryana,EWS,Female,None,80.06,214,214,3,3,NIT Example,0.589
+S0834,Maharashtra,OBC,Male,None,69.04,174,174,1,8,State Tech University,0.477
+S0835,Delhi,GEN,Male,None,65.27,141,141,5,8,Local Government College,0.527
+S0836,Gujarat,GEN,Male,None,80.34,188,188,3,8,State Tech University,0.541
+S0837,Gujarat,SC,Male,None,76.93,255,255,0,5,IIT Example,0.745
+S0838,Uttar Pradesh,SC,Female,None,86.88,210,210,1,9,NIT Example,0.571
+S0839,Rajasthan,GEN,Female,None,73.45,199,199,4,10,State Tech University,0.591
+S0840,Maharashtra,GEN,Female,Defence,87.35,248,258,3,8,NIT Example,0.789
+S0841,Haryana,GEN,Female,None,75.88,193,193,3,9,State Tech University,0.564
+S0842,Karnataka,OBC,Male,None,77.14,231,231,2,10,NIT Example,0.666
+S0843,Karnataka,GEN,Male,None,64.68,225,225,3,7,NIT Example,0.639
+S0844,Gujarat,GEN,Male,NRI,80.68,233,193,4,6,State Tech University,0.564
+S0845,Tamil Nadu,EWS,Male,None,86.2,218,218,0,10,NIT Example,0.607
+S0846,Haryana,ST,Male,None,75.87,201,201,2,5,NIT Example,0.53
+S0847,Tamil Nadu,OBC,Female,None,73.32,198,198,2,9,State Tech University,0.586
+S0848,Karnataka,GEN,Male,None,75.29,189,189,2,7,State Tech University,0.545
+S0849,Delhi,OBC,Male,NRI,78.37,150,110,3,8,Local Government College,0.386
+S0850,Haryana,GEN,Male,None,72.82,186,186,3,6,State Tech University,0.532
+S0851,Delhi,EWS,Female,None,67.54,190,190,3,5,State Tech University,0.55
+S0852,Rajasthan,GEN,Male,NRI,85.3,201,161,2,3,Regional Engineering College,0.488
+S0853,Maharashtra,SC,Female,Defence,74.97,195,205,2,4,NIT Example,0.548
+S0854,Delhi,OBC,Male,TFW,70.55,149,149,1,9,Regional Engineering College,0.434
+S0855,Delhi,GEN,Female,None,66.42,185,185,0,5,State Tech University,0.527
+S0856,Tamil Nadu,OBC,Male,None,76.79,192,192,2,8,State Tech University,0.559
+S0857,Gujarat,SC,Male,NRI,48.88,131,91,3,7,Community College,0.45
+S0858,Haryana,GEN,Female,None,90.03,222,222,2,10,NIT Example,0.625
+S0859,Rajasthan,OBC,Female,None,88.66,231,231,1,8,NIT Example,0.666
+S0860,Haryana,OBC,Female,None,72.45,225,225,4,8,NIT Example,0.639
+S0861,Rajasthan,GEN,Male,None,77.71,202,202,1,5,State Tech University,0.605
+S0862,Gujarat,GEN,Female,None,63.3,197,197,0,10,State Tech University,0.582
+S0863,Haryana,GEN,Female,None,57.95,137,137,3,6,Local Government College,0.509
+S0864,Maharashtra,OBC,Male,NRI,62.23,142,102,1,9,Community College,0.5
+S0865,Rajasthan,GEN,Female,None,77.82,169,169,1,9,Regional Engineering College,0.525
+S0866,Uttar Pradesh,GEN,Male,None,86.04,216,216,3,7,State Tech University,0.668
+S0867,Delhi,OBC,Female,None,62.32,135,135,1,6,Local Government College,0.5
+S0868,Karnataka,GEN,Male,None,70.38,190,190,1,10,State Tech University,0.55
+S0869,Delhi,OBC,Female,None,80.82,198,198,1,5,State Tech University,0.586
+S0870,Maharashtra,EWS,Male,Defence,72.56,194,204,1,7,State Tech University,0.614
+S0871,Delhi,GEN,Male,None,93.84,245,245,4,4,NIT Example,0.73
+S0872,Tamil Nadu,GEN,Male,None,63.08,138,138,2,10,Local Government College,0.514
+S0873,Gujarat,OBC,Female,None,80.86,188,188,1,5,State Tech University,0.541
+S0874,Maharashtra,GEN,Male,None,92.35,240,240,2,5,NIT Example,0.707
+S0875,Uttar Pradesh,ST,Male,None,64.72,170,170,2,3,State Tech University,0.459
+S0876,Karnataka,EWS,Female,None,73.39,201,201,0,10,State Tech University,0.6
+S0877,Uttar Pradesh,SC,Male,None,70.23,152,152,1,4,Regional Engineering College,0.447
+S0878,Uttar Pradesh,OBC,Female,None,70.2,189,189,3,8,State Tech University,0.545
+S0879,Tamil Nadu,OBC,Male,TFW,60.89,170,170,2,4,State Tech University,0.459
+S0880,Delhi,OBC,Male,None,78.35,225,225,1,3,NIT Example,0.639
+S0881,Uttar Pradesh,EWS,Male,None,60.01,128,128,2,3,Local Government College,0.468
+S0882,Tamil Nadu,SC,Female,None,89.85,243,243,1,6,IIT Example,0.691
+S0883,Maharashtra,EWS,Female,None,67.63,158,158,2,5,Regional Engineering College,0.475
+S0884,Gujarat,SC,Male,None,63.18,199,199,2,8,State Tech University,0.591
+S0885,Maharashtra,GEN,Female,None,68.7,190,190,0,4,State Tech University,0.55
+S0886,Tamil Nadu,OBC,Male,None,71.06,204,204,1,8,State Tech University,0.614
+S0887,Haryana,SC,Male,None,61.68,189,189,0,5,State Tech University,0.545
+S0888,Delhi,ST,Female,None,58.25,166,166,1,7,State Tech University,0.441
+S0889,Haryana,GEN,Male,None,69.58,161,161,0,10,Regional Engineering College,0.488
+S0890,Delhi,SC,Female,NRI,62.26,160,120,2,5,Local Government College,0.432
+S0891,Karnataka,OBC,Male,None,78.83,246,246,3,8,NIT Example,0.735
+S0892,Haryana,GEN,Female,None,61.83,123,123,4,5,Local Government College,0.445
+S0893,Maharashtra,OBC,Male,None,72.12,145,145,3,8,Regional Engineering College,0.415
+S0894,Karnataka,OBC,Female,None,78.57,201,201,2,10,State Tech University,0.6
+S0895,Tamil Nadu,OBC,Male,None,76.72,220,220,3,4,NIT Example,0.616
+S0896,Karnataka,OBC,Male,None,70.28,207,207,6,5,State Tech University,0.627
+S0897,Tamil Nadu,ST,Male,None,73.51,176,176,3,4,State Tech University,0.486
+S0898,Maharashtra,OBC,Female,None,61.37,171,171,2,7,State Tech University,0.464
+S0899,Maharashtra,GEN,Female,None,87.11,205,205,1,6,State Tech University,0.618
+S0900,Haryana,ST,Female,None,73.95,205,205,4,3,NIT Example,0.548
+S0901,Gujarat,OBC,Female,None,62.57,159,159,1,8,Regional Engineering College,0.479
+S0902,Maharashtra,SC,Male,None,84.03,188,188,2,4,State Tech University,0.541
+S0903,Delhi,GEN,Male,None,83.06,254,254,4,4,NIT Example,0.771
+S0904,Uttar Pradesh,OBC,Male,None,68.14,182,182,1,6,State Tech University,0.514
+S0905,Tamil Nadu,OBC,Female,None,87.1,212,212,2,8,NIT Example,0.58
+S0906,Haryana,OBC,Male,None,70.05,204,204,1,5,State Tech University,0.614
+S0907,Rajasthan,OBC,Female,None,81.45,222,222,1,10,NIT Example,0.625
+S0908,Gujarat,ST,Female,Defence,81.18,190,200,2,8,NIT Example,0.525
+S0909,Rajasthan,SC,Male,None,82.56,167,167,6,6,State Tech University,0.445
+S0910,Uttar Pradesh,GEN,Female,None,67.7,185,185,2,8,State Tech University,0.527
+S0911,Haryana,GEN,Male,None,61.2,167,167,5,7,Regional Engineering College,0.515
+S0912,Maharashtra,OBC,Other,None,59.71,164,164,3,7,Regional Engineering College,0.502
+S0913,Uttar Pradesh,GEN,Male,None,50.3,139,139,1,7,Local Government College,0.518
+S0914,Tamil Nadu,GEN,Male,None,68.74,191,191,0,7,State Tech University,0.555
+S0915,Gujarat,ST,Male,None,98.08,235,235,1,7,IIT Example,0.655
+S0916,Karnataka,OBC,Female,None,51.29,152,152,4,4,Regional Engineering College,0.447
+S0917,Gujarat,SC,Male,None,74.64,180,180,2,4,State Tech University,0.505
+S0918,Delhi,GEN,Female,None,94.72,255,255,1,3,NIT Example,0.775
+S0919,Gujarat,GEN,Female,None,75.22,207,207,2,4,State Tech University,0.627
+S0920,Uttar Pradesh,SC,Female,TFW,65.87,168,168,0,9,State Tech University,0.45
+S0921,Maharashtra,GEN,Male,None,69.14,195,195,1,5,State Tech University,0.573
+S0922,Gujarat,OBC,Male,None,63.18,169,169,0,9,Regional Engineering College,0.525
+S0923,Haryana,SC,Female,None,89.13,226,226,1,9,NIT Example,0.644
+S0924,Delhi,SC,Male,None,74.27,179,179,2,10,State Tech University,0.5
+S0925,Maharashtra,OBC,Male,None,66.86,165,165,1,9,Regional Engineering College,0.506
+S0926,Tamil Nadu,SC,Female,None,94.18,264,264,2,9,IIT Example,0.786
+S0927,Uttar Pradesh,OBC,Other,None,94.45,242,242,1,6,NIT Example,0.716
+S0928,Karnataka,GEN,Male,None,85.48,221,221,2,4,NIT Example,0.621
+S0929,Karnataka,OBC,Male,None,86.19,213,213,2,8,NIT Example,0.585
+S0930,Gujarat,OBC,Male,None,91.44,196,196,0,8,State Tech University,0.577
+S0931,Haryana,OBC,Male,TFW,80.52,214,214,1,6,NIT Example,0.589
+S0932,Uttar Pradesh,OBC,Male,None,92.55,251,251,4,4,IIT Example,0.727
+S0933,Karnataka,SC,Male,None,70.25,163,163,3,5,State Tech University,0.427
+S0934,Delhi,GEN,Female,None,64.03,152,152,2,10,Regional Engineering College,0.447
+S0935,Haryana,GEN,Male,None,69.65,183,183,2,6,State Tech University,0.518
+S0936,Delhi,OBC,Female,Defence,71.52,176,186,3,3,State Tech University,0.532
+S0937,Rajasthan,OBC,Female,None,74.29,180,180,2,5,State Tech University,0.505
+S0938,Maharashtra,GEN,Female,None,85.32,223,223,2,3,NIT Example,0.63
+S0939,Haryana,OBC,Male,None,77.0,210,210,2,7,NIT Example,0.571
+S0940,Gujarat,SC,Male,NRI,89.82,207,167,3,9,State Tech University,0.445
+S0941,Uttar Pradesh,EWS,Female,None,73.41,192,192,1,8,State Tech University,0.559
+S0942,Haryana,SC,Female,None,91.21,259,259,3,10,IIT Example,0.764
+S0943,Maharashtra,GEN,Female,None,72.6,194,194,2,10,State Tech University,0.568
+S0944,Rajasthan,SC,Male,None,67.94,212,212,3,8,NIT Example,0.58
+S0945,Delhi,GEN,Female,None,73.26,182,182,1,3,State Tech University,0.514
+S0946,Delhi,ST,Female,None,61.1,116,116,0,3,Local Government College,0.414
+S0947,Delhi,GEN,Male,None,86.49,230,230,1,5,NIT Example,0.662
+S0948,Karnataka,SC,Female,None,64.43,212,212,3,6,NIT Example,0.58
+S0949,Rajasthan,GEN,Male,Defence,87.84,260,270,0,8,IIT Example,0.814
+S0950,Haryana,OBC,Male,None,76.85,198,198,4,6,State Tech University,0.586
+S0951,Tamil Nadu,GEN,Female,None,79.58,214,214,2,5,State Tech University,0.659
+S0952,Rajasthan,EWS,Female,None,65.81,170,170,3,5,Regional Engineering College,0.529
+S0953,Gujarat,GEN,Female,None,77.68,233,233,0,5,NIT Example,0.675
+S0954,Gujarat,SC,Male,None,75.15,207,207,2,8,NIT Example,0.557
+S0955,Rajasthan,EWS,Male,None,63.58,150,150,0,7,Regional Engineering College,0.438
+S0956,Tamil Nadu,SC,Male,None,86.84,207,207,1,7,NIT Example,0.557
+S0957,Uttar Pradesh,OBC,Male,None,69.19,155,155,4,4,Regional Engineering College,0.461
+S0958,Haryana,GEN,Female,None,73.81,216,216,2,8,State Tech University,0.668
+S0959,Tamil Nadu,SC,Female,None,78.34,190,190,1,6,State Tech University,0.55
+S0960,Uttar Pradesh,GEN,Female,None,69.25,189,189,2,7,State Tech University,0.545
+S0961,Rajasthan,GEN,Female,None,73.08,213,213,2,6,State Tech University,0.655
+S0962,Karnataka,GEN,Female,None,88.17,190,190,4,10,State Tech University,0.55
+S0963,Gujarat,SC,Female,None,55.24,158,158,1,3,Regional Engineering College,0.475
+S0964,Rajasthan,SC,Male,TFW,65.47,173,173,1,3,State Tech University,0.473
+S0965,Karnataka,OBC,Female,None,54.54,143,143,1,6,Regional Engineering College,0.406
+S0966,Rajasthan,EWS,Male,None,73.08,200,200,2,3,State Tech University,0.595
+S0967,Uttar Pradesh,GEN,Male,None,75.55,210,210,0,7,State Tech University,0.641
+S0968,Haryana,GEN,Male,TFW,70.93,143,143,4,5,Local Government College,0.536
+S0969,Haryana,SC,Male,None,46.3,141,141,3,4,Regional Engineering College,0.397
+S0970,Tamil Nadu,SC,Female,None,58.52,165,165,4,5,State Tech University,0.436
+S0971,Rajasthan,GEN,Male,None,90.44,219,219,1,6,State Tech University,0.682
+S0972,Haryana,GEN,Male,None,64.79,120,120,4,5,Local Government College,0.432
+S0973,Karnataka,GEN,Female,None,67.92,194,194,1,4,State Tech University,0.568
+S0974,Rajasthan,SC,Female,None,76.97,255,255,4,5,IIT Example,0.745
+S0975,Rajasthan,OBC,Male,None,87.68,232,232,3,8,NIT Example,0.671
+S0976,Tamil Nadu,GEN,Male,None,47.86,101,101,4,3,Community College,0.495
+S0977,Rajasthan,GEN,Female,Defence,84.11,211,221,3,7,NIT Example,0.621
+S0978,Tamil Nadu,GEN,Male,None,61.55,183,183,1,7,State Tech University,0.518
+S0979,Maharashtra,OBC,Female,None,73.41,177,177,1,3,State Tech University,0.491
+S0980,Haryana,GEN,Female,None,50.74,129,129,1,9,Local Government College,0.473
+S0981,Haryana,GEN,Female,None,74.18,201,201,3,7,State Tech University,0.6
+S0982,Uttar Pradesh,GEN,Male,None,88.91,255,255,1,3,NIT Example,0.775
+S0983,Tamil Nadu,SC,Female,None,69.51,185,185,2,7,State Tech University,0.527
+S0984,Gujarat,ST,Male,None,73.33,220,220,1,5,NIT Example,0.616
+S0985,Tamil Nadu,OBC,Female,None,68.2,149,149,2,5,Regional Engineering College,0.434
+S0986,Haryana,SC,Male,None,63.18,144,144,1,7,Regional Engineering College,0.411
+S0987,Gujarat,GEN,Male,None,63.31,182,182,3,9,State Tech University,0.514
+S0988,Karnataka,GEN,Male,None,67.44,193,193,0,7,State Tech University,0.564
+S0989,Gujarat,OBC,Female,None,61.35,137,137,4,3,Local Government College,0.509
+S0990,Karnataka,OBC,Female,None,61.47,188,188,0,4,State Tech University,0.541
+S0991,Haryana,SC,Female,None,54.35,118,118,3,7,Local Government College,0.423
+S0992,Rajasthan,OBC,Male,None,69.41,135,135,3,8,Local Government College,0.5
+S0993,Tamil Nadu,OBC,Female,None,88.01,268,268,2,10,IIT Example,0.805
+S0994,Haryana,SC,Female,None,55.07,155,155,2,7,Regional Engineering College,0.461
+S0995,Uttar Pradesh,GEN,Male,None,77.04,224,224,2,4,NIT Example,0.635
+S0996,Uttar Pradesh,SC,Other,None,74.43,153,153,1,8,Regional Engineering College,0.452
+S0997,Gujarat,OBC,Female,None,50.57,132,132,1,6,Local Government College,0.486
+S0998,Delhi,GEN,Male,None,79.85,225,225,0,8,NIT Example,0.639
+S0999,Maharashtra,GEN,Male,None,82.79,229,229,1,3,NIT Example,0.657
+S1000,Tamil Nadu,GEN,Female,TFW,87.42,238,238,3,10,NIT Example,0.698
+S1001,Haryana,SC,Female,None,76.16,189,189,0,10,State Tech University,0.545
+S1002,Gujarat,OBC,Female,TFW,54.09,126,126,1,3,Local Government College,0.459
+S1003,Delhi,OBC,Female,None,86.93,242,242,1,3,NIT Example,0.716
+S1004,Uttar Pradesh,OBC,Male,TFW,46.54,172,172,0,8,State Tech University,0.468
+S1005,Karnataka,EWS,Male,None,85.67,231,231,2,9,NIT Example,0.666
+S1006,Tamil Nadu,OBC,Male,None,67.71,165,165,1,7,Regional Engineering College,0.506
+S1007,Gujarat,OBC,Male,None,76.75,214,214,2,6,NIT Example,0.589
+S1008,Gujarat,OBC,Female,None,64.17,190,190,3,7,State Tech University,0.55
+S1009,Tamil Nadu,GEN,Female,None,78.85,200,200,0,4,State Tech University,0.595
+S1010,Haryana,OBC,Female,TFW,87.96,252,252,3,5,IIT Example,0.732
+S1011,Uttar Pradesh,GEN,Female,NRI,80.85,237,197,1,7,State Tech University,0.582
+S1012,Gujarat,GEN,Female,None,73.5,212,212,0,5,State Tech University,0.65
+S1013,Uttar Pradesh,SC,Male,None,87.98,217,217,2,4,NIT Example,0.603
+S1014,Maharashtra,GEN,Male,None,62.3,99,99,3,4,Community College,0.486
+S1015,Gujarat,OBC,Male,None,70.79,128,128,3,7,Local Government College,0.468
+S1016,Maharashtra,OBC,Male,NRI,64.19,138,98,0,8,Community College,0.482
+S1017,Uttar Pradesh,GEN,Male,None,71.14,187,187,4,10,State Tech University,0.536
+S1018,Karnataka,GEN,Male,None,77.72,188,188,2,4,State Tech University,0.541
+S1019,Uttar Pradesh,OBC,Female,None,78.73,165,165,1,7,Regional Engineering College,0.506
+S1020,Uttar Pradesh,GEN,Male,NRI,72.45,217,177,2,10,Regional Engineering College,0.561
+S1021,Maharashtra,GEN,Male,None,80.77,247,247,1,4,NIT Example,0.739
+S1022,Rajasthan,GEN,Male,None,88.8,238,238,0,10,NIT Example,0.698
+S1023,Gujarat,GEN,Female,None,76.15,183,183,2,4,State Tech University,0.518
+S1024,Haryana,OBC,Male,None,56.38,163,163,0,10,Regional Engineering College,0.497
+S1025,Karnataka,OBC,Female,None,83.96,253,253,3,10,IIT Example,0.736
+S1026,Haryana,GEN,Male,NRI,64.57,159,119,0,7,Community College,0.577
+S1027,Gujarat,GEN,Female,None,85.2,231,231,2,8,NIT Example,0.666
+S1028,Haryana,OBC,Male,None,97.41,284,284,3,10,IIT Example,0.877
+S1029,Haryana,SC,Male,None,82.65,226,226,2,5,NIT Example,0.644
+S1030,Karnataka,GEN,Female,None,60.67,164,164,1,4,Regional Engineering College,0.502
+S1031,Delhi,OBC,Male,None,74.59,154,154,2,6,Regional Engineering College,0.456
+S1032,Tamil Nadu,EWS,Male,None,75.05,235,235,1,9,NIT Example,0.685
+S1033,Rajasthan,OBC,Male,None,60.16,173,173,1,5,State Tech University,0.473
+S1034,Karnataka,SC,Female,None,92.6,254,254,2,4,IIT Example,0.741
+S1035,Haryana,GEN,Male,None,63.49,131,131,2,7,Local Government College,0.482
+S1036,Rajasthan,GEN,Male,None,80.97,203,203,0,9,State Tech University,0.609
+S1037,Gujarat,OBC,Female,None,83.29,223,223,2,5,NIT Example,0.63
+S1038,Maharashtra,SC,Female,None,76.81,209,209,1,7,NIT Example,0.566
+S1039,Rajasthan,OBC,Male,None,68.12,170,170,1,8,State Tech University,0.459
+S1040,Delhi,OBC,Female,None,91.3,228,228,1,9,NIT Example,0.653
+S1041,Gujarat,EWS,Female,None,61.28,172,172,0,9,State Tech University,0.468
+S1042,Tamil Nadu,SC,Male,TFW,69.15,206,206,4,3,NIT Example,0.553
+S1043,Maharashtra,OBC,Female,None,86.67,222,222,3,7,NIT Example,0.625
+S1044,Maharashtra,GEN,Female,None,88.09,259,259,4,8,NIT Example,0.794
+S1045,Rajasthan,GEN,Male,None,77.6,194,194,3,5,State Tech University,0.568
+S1046,Haryana,GEN,Female,None,53.15,123,123,3,8,Local Government College,0.445
+S1047,Rajasthan,GEN,Other,None,79.44,221,221,1,5,NIT Example,0.621
+S1048,Maharashtra,GEN,Male,None,79.93,202,202,2,10,State Tech University,0.605
+S1049,Rajasthan,EWS,Male,None,92.4,204,204,1,9,State Tech University,0.614
+S1050,Haryana,ST,Female,TFW,83.39,186,186,2,5,State Tech University,0.532
+S1051,Haryana,OBC,Female,None,84.5,205,205,2,8,State Tech University,0.618
+S1052,Uttar Pradesh,GEN,Female,None,77.67,203,203,3,6,State Tech University,0.609
+S1053,Delhi,GEN,Female,None,68.92,157,157,0,3,Regional Engineering College,0.47
+S1054,Haryana,OBC,Male,None,84.71,205,205,1,4,State Tech University,0.618
+S1055,Tamil Nadu,SC,Female,NRI,60.88,203,163,2,7,State Tech University,0.427
+S1056,Haryana,OBC,Female,None,70.94,180,180,0,6,State Tech University,0.505
+S1057,Haryana,OBC,Female,None,77.51,176,176,4,7,State Tech University,0.486
+S1058,Maharashtra,ST,Female,None,65.77,184,184,2,10,State Tech University,0.523
+S1059,Haryana,OBC,Male,None,81.55,157,157,4,7,Regional Engineering College,0.47
+S1060,Delhi,GEN,Female,None,86.12,229,229,3,7,NIT Example,0.657
+S1061,Delhi,GEN,Male,None,66.2,155,155,2,3,Regional Engineering College,0.461
+S1062,Delhi,SC,Female,None,92.3,227,227,1,4,NIT Example,0.648
+S1063,Tamil Nadu,OBC,Female,None,75.67,189,189,2,5,State Tech University,0.545
+S1064,Delhi,GEN,Male,None,94.86,231,231,2,5,NIT Example,0.666
+S1065,Tamil Nadu,OBC,Male,None,79.28,237,237,1,6,NIT Example,0.694
+S1066,Haryana,GEN,Female,None,88.15,239,239,1,4,NIT Example,0.703
+S1067,Tamil Nadu,OBC,Female,None,79.64,228,228,2,9,NIT Example,0.653
+S1068,Rajasthan,GEN,Male,None,57.42,182,182,3,6,State Tech University,0.514
+S1069,Gujarat,GEN,Male,None,95.98,239,239,2,3,NIT Example,0.703
+S1070,Tamil Nadu,OBC,Male,None,55.6,138,138,4,6,Local Government College,0.514
+S1071,Rajasthan,OBC,Male,None,62.1,164,164,1,9,Regional Engineering College,0.502
+S1072,Maharashtra,GEN,Female,None,64.07,219,219,2,8,State Tech University,0.682
+S1073,Maharashtra,GEN,Female,None,83.62,213,213,3,9,State Tech University,0.655
+S1074,Delhi,GEN,Male,None,82.83,174,174,0,9,Regional Engineering College,0.547
+S1075,Haryana,SC,Female,None,59.9,174,174,5,6,State Tech University,0.477
+S1076,Gujarat,OBC,Other,None,60.91,138,138,4,3,Local Government College,0.514
+S1077,Maharashtra,SC,Male,None,65.45,146,146,1,4,Regional Engineering College,0.42
+S1078,Haryana,GEN,Female,None,74.01,198,198,1,3,State Tech University,0.586
+S1079,Maharashtra,OBC,Male,None,86.42,237,237,1,6,NIT Example,0.694
+S1080,Karnataka,OBC,Male,NRI,81.12,242,202,0,5,State Tech University,0.605
+S1081,Rajasthan,OBC,Female,None,57.05,172,172,3,5,State Tech University,0.468
+S1082,Karnataka,OBC,Male,None,73.52,205,205,4,4,State Tech University,0.618
+S1083,Haryana,ST,Male,None,67.7,190,190,4,8,State Tech University,0.55
+S1084,Delhi,GEN,Male,None,76.52,169,169,2,9,Regional Engineering College,0.525
+S1085,Rajasthan,GEN,Male,TFW,83.67,220,220,2,7,NIT Example,0.616
+S1086,Tamil Nadu,GEN,Female,TFW,50.6,184,184,1,9,State Tech University,0.523
+S1087,Tamil Nadu,OBC,Male,None,75.42,246,246,2,9,NIT Example,0.735
+S1088,Uttar Pradesh,OBC,Male,None,62.45,174,174,2,7,State Tech University,0.477
+S1089,Karnataka,GEN,Male,None,75.27,209,209,0,10,State Tech University,0.636
+S1090,Maharashtra,ST,Male,None,58.62,169,169,5,3,State Tech University,0.455
+S1091,Rajasthan,GEN,Female,TFW,76.66,172,172,1,3,Regional Engineering College,0.538
+S1092,Haryana,OBC,Male,None,88.25,223,223,1,4,NIT Example,0.63
+S1093,Uttar Pradesh,GEN,Female,None,72.17,177,177,1,10,Regional Engineering College,0.561
+S1094,Karnataka,OBC,Female,None,68.58,185,185,3,7,State Tech University,0.527
+S1095,Rajasthan,GEN,Other,None,59.76,172,172,2,8,Regional Engineering College,0.538
+S1096,Gujarat,GEN,Male,None,78.13,228,228,0,6,NIT Example,0.653
+S1097,Tamil Nadu,OBC,Female,None,60.8,151,151,2,7,Regional Engineering College,0.443
+S1098,Rajasthan,ST,Female,None,91.33,238,238,4,4,IIT Example,0.668
+S1099,Haryana,SC,Male,None,74.71,224,224,4,6,NIT Example,0.635
+S1100,Haryana,GEN,Female,None,73.78,139,139,2,10,Local Government College,0.518
+S1101,Haryana,EWS,Male,None,49.92,125,125,0,8,Local Government College,0.455
+S1102,Maharashtra,GEN,Male,None,64.39,154,154,2,10,Regional Engineering College,0.456
+S1103,Tamil Nadu,SC,Male,None,80.83,161,161,2,5,State Tech University,0.418
+S1104,Haryana,OBC,Male,TFW,73.81,201,201,1,3,State Tech University,0.6
+S1105,Uttar Pradesh,OBC,Male,None,93.99,237,237,2,3,NIT Example,0.694
+S1106,Delhi,SC,Male,None,92.13,229,229,2,4,NIT Example,0.657
+S1107,Karnataka,GEN,Female,None,70.74,194,194,3,4,State Tech University,0.568
+S1108,Uttar Pradesh,GEN,Female,Defence,74.65,160,170,0,9,Regional Engineering College,0.529
+S1109,Gujarat,GEN,Female,None,74.25,199,199,3,8,State Tech University,0.591
+S1110,Uttar Pradesh,SC,Female,None,85.43,192,192,0,4,State Tech University,0.559
+S1111,Delhi,GEN,Male,None,75.61,233,233,1,5,NIT Example,0.675
+S1112,Haryana,GEN,Female,None,64.98,132,132,2,9,Local Government College,0.486
+S1113,Tamil Nadu,GEN,Female,None,83.23,212,212,3,5,State Tech University,0.65
+S1114,Karnataka,OBC,Female,None,68.26,189,189,4,10,State Tech University,0.545
+S1115,Tamil Nadu,GEN,Female,None,67.36,176,176,0,9,Regional Engineering College,0.556
+S1116,Uttar Pradesh,ST,Female,None,85.45,245,245,1,5,IIT Example,0.7
+S1117,Haryana,OBC,Male,None,69.29,159,159,1,7,Regional Engineering College,0.479
+S1118,Gujarat,GEN,Female,None,74.09,150,150,2,4,Regional Engineering College,0.438
+S1119,Gujarat,SC,Other,None,68.59,182,182,3,10,State Tech University,0.514
+S1120,Uttar Pradesh,GEN,Male,None,69.56,168,168,2,10,Regional Engineering College,0.52
+S1121,Haryana,GEN,Female,None,66.82,197,197,1,8,State Tech University,0.582
+S1122,Delhi,GEN,Male,None,86.93,260,260,3,10,IIT Example,0.768
+S1123,Maharashtra,GEN,Male,None,82.59,202,202,1,5,State Tech University,0.605
+S1124,Maharashtra,OBC,Male,NRI,65.74,211,171,2,10,State Tech University,0.464
+S1125,Gujarat,GEN,Female,NRI,62.84,121,81,0,6,No Seat / Private Coaching,0.01
+S1126,Karnataka,GEN,Male,None,62.23,161,161,2,6,Regional Engineering College,0.488
+S1127,Rajasthan,ST,Male,None,69.82,190,190,2,3,State Tech University,0.55
+S1128,Rajasthan,GEN,Female,None,82.73,238,238,1,9,NIT Example,0.698
+S1129,Gujarat,GEN,Female,None,78.21,182,182,0,7,State Tech University,0.514
+S1130,Uttar Pradesh,GEN,Male,None,90.98,190,190,2,7,State Tech University,0.55
+S1131,Tamil Nadu,GEN,Male,None,87.75,218,218,5,8,State Tech University,0.677
+S1132,Uttar Pradesh,ST,Female,None,94.96,254,254,2,5,IIT Example,0.741
+S1133,Uttar Pradesh,GEN,Female,None,82.83,237,237,0,6,NIT Example,0.694
+S1134,Haryana,SC,Male,None,59.51,151,151,1,6,Regional Engineering College,0.443
+S1135,Uttar Pradesh,GEN,Female,NRI,88.16,174,134,3,5,Local Government College,0.495
+S1136,Maharashtra,GEN,Male,Defence,75.04,225,235,1,3,NIT Example,0.685
+S1137,Rajasthan,OBC,Male,None,86.79,190,190,2,4,State Tech University,0.55
+S1138,Haryana,OBC,Male,None,99.0,287,287,2,9,IIT Example,0.891
+S1139,Uttar Pradesh,GEN,Male,None,70.37,193,193,4,4,State Tech University,0.564
+S1140,Maharashtra,OBC,Male,None,87.71,232,232,3,3,NIT Example,0.671
+S1141,Haryana,OBC,Male,None,81.28,208,208,3,5,State Tech University,0.632
+S1142,Gujarat,OBC,Female,None,77.66,191,191,2,4,State Tech University,0.555
+S1143,Rajasthan,ST,Male,None,93.34,240,240,2,9,IIT Example,0.677
+S1144,Delhi,OBC,Female,None,80.27,152,152,3,6,Regional Engineering College,0.447
+S1145,Karnataka,OBC,Male,TFW,63.88,142,142,4,8,Regional Engineering College,0.402
+S1146,Maharashtra,GEN,Male,None,77.31,260,260,2,8,IIT Example,0.768
+S1147,Gujarat,GEN,Female,None,64.47,107,107,0,6,Community College,0.523
+S1148,Tamil Nadu,EWS,Male,None,83.54,295,295,2,10,IIT Example,0.927
+S1149,Uttar Pradesh,SC,Female,None,72.93,155,155,1,7,Regional Engineering College,0.461
+S1150,Rajasthan,GEN,Male,None,91.13,269,269,2,10,IIT Example,0.809
+S1151,Karnataka,OBC,Female,None,94.18,263,263,0,7,IIT Example,0.782
+S1152,Haryana,OBC,Female,TFW,68.33,178,178,4,4,State Tech University,0.495
+S1153,Uttar Pradesh,ST,Male,None,76.86,209,209,0,5,NIT Example,0.566
+S1154,Delhi,EWS,Male,None,55.87,140,140,2,4,Local Government College,0.523
+S1155,Tamil Nadu,OBC,Female,None,62.62,151,151,3,3,Regional Engineering College,0.443
+S1156,Delhi,GEN,Female,TFW,83.77,231,231,4,10,NIT Example,0.666
+S1157,Gujarat,GEN,Female,None,71.91,146,146,3,6,Local Government College,0.55
+S1158,Karnataka,GEN,Female,None,64.9,172,172,4,8,Regional Engineering College,0.538
+S1159,Rajasthan,OBC,Female,None,50.11,129,129,4,10,Local Government College,0.473
+S1160,Haryana,OBC,Female,NRI,71.09,203,163,3,7,Regional Engineering College,0.497
+S1161,Tamil Nadu,SC,Male,None,86.28,214,214,1,7,NIT Example,0.589
+S1162,Maharashtra,GEN,Male,TFW,52.18,104,104,5,5,Community College,0.509
+S1163,Delhi,GEN,Male,None,69.75,140,140,2,5,Local Government College,0.523
+S1164,Tamil Nadu,GEN,Male,None,82.31,175,175,5,5,Regional Engineering College,0.552
+S1165,Haryana,GEN,Male,None,63.08,167,167,0,3,Regional Engineering College,0.515
+S1166,Gujarat,EWS,Male,None,54.2,146,146,0,5,Regional Engineering College,0.42
+S1167,Delhi,GEN,Male,TFW,86.48,282,282,2,5,IIT Example,0.868
+S1168,Haryana,ST,Male,Defence,89.46,237,247,3,8,IIT Example,0.709
+S1169,Delhi,OBC,Male,TFW,80.42,178,178,1,5,State Tech University,0.495
+S1170,Haryana,GEN,Male,None,59.68,134,134,4,3,Local Government College,0.495
+S1171,Tamil Nadu,OBC,Male,None,65.8,172,172,8,6,State Tech University,0.468
+S1172,Haryana,GEN,Male,None,75.91,171,171,0,6,Regional Engineering College,0.534
+S1173,Uttar Pradesh,SC,Female,None,69.23,243,243,1,4,IIT Example,0.691
+S1174,Haryana,OBC,Female,Defence,74.52,158,168,3,9,Regional Engineering College,0.52
+S1175,Uttar Pradesh,OBC,Female,None,56.01,166,166,1,3,Regional Engineering College,0.511
+S1176,Gujarat,GEN,Female,None,71.91,185,185,2,9,State Tech University,0.527
+S1177,Gujarat,GEN,Male,None,74.39,172,172,0,10,Regional Engineering College,0.538
+S1178,Karnataka,GEN,Female,None,76.8,202,202,2,9,State Tech University,0.605
+S1179,Haryana,GEN,Female,Defence,81.25,221,231,2,9,NIT Example,0.666
+S1180,Rajasthan,GEN,Female,None,80.75,228,228,2,6,NIT Example,0.653
+S1181,Delhi,OBC,Female,Defence,82.59,199,209,1,4,State Tech University,0.636
+S1182,Rajasthan,GEN,Male,TFW,69.9,208,208,4,9,State Tech University,0.632
+S1183,Tamil Nadu,OBC,Female,None,73.51,185,185,4,5,State Tech University,0.527
+S1184,Uttar Pradesh,GEN,Male,None,74.53,149,149,0,3,Local Government College,0.564
+S1185,Delhi,SC,Male,None,76.65,272,272,1,10,IIT Example,0.823
+S1186,Uttar Pradesh,GEN,Male,None,78.28,151,151,1,10,Regional Engineering College,0.443
+S1187,Karnataka,OBC,Female,None,84.54,244,244,1,10,NIT Example,0.725
+S1188,Uttar Pradesh,GEN,Female,None,65.81,142,142,1,4,Local Government College,0.532
+S1189,Gujarat,OBC,Female,NRI,70.02,157,117,3,10,Local Government College,0.418
+S1190,Karnataka,GEN,Female,None,73.5,191,191,0,7,State Tech University,0.555
+S1191,Tamil Nadu,OBC,Male,None,80.52,215,215,1,5,NIT Example,0.594
+S1192,Gujarat,GEN,Male,None,86.9,230,230,2,8,NIT Example,0.662
+S1193,Maharashtra,GEN,Female,TFW,63.98,209,209,1,6,State Tech University,0.636
+S1194,Tamil Nadu,SC,Female,None,81.67,197,197,2,8,State Tech University,0.582
+S1195,Gujarat,SC,Female,None,80.23,224,224,1,8,NIT Example,0.635
+S1196,Karnataka,OBC,Male,None,78.17,199,199,3,5,State Tech University,0.591
+S1197,Delhi,GEN,Female,None,76.26,232,232,0,5,NIT Example,0.671
+S1198,Karnataka,GEN,Female,None,76.29,171,171,4,4,Regional Engineering College,0.534
+S1199,Rajasthan,OBC,Male,None,64.87,184,184,2,3,State Tech University,0.523
+S1200,Haryana,GEN,Female,None,72.3,164,164,3,10,Regional Engineering College,0.502
+S1201,Gujarat,GEN,Male,None,82.2,237,237,3,4,NIT Example,0.694
+S1202,Uttar Pradesh,GEN,Female,None,78.69,256,256,3,7,NIT Example,0.78
+S1203,Tamil Nadu,GEN,Other,None,73.78,170,170,4,4,Regional Engineering College,0.529
+S1204,Karnataka,GEN,Female,None,85.53,217,217,3,6,State Tech University,0.673
+S1205,Karnataka,GEN,Female,None,70.19,202,202,1,10,State Tech University,0.605
+S1206,Karnataka,ST,Male,None,56.68,134,134,1,3,Regional Engineering College,0.365
+S1207,Karnataka,SC,Female,None,82.34,170,170,2,6,State Tech University,0.459
+S1208,Tamil Nadu,OBC,Male,None,78.27,213,213,2,7,NIT Example,0.585
+S1209,Gujarat,GEN,Female,None,70.65,161,161,2,6,Regional Engineering College,0.488
+S1210,Karnataka,GEN,Female,None,58.97,171,171,3,6,Regional Engineering College,0.534
+S1211,Uttar Pradesh,EWS,Male,None,70.08,201,201,1,3,State Tech University,0.6
+S1212,Karnataka,ST,Female,NRI,57.35,117,77,1,10,Community College,0.45
+S1213,Gujarat,OBC,Male,None,67.31,191,191,5,4,State Tech University,0.555
+S1214,Tamil Nadu,SC,Other,None,67.74,198,198,3,6,State Tech University,0.586
+S1215,Rajasthan,GEN,Other,None,90.87,232,232,4,4,NIT Example,0.671
+S1216,Tamil Nadu,OBC,Male,None,84.17,194,194,3,3,State Tech University,0.568
+S1217,Karnataka,GEN,Male,None,56.99,139,139,2,7,Local Government College,0.518
+S1218,Haryana,GEN,Male,Defence,71.73,217,227,1,9,NIT Example,0.648
+S1219,Uttar Pradesh,SC,Female,None,67.12,168,168,3,8,State Tech University,0.45
+S1220,Tamil Nadu,GEN,Female,None,72.68,202,202,1,9,State Tech University,0.605
+S1221,Haryana,OBC,Female,None,88.01,234,234,3,9,NIT Example,0.68
+S1222,Rajasthan,OBC,Female,None,80.71,166,166,1,5,Regional Engineering College,0.511
+S1223,Karnataka,GEN,Male,None,78.07,232,232,2,9,NIT Example,0.671
+S1224,Karnataka,GEN,Male,None,71.44,178,178,4,7,Regional Engineering College,0.565
+S1225,Rajasthan,GEN,Female,TFW,70.83,203,203,0,10,State Tech University,0.609
+S1226,Delhi,GEN,Male,None,79.04,228,228,1,10,NIT Example,0.653
+S1227,Haryana,GEN,Female,None,87.0,203,203,2,3,State Tech University,0.609
+S1228,Karnataka,OBC,Male,None,71.7,131,131,2,8,Local Government College,0.482
+S1229,Tamil Nadu,GEN,Female,None,79.9,216,216,3,10,State Tech University,0.668
+S1230,Haryana,GEN,Female,None,70.81,135,135,2,7,Local Government College,0.5
+S1231,Gujarat,SC,Female,None,75.74,173,173,0,3,State Tech University,0.473
+S1232,Rajasthan,ST,Male,None,72.17,179,179,3,9,State Tech University,0.5
+S1233,Haryana,OBC,Male,None,52.93,117,117,2,7,Local Government College,0.418
+S1234,Tamil Nadu,OBC,Male,None,61.85,159,159,3,10,Regional Engineering College,0.479
+S1235,Karnataka,OBC,Female,None,99.0,201,201,4,10,State Tech University,0.6
+S1236,Haryana,OBC,Male,None,82.92,188,188,2,7,State Tech University,0.541
+S1237,Haryana,OBC,Male,None,85.11,221,221,2,7,NIT Example,0.621
+S1238,Gujarat,GEN,Female,None,62.06,170,170,3,8,Regional Engineering College,0.529
+S1239,Gujarat,SC,Female,None,70.74,151,151,2,8,Regional Engineering College,0.443
+S1240,Rajasthan,GEN,Male,None,76.23,201,201,0,8,State Tech University,0.6
+S1241,Maharashtra,OBC,Male,None,88.11,192,192,3,4,State Tech University,0.559
+S1242,Karnataka,SC,Male,None,75.75,176,176,1,8,State Tech University,0.486
+S1243,Maharashtra,OBC,Female,None,78.67,173,173,2,9,State Tech University,0.473
+S1244,Delhi,GEN,Male,None,56.62,175,175,2,8,Regional Engineering College,0.552
+S1245,Rajasthan,OBC,Male,None,82.04,196,196,2,10,State Tech University,0.577
+S1246,Karnataka,OBC,Male,None,70.41,133,133,3,8,Local Government College,0.491
+S1247,Tamil Nadu,OBC,Male,None,75.41,166,166,4,10,Regional Engineering College,0.511
+S1248,Karnataka,SC,Female,None,57.52,139,139,1,3,Regional Engineering College,0.388
+S1249,Delhi,EWS,Male,None,59.23,173,173,0,4,State Tech University,0.473
+S1250,Karnataka,OBC,Male,None,83.26,201,201,4,10,State Tech University,0.6
+S1251,Rajasthan,GEN,Female,None,66.63,149,149,1,7,Local Government College,0.564
+S1252,Delhi,GEN,Female,None,77.58,220,220,2,9,NIT Example,0.616
+S1253,Delhi,OBC,Male,None,78.84,169,169,1,5,Regional Engineering College,0.525
+S1254,Maharashtra,OBC,Female,None,95.46,220,220,3,10,NIT Example,0.616
+S1255,Uttar Pradesh,OBC,Female,TFW,62.56,157,157,3,7,Regional Engineering College,0.47
+S1256,Rajasthan,ST,Female,None,51.39,133,133,3,6,Regional Engineering College,0.361
+S1257,Gujarat,OBC,Male,None,93.19,251,251,1,7,IIT Example,0.727
+S1258,Rajasthan,GEN,Female,TFW,72.96,230,230,1,6,NIT Example,0.662
+S1259,Rajasthan,GEN,Male,None,69.21,207,207,4,6,State Tech University,0.627
+S1260,Rajasthan,GEN,Male,None,81.35,208,208,2,7,State Tech University,0.632
+S1261,Haryana,OBC,Other,None,70.07,207,207,2,3,State Tech University,0.627
+S1262,Uttar Pradesh,GEN,Male,None,67.49,179,179,2,7,Regional Engineering College,0.57
+S1263,Tamil Nadu,OBC,Male,None,83.44,230,230,1,3,NIT Example,0.662
+S1264,Maharashtra,SC,Male,None,76.98,165,165,4,4,State Tech University,0.436
+S1265,Rajasthan,ST,Female,NRI,60.37,154,114,0,9,Local Government College,0.405
+S1266,Tamil Nadu,GEN,Female,None,72.27,184,184,4,4,State Tech University,0.523
+S1267,Delhi,OBC,Male,None,69.96,184,184,2,8,State Tech University,0.523
+S1268,Gujarat,SC,Female,None,60.13,118,118,1,6,Local Government College,0.423
+S1269,Rajasthan,GEN,Male,None,66.05,155,155,2,7,Regional Engineering College,0.461
+S1270,Haryana,GEN,Female,None,75.23,160,160,2,8,Regional Engineering College,0.484
+S1271,Karnataka,GEN,Male,None,90.5,216,216,5,7,State Tech University,0.668
+S1272,Tamil Nadu,GEN,Female,None,62.33,153,153,2,3,Regional Engineering College,0.452
+S1273,Maharashtra,SC,Female,TFW,58.97,206,206,2,6,NIT Example,0.553
+S1274,Delhi,OBC,Male,TFW,99.0,269,269,3,8,IIT Example,0.809
+S1275,Karnataka,OBC,Male,None,72.93,205,205,1,3,State Tech University,0.618
+S1276,Rajasthan,ST,Female,None,74.24,156,156,4,6,State Tech University,0.395
+S1277,Delhi,GEN,Female,TFW,77.52,194,194,4,8,State Tech University,0.568
+S1278,Rajasthan,SC,Male,None,88.05,246,246,0,10,IIT Example,0.705
+S1279,Haryana,SC,Female,None,69.86,183,183,1,9,State Tech University,0.518
+S1280,Karnataka,SC,Female,None,69.27,152,152,2,8,Regional Engineering College,0.447
+S1281,Rajasthan,OBC,Female,None,58.82,153,153,4,10,Regional Engineering College,0.452
+S1282,Maharashtra,SC,Female,None,70.42,220,220,2,10,NIT Example,0.616
+S1283,Tamil Nadu,GEN,Male,None,89.23,270,270,1,4,IIT Example,0.814
+S1284,Karnataka,GEN,Female,Defence,65.95,181,191,3,5,State Tech University,0.555
+S1285,Rajasthan,SC,Male,None,79.91,200,200,0,5,NIT Example,0.525
+S1286,Delhi,GEN,Female,None,57.68,167,167,0,7,Regional Engineering College,0.515
+S1287,Uttar Pradesh,GEN,Male,None,72.43,212,212,3,9,State Tech University,0.65
+S1288,Uttar Pradesh,GEN,Male,None,85.78,223,223,1,6,NIT Example,0.63
+S1289,Karnataka,EWS,Male,None,82.91,259,259,1,5,IIT Example,0.764
+S1290,Maharashtra,GEN,Male,None,87.46,229,229,2,4,NIT Example,0.657
+S1291,Gujarat,GEN,Female,None,63.76,136,136,2,9,Local Government College,0.505
+S1292,Haryana,SC,Female,None,63.72,177,177,4,6,State Tech University,0.491
+S1293,Uttar Pradesh,EWS,Female,None,79.22,194,194,3,10,State Tech University,0.568
+S1294,Rajasthan,GEN,Female,None,71.44,149,149,2,7,Local Government College,0.564
+S1295,Uttar Pradesh,GEN,Male,None,84.44,205,205,2,7,State Tech University,0.618
+S1296,Delhi,GEN,Male,None,94.19,258,258,3,10,NIT Example,0.789
+S1297,Karnataka,GEN,Male,None,54.82,135,135,1,9,Local Government College,0.5
+S1298,Uttar Pradesh,OBC,Female,None,71.7,208,208,1,7,State Tech University,0.632
+S1299,Karnataka,GEN,Male,None,77.99,202,202,2,6,State Tech University,0.605
+S1300,Haryana,ST,Other,TFW,69.15,143,143,3,3,Regional Engineering College,0.406
+S1301,Maharashtra,GEN,Female,None,54.24,174,174,3,9,Regional Engineering College,0.547
+S1302,Gujarat,GEN,Female,None,59.17,154,154,2,5,Regional Engineering College,0.456
+S1303,Delhi,GEN,Female,None,73.21,203,203,1,10,State Tech University,0.609
+S1304,Tamil Nadu,GEN,Female,None,68.08,158,158,2,7,Regional Engineering College,0.475
+S1305,Karnataka,GEN,Female,None,59.78,151,151,2,7,Regional Engineering College,0.443
+S1306,Gujarat,ST,Male,NRI,89.15,281,241,5,7,IIT Example,0.682
+S1307,Gujarat,GEN,Male,None,82.55,206,206,2,10,State Tech University,0.623
+S1308,Tamil Nadu,OBC,Female,None,73.74,207,207,0,10,State Tech University,0.627
+S1309,Maharashtra,GEN,Male,None,67.91,174,174,2,10,Regional Engineering College,0.547
+S1310,Delhi,GEN,Male,None,86.68,232,232,4,10,NIT Example,0.671
+S1311,Maharashtra,GEN,Other,None,53.36,145,145,0,10,Local Government College,0.545
+S1312,Haryana,GEN,Female,None,85.28,231,231,1,8,NIT Example,0.666
+S1313,Karnataka,GEN,Male,None,80.41,202,202,2,7,State Tech University,0.605
+S1314,Uttar Pradesh,OBC,Female,None,55.52,135,135,1,5,Local Government College,0.5
+S1315,Rajasthan,ST,Male,None,71.16,124,124,1,4,Local Government College,0.45
+S1316,Gujarat,GEN,Female,None,76.22,206,206,0,9,State Tech University,0.623
+S1317,Gujarat,OBC,Female,None,87.27,222,222,1,5,NIT Example,0.625
+S1318,Maharashtra,GEN,Female,None,81.95,248,248,1,10,NIT Example,0.744
+S1319,Delhi,OBC,Male,Defence,79.06,180,190,1,10,State Tech University,0.55
+S1320,Gujarat,EWS,Other,TFW,53.77,148,148,3,5,Regional Engineering College,0.429
+S1321,Uttar Pradesh,SC,Female,None,74.79,170,170,2,3,State Tech University,0.459
+S1322,Karnataka,OBC,Female,None,47.77,118,118,1,7,Local Government College,0.423
+S1323,Tamil Nadu,GEN,Female,None,55.12,130,130,1,3,Local Government College,0.477
+S1324,Uttar Pradesh,GEN,Female,None,86.6,208,208,0,5,State Tech University,0.632
+S1325,Karnataka,GEN,Female,None,75.35,208,208,1,7,State Tech University,0.632
+S1326,Tamil Nadu,GEN,Male,None,76.29,190,190,2,6,State Tech University,0.55
+S1327,Haryana,GEN,Male,None,56.3,217,217,1,9,State Tech University,0.673
+S1328,Karnataka,SC,Female,None,68.1,161,161,2,9,State Tech University,0.418
+S1329,Rajasthan,GEN,Female,Defence,80.42,200,210,3,6,State Tech University,0.641
+S1330,Tamil Nadu,ST,Female,None,80.49,261,261,3,4,IIT Example,0.773
+S1331,Delhi,OBC,Male,None,54.03,142,142,4,7,Regional Engineering College,0.402
+S1332,Tamil Nadu,EWS,Female,None,74.94,179,179,1,6,State Tech University,0.5
+S1333,Rajasthan,GEN,Male,None,79.55,224,224,3,3,NIT Example,0.635
+S1334,Karnataka,OBC,Male,None,73.51,132,132,1,7,Local Government College,0.486
+S1335,Gujarat,GEN,Male,None,78.51,220,220,1,4,NIT Example,0.616
+S1336,Haryana,GEN,Male,None,63.65,171,171,0,4,Regional Engineering College,0.534
+S1337,Rajasthan,ST,Male,None,45.78,136,136,1,10,Regional Engineering College,0.375
+S1338,Haryana,OBC,Male,Defence,60.0,149,159,3,5,Regional Engineering College,0.479
+S1339,Uttar Pradesh,GEN,Female,None,67.84,134,134,1,4,Local Government College,0.495
+S1340,Rajasthan,OBC,Male,None,76.93,234,234,1,5,NIT Example,0.68
+S1341,Haryana,OBC,Male,None,61.76,181,181,0,10,State Tech University,0.509
+S1342,Delhi,OBC,Female,None,83.07,260,260,2,9,IIT Example,0.768
+S1343,Delhi,GEN,Male,None,79.3,176,176,2,3,Regional Engineering College,0.556
+S1344,Uttar Pradesh,SC,Male,None,74.29,225,225,2,6,NIT Example,0.639
+S1345,Rajasthan,SC,Female,None,77.92,190,190,2,4,State Tech University,0.55
+S1346,Delhi,SC,Male,None,64.19,105,105,1,4,Local Government College,0.364
+S1347,Tamil Nadu,ST,Female,None,87.99,197,197,2,10,NIT Example,0.512
+S1348,Haryana,GEN,Male,None,68.2,162,162,0,7,Regional Engineering College,0.493
+S1349,Rajasthan,GEN,Male,None,73.1,195,195,1,9,State Tech University,0.573
+S1350,Rajasthan,SC,Female,None,79.02,183,183,0,7,State Tech University,0.518
+S1351,Maharashtra,OBC,Female,None,79.32,183,183,2,10,State Tech University,0.518
+S1352,Uttar Pradesh,OBC,Female,None,84.41,187,187,0,8,State Tech University,0.536
+S1353,Karnataka,GEN,Female,NRI,46.16,154,114,4,4,Community College,0.555
+S1354,Haryana,OBC,Female,None,58.31,139,139,1,9,Local Government College,0.518
+S1355,Maharashtra,GEN,Female,None,83.56,211,211,2,10,State Tech University,0.645
+S1356,Uttar Pradesh,OBC,Female,None,80.41,234,234,3,10,NIT Example,0.68
+S1357,Tamil Nadu,ST,Female,None,75.45,223,223,2,9,NIT Example,0.63
+S1358,Gujarat,SC,Female,None,51.12,116,116,1,6,Local Government College,0.414
+S1359,Delhi,OBC,Male,None,44.23,112,112,4,5,Local Government College,0.395
+S1360,Uttar Pradesh,GEN,Female,None,72.18,165,165,3,10,Regional Engineering College,0.506
+S1361,Delhi,GEN,Female,Defence,82.75,187,197,2,8,State Tech University,0.582
+S1362,Delhi,GEN,Male,None,76.96,173,173,2,3,Regional Engineering College,0.543
+S1363,Karnataka,GEN,Male,None,83.07,220,220,2,6,NIT Example,0.616
+S1364,Haryana,GEN,Male,None,78.04,180,180,2,3,State Tech University,0.505
+S1365,Delhi,ST,Female,NRI,76.24,140,100,3,4,Local Government College,0.341
+S1366,Maharashtra,ST,Male,None,89.93,289,289,2,4,IIT Example,0.9
+S1367,Karnataka,SC,Female,NRI,71.5,175,135,4,4,Regional Engineering College,0.37
+S1368,Maharashtra,OBC,Male,None,55.0,105,105,1,6,Community College,0.514
+S1369,Gujarat,GEN,Male,None,76.64,199,199,1,10,State Tech University,0.591
+S1370,Karnataka,GEN,Male,None,66.4,192,192,5,4,State Tech University,0.559
+S1371,Uttar Pradesh,GEN,Male,None,65.25,222,222,1,6,NIT Example,0.625
+S1372,Haryana,GEN,Female,None,91.42,240,240,2,8,NIT Example,0.707
+S1373,Rajasthan,GEN,Female,None,75.03,240,240,2,9,NIT Example,0.707
+S1374,Uttar Pradesh,GEN,Male,TFW,83.23,162,162,1,10,Regional Engineering College,0.493
+S1375,Gujarat,EWS,Male,None,94.84,262,262,4,4,IIT Example,0.777
+S1376,Karnataka,GEN,Male,None,76.13,172,172,3,9,Regional Engineering College,0.538
+S1377,Maharashtra,GEN,Male,TFW,80.98,229,229,1,5,NIT Example,0.657
+S1378,Maharashtra,EWS,Other,None,86.26,193,193,1,7,State Tech University,0.564
+S1379,Rajasthan,GEN,Female,None,71.58,202,202,1,7,State Tech University,0.605
+S1380,Gujarat,ST,Male,None,57.02,176,176,1,5,State Tech University,0.486
+S1381,Rajasthan,GEN,Male,None,57.78,135,135,2,10,Local Government College,0.5
+S1382,Gujarat,ST,Female,None,74.3,204,204,2,6,NIT Example,0.544
+S1383,Delhi,GEN,Female,None,76.65,248,248,5,5,NIT Example,0.744
+S1384,Delhi,GEN,Female,None,55.37,168,168,2,8,Regional Engineering College,0.52
+S1385,Tamil Nadu,GEN,Female,None,87.86,190,190,0,7,State Tech University,0.55
+S1386,Uttar Pradesh,SC,Male,None,74.48,183,183,2,4,State Tech University,0.518
+S1387,Maharashtra,SC,Male,None,81.03,188,188,1,4,State Tech University,0.541
+S1388,Maharashtra,SC,Female,None,85.35,179,179,0,3,State Tech University,0.5
+S1389,Haryana,GEN,Male,None,82.06,231,231,4,6,NIT Example,0.666
+S1390,Gujarat,GEN,Female,None,76.31,187,187,3,5,State Tech University,0.536
+S1391,Rajasthan,OBC,Male,None,91.53,263,263,3,6,IIT Example,0.782
+S1392,Gujarat,OBC,Male,None,75.89,222,222,4,9,NIT Example,0.625
+S1393,Karnataka,GEN,Male,None,99.0,272,272,1,6,IIT Example,0.823
+S1394,Haryana,GEN,Female,None,84.14,239,239,1,9,NIT Example,0.703
+S1395,Delhi,OBC,Female,Defence,70.9,197,207,4,10,State Tech University,0.627
+S1396,Rajasthan,SC,Male,None,59.66,132,132,4,10,Regional Engineering College,0.356
+S1397,Tamil Nadu,EWS,Female,None,75.66,184,184,3,6,State Tech University,0.523
+S1398,Haryana,OBC,Female,TFW,59.44,138,138,1,8,Local Government College,0.514
+S1399,Karnataka,OBC,Male,None,73.37,210,210,3,7,NIT Example,0.571
+S1400,Maharashtra,OBC,Male,None,79.78,213,213,1,8,NIT Example,0.585
+S1401,Delhi,GEN,Male,None,83.44,213,213,2,9,State Tech University,0.655
+S1402,Maharashtra,ST,Male,None,77.8,184,184,2,5,State Tech University,0.523
+S1403,Haryana,GEN,Female,None,77.16,182,182,1,3,State Tech University,0.514
+S1404,Rajasthan,OBC,Male,None,70.86,137,137,1,8,Local Government College,0.509
+S1405,Rajasthan,OBC,Female,None,64.57,194,194,1,5,State Tech University,0.568
+S1406,Haryana,SC,Female,None,65.86,180,180,1,8,State Tech University,0.505
+S1407,Karnataka,SC,Female,None,64.85,190,190,3,6,State Tech University,0.55
+S1408,Rajasthan,GEN,Male,None,72.56,169,169,3,10,Regional Engineering College,0.525
+S1409,Delhi,OBC,Female,None,65.12,162,162,3,7,Regional Engineering College,0.493
+S1410,Karnataka,OBC,Male,TFW,60.94,127,127,0,3,Local Government College,0.464
+S1411,Uttar Pradesh,SC,Female,None,88.08,214,214,3,5,NIT Example,0.589
+S1412,Maharashtra,GEN,Male,None,74.8,211,211,2,10,State Tech University,0.645
+S1413,Karnataka,SC,Female,None,90.93,291,291,1,3,IIT Example,0.909
+S1414,Haryana,SC,Male,None,90.49,256,256,0,9,IIT Example,0.75
+S1415,Maharashtra,SC,Male,None,65.72,149,149,0,4,Regional Engineering College,0.434
+S1416,Karnataka,OBC,Male,None,66.39,163,163,0,4,Regional Engineering College,0.497
+S1417,Tamil Nadu,GEN,Male,None,83.7,228,228,1,8,NIT Example,0.653
+S1418,Tamil Nadu,GEN,Male,None,73.1,167,167,1,8,Regional Engineering College,0.515
+S1419,Tamil Nadu,GEN,Male,None,76.72,221,221,1,4,NIT Example,0.621
+S1420,Maharashtra,GEN,Female,None,93.95,228,228,3,10,NIT Example,0.653
+S1421,Rajasthan,EWS,Male,None,64.39,170,170,1,9,Regional Engineering College,0.529
+S1422,Karnataka,OBC,Male,None,79.05,198,198,1,3,State Tech University,0.586
+S1423,Delhi,OBC,Female,None,94.1,266,266,3,5,IIT Example,0.795
+S1424,Delhi,OBC,Male,None,74.27,174,174,4,6,State Tech University,0.477
+S1425,Tamil Nadu,GEN,Other,None,86.78,242,242,2,9,NIT Example,0.716
+S1426,Haryana,GEN,Female,Defence,57.83,138,148,1,7,Local Government College,0.559
+S1427,Tamil Nadu,GEN,Female,None,68.37,150,150,1,7,Regional Engineering College,0.438
+S1428,Rajasthan,EWS,Female,None,99.0,300,300,3,7,IIT Example,0.95
+S1429,Maharashtra,GEN,Female,None,74.24,176,176,2,4,Regional Engineering College,0.556
+S1430,Rajasthan,OBC,Female,None,68.95,193,193,1,7,State Tech University,0.564
+S1431,Rajasthan,GEN,Female,None,61.97,153,153,3,8,Regional Engineering College,0.452
+S1432,Delhi,EWS,Female,None,80.6,229,229,1,8,NIT Example,0.657
+S1433,Gujarat,GEN,Female,None,77.32,225,225,1,5,NIT Example,0.639
+S1434,Maharashtra,OBC,Male,None,69.52,212,212,3,5,NIT Example,0.58
+S1435,Rajasthan,OBC,Female,None,84.5,191,191,0,9,State Tech University,0.555
+S1436,Karnataka,SC,Female,None,72.4,164,164,2,3,State Tech University,0.432
+S1437,Haryana,OBC,Male,None,82.91,204,204,2,8,State Tech University,0.614
+S1438,Rajasthan,GEN,Female,None,81.45,227,227,2,3,NIT Example,0.648
+S1439,Karnataka,OBC,Female,None,75.33,169,169,2,6,Regional Engineering College,0.525
+S1440,Maharashtra,SC,Female,None,91.68,204,204,2,6,NIT Example,0.544
+S1441,Karnataka,SC,Female,None,79.13,181,181,4,6,State Tech University,0.509
+S1442,Uttar Pradesh,EWS,Female,None,67.8,179,179,4,10,State Tech University,0.5
+S1443,Uttar Pradesh,GEN,Other,None,65.71,161,161,2,4,Regional Engineering College,0.488
+S1444,Delhi,OBC,Female,None,85.92,218,218,2,5,NIT Example,0.607
+S1445,Karnataka,OBC,Female,None,75.44,218,218,2,6,NIT Example,0.607
+S1446,Delhi,GEN,Female,Defence,86.04,249,259,1,7,NIT Example,0.794
+S1447,Haryana,GEN,Male,None,62.52,180,180,3,3,State Tech University,0.505
+S1448,Gujarat,GEN,Other,None,81.07,221,221,2,10,NIT Example,0.621
+S1449,Haryana,GEN,Female,NRI,66.33,163,123,1,6,Local Government College,0.445
+S1450,Maharashtra,GEN,Male,None,85.57,220,220,0,3,NIT Example,0.616
+S1451,Rajasthan,GEN,Male,None,86.51,253,253,0,3,NIT Example,0.766
+S1452,Uttar Pradesh,EWS,Male,None,76.51,218,218,2,6,NIT Example,0.607
+S1453,Uttar Pradesh,GEN,Male,None,74.18,193,193,3,4,State Tech University,0.564
+S1454,Maharashtra,OBC,Female,None,88.22,247,247,2,8,NIT Example,0.739
+S1455,Delhi,GEN,Male,TFW,74.94,219,219,3,3,State Tech University,0.682
+S1456,Gujarat,OBC,Male,None,89.35,223,223,1,10,NIT Example,0.63
+S1457,Karnataka,OBC,Female,None,68.55,206,206,2,3,State Tech University,0.623
+S1458,Maharashtra,GEN,Female,None,73.63,193,193,2,5,State Tech University,0.564
+S1459,Maharashtra,ST,Male,None,69.82,226,226,0,9,NIT Example,0.644
+S1460,Karnataka,GEN,Male,None,73.28,186,186,4,9,State Tech University,0.532
+S1461,Rajasthan,GEN,Female,None,73.61,151,151,2,3,Regional Engineering College,0.443
+S1462,Haryana,GEN,Female,NRI,50.07,124,84,2,4,No Seat / Private Coaching,0.01
+S1463,Gujarat,OBC,Female,None,93.88,229,229,3,8,NIT Example,0.657
+S1464,Uttar Pradesh,GEN,Male,None,53.3,168,168,2,6,Regional Engineering College,0.52
+S1465,Tamil Nadu,OBC,Male,None,71.89,182,182,4,10,State Tech University,0.514
+S1466,Tamil Nadu,GEN,Female,None,99.0,222,222,3,7,NIT Example,0.625
+S1467,Rajasthan,OBC,Female,None,71.92,153,153,4,5,Regional Engineering College,0.452
+S1468,Tamil Nadu,OBC,Female,None,80.27,240,240,1,3,NIT Example,0.707
+S1469,Tamil Nadu,GEN,Female,None,85.11,240,240,3,3,NIT Example,0.707
+S1470,Rajasthan,GEN,Female,None,55.92,128,128,2,6,Local Government College,0.468
+S1471,Karnataka,GEN,Female,None,53.0,144,144,1,10,Local Government College,0.541
+S1472,Gujarat,SC,Female,None,59.51,177,177,0,7,State Tech University,0.491
+S1473,Rajasthan,GEN,Male,NRI,70.61,196,156,4,3,Regional Engineering College,0.465
+S1474,Haryana,GEN,Male,None,73.17,174,174,3,6,Regional Engineering College,0.547
+S1475,Haryana,OBC,Male,None,86.59,259,259,2,8,IIT Example,0.764
+S1476,Rajasthan,GEN,Male,Defence,80.9,204,214,1,8,State Tech University,0.659
+S1477,Maharashtra,GEN,Male,None,90.63,239,239,0,7,NIT Example,0.703
+S1478,Haryana,GEN,Female,None,81.87,191,191,2,3,State Tech University,0.555
+S1479,Maharashtra,GEN,Male,None,67.46,109,109,2,7,Community College,0.532
+S1480,Tamil Nadu,GEN,Female,None,67.45,221,221,2,3,NIT Example,0.621
+S1481,Tamil Nadu,SC,Female,None,52.2,132,132,2,5,Regional Engineering College,0.356
+S1482,Rajasthan,OBC,Female,None,69.72,166,166,4,6,Regional Engineering College,0.511
+S1483,Delhi,OBC,Male,None,61.82,145,145,1,5,Regional Engineering College,0.415
+S1484,Rajasthan,ST,Male,None,60.82,183,183,1,5,State Tech University,0.518
+S1485,Uttar Pradesh,GEN,Male,None,70.43,151,151,3,9,Regional Engineering College,0.443
+S1486,Uttar Pradesh,ST,Female,None,64.8,156,156,1,7,State Tech University,0.395
+S1487,Tamil Nadu,GEN,Male,None,75.45,188,188,2,5,State Tech University,0.541
+S1488,Haryana,GEN,Male,None,61.37,133,133,2,4,Local Government College,0.491
+S1489,Tamil Nadu,OBC,Female,None,83.32,165,165,1,8,Regional Engineering College,0.506
+S1490,Haryana,OBC,Male,None,83.44,279,279,1,10,IIT Example,0.855
+S1491,Haryana,OBC,Female,None,79.83,240,240,0,3,NIT Example,0.707
+S1492,Uttar Pradesh,GEN,Male,NRI,96.85,262,222,2,9,NIT Example,0.625
+S1493,Uttar Pradesh,GEN,Female,None,86.97,255,255,0,8,NIT Example,0.775
+S1494,Delhi,OBC,Male,None,54.07,117,117,2,10,Local Government College,0.418
+S1495,Gujarat,GEN,Male,None,87.78,221,221,3,8,NIT Example,0.621
+S1496,Rajasthan,OBC,Male,None,60.32,192,192,3,10,State Tech University,0.559
+S1497,Gujarat,GEN,Male,None,76.75,181,181,3,7,State Tech University,0.509
+S1498,Karnataka,GEN,Male,None,70.82,182,182,3,4,State Tech University,0.514
+S1499,Delhi,ST,Male,None,88.44,237,237,1,3,IIT Example,0.664
+S1500,Uttar Pradesh,GEN,Female,None,75.24,175,175,2,7,Regional Engineering College,0.552
+S1501,Uttar Pradesh,OBC,Other,Defence,81.93,196,206,3,7,State Tech University,0.623
+S1502,Maharashtra,SC,Male,None,80.81,223,223,2,9,NIT Example,0.63
+S1503,Rajasthan,SC,Female,None,68.8,153,153,2,5,Regional Engineering College,0.452
+S1504,Rajasthan,GEN,Female,None,56.35,185,185,4,6,State Tech University,0.527
+S1505,Haryana,SC,Male,None,79.77,188,188,1,8,State Tech University,0.541
+S1506,Uttar Pradesh,GEN,Female,None,73.7,219,219,4,10,State Tech University,0.682
+S1507,Haryana,SC,Male,None,83.35,215,215,4,5,NIT Example,0.594
+S1508,Delhi,EWS,Male,None,73.4,157,157,3,8,Regional Engineering College,0.47
+S1509,Gujarat,GEN,Male,None,99.0,245,245,1,7,NIT Example,0.73
+S1510,Gujarat,OBC,Female,None,76.91,228,228,1,5,NIT Example,0.653
+S1511,Tamil Nadu,EWS,Other,None,78.04,158,158,0,9,Regional Engineering College,0.475
+S1512,Rajasthan,GEN,Male,None,79.49,196,196,0,6,State Tech University,0.577
+S1513,Haryana,GEN,Female,None,71.76,147,147,4,7,Local Government College,0.555
+S1514,Karnataka,GEN,Female,None,50.59,100,100,3,10,Community College,0.491
+S1515,Maharashtra,GEN,Male,Defence,79.82,171,181,2,7,State Tech University,0.509
+S1516,Uttar Pradesh,GEN,Female,None,85.95,234,234,1,3,NIT Example,0.68
+S1517,Gujarat,OBC,Male,NRI,65.28,174,134,1,9,Local Government College,0.495
+S1518,Rajasthan,GEN,Male,None,83.18,240,240,4,10,NIT Example,0.707
+S1519,Karnataka,GEN,Female,None,76.63,216,216,2,6,State Tech University,0.668
+S1520,Delhi,GEN,Female,None,46.46,125,125,3,7,Local Government College,0.455
+S1521,Uttar Pradesh,OBC,Female,None,79.48,243,243,1,3,NIT Example,0.721
+S1522,Tamil Nadu,GEN,Female,None,56.18,157,157,1,6,Regional Engineering College,0.47
+S1523,Gujarat,ST,Female,None,70.28,163,163,0,3,State Tech University,0.427
+S1524,Karnataka,GEN,Female,None,71.69,177,177,1,7,Regional Engineering College,0.561
+S1525,Rajasthan,OBC,Female,None,71.23,145,145,0,6,Regional Engineering College,0.415
+S1526,Tamil Nadu,ST,Female,None,61.81,205,205,1,5,NIT Example,0.548
+S1527,Karnataka,GEN,Female,None,63.26,209,209,1,5,State Tech University,0.636
+S1528,Delhi,ST,Female,None,88.27,234,234,0,4,NIT Example,0.68
+S1529,Uttar Pradesh,ST,Male,None,82.91,242,242,0,4,IIT Example,0.686
+S1530,Gujarat,GEN,Male,None,68.46,223,223,1,8,NIT Example,0.63
+S1531,Rajasthan,OBC,Male,None,59.77,193,193,4,10,State Tech University,0.564
+S1532,Maharashtra,GEN,Female,None,70.13,142,142,2,9,Local Government College,0.532
+S1533,Gujarat,SC,Female,None,66.36,149,149,1,3,Regional Engineering College,0.434
+S1534,Delhi,GEN,Female,None,79.63,224,224,0,10,NIT Example,0.635
+S1535,Haryana,OBC,Male,None,90.78,268,268,1,10,IIT Example,0.805
+S1536,Tamil Nadu,OBC,Male,None,76.73,197,197,3,3,State Tech University,0.582
+S1537,Karnataka,GEN,Male,None,56.12,147,147,2,5,Local Government College,0.555
+S1538,Karnataka,OBC,Male,None,83.58,216,216,3,10,NIT Example,0.598
+S1539,Gujarat,GEN,Female,NRI,68.81,155,115,1,6,Community College,0.559
+S1540,Haryana,OBC,Female,None,80.68,192,192,0,4,State Tech University,0.559
+S1541,Rajasthan,OBC,Male,None,84.29,223,223,1,3,NIT Example,0.63
+S1542,Rajasthan,SC,Female,None,90.75,259,259,2,6,IIT Example,0.764
+S1543,Uttar Pradesh,GEN,Male,Defence,89.29,228,238,2,8,NIT Example,0.698
+S1544,Uttar Pradesh,OBC,Male,TFW,89.6,173,173,0,4,State Tech University,0.473
+S1545,Tamil Nadu,SC,Male,None,92.55,233,233,3,8,NIT Example,0.675
+S1546,Gujarat,OBC,Male,None,92.21,246,246,2,9,NIT Example,0.735
+S1547,Rajasthan,GEN,Male,None,74.09,217,217,5,5,State Tech University,0.673
+S1548,Maharashtra,GEN,Male,None,91.95,240,240,2,10,NIT Example,0.707
+S1549,Uttar Pradesh,GEN,Female,None,62.46,206,206,2,8,State Tech University,0.623
+S1550,Maharashtra,GEN,Male,None,91.87,250,250,2,10,NIT Example,0.753
+S1551,Karnataka,OBC,Female,TFW,84.74,228,228,4,5,NIT Example,0.653
+S1552,Delhi,EWS,Female,Defence,66.44,135,145,1,9,Regional Engineering College,0.415
+S1553,Tamil Nadu,GEN,Female,NRI,82.92,205,165,0,8,Regional Engineering College,0.506
+S1554,Haryana,GEN,Male,TFW,63.54,178,178,1,10,Regional Engineering College,0.565
+S1555,Rajasthan,OBC,Female,None,85.73,203,203,2,3,State Tech University,0.609
+S1556,Uttar Pradesh,GEN,Female,None,87.85,226,226,4,6,NIT Example,0.644
+S1557,Rajasthan,SC,Female,None,84.84,215,215,3,8,NIT Example,0.594
+S1558,Haryana,GEN,Male,None,99.0,264,264,3,3,IIT Example,0.786
+S1559,Uttar Pradesh,ST,Female,TFW,48.39,96,96,2,8,Local Government College,0.323
+S1560,Tamil Nadu,GEN,Female,None,72.42,213,213,2,9,State Tech University,0.655
+S1561,Delhi,SC,Male,None,89.42,232,232,0,8,NIT Example,0.671
+S1562,Uttar Pradesh,GEN,Male,TFW,56.71,165,165,3,6,Regional Engineering College,0.506
+S1563,Uttar Pradesh,OBC,Male,None,55.55,126,126,4,10,Local Government College,0.459
+S1564,Maharashtra,GEN,Female,TFW,71.61,216,216,1,3,State Tech University,0.668
+S1565,Tamil Nadu,ST,Male,None,46.79,163,163,1,6,State Tech University,0.427
+S1566,Uttar Pradesh,OBC,Male,None,64.08,183,183,1,5,State Tech University,0.518
+S1567,Uttar Pradesh,GEN,Male,None,80.3,172,172,2,7,Regional Engineering College,0.538
+S1568,Haryana,EWS,Male,NRI,69.37,170,130,3,10,Local Government College,0.477
+S1569,Karnataka,EWS,Male,None,99.0,254,254,2,10,IIT Example,0.741
+S1570,Haryana,GEN,Female,None,83.99,203,203,1,5,State Tech University,0.609
+S1571,Haryana,GEN,Male,NRI,57.05,148,108,0,7,Community College,0.527
+S1572,Tamil Nadu,OBC,Male,None,64.63,157,157,2,7,Regional Engineering College,0.47
+S1573,Haryana,GEN,Female,None,79.63,177,177,2,8,Regional Engineering College,0.561
+S1574,Tamil Nadu,OBC,Male,TFW,74.03,189,189,1,3,State Tech University,0.545
+S1575,Maharashtra,SC,Female,None,60.02,176,176,0,9,State Tech University,0.486
+S1576,Rajasthan,EWS,Female,None,99.0,268,268,5,10,IIT Example,0.805
+S1577,Delhi,OBC,Female,None,61.55,141,141,1,3,Regional Engineering College,0.397
+S1578,Karnataka,GEN,Female,None,75.27,238,238,0,9,NIT Example,0.698
+S1579,Delhi,SC,Female,None,85.2,237,237,2,10,NIT Example,0.694
+S1580,Gujarat,OBC,Female,TFW,98.2,261,261,3,6,IIT Example,0.773
+S1581,Uttar Pradesh,OBC,Female,None,68.68,145,145,3,3,Regional Engineering College,0.415
+S1582,Tamil Nadu,GEN,Male,None,58.83,130,130,1,7,Local Government College,0.477
+S1583,Uttar Pradesh,OBC,Female,None,71.39,144,144,3,3,Regional Engineering College,0.411
+S1584,Karnataka,SC,Female,TFW,77.16,180,180,2,9,State Tech University,0.505
+S1585,Karnataka,OBC,Male,None,75.3,178,178,1,9,State Tech University,0.495
+S1586,Delhi,OBC,Female,None,77.77,181,181,1,9,State Tech University,0.509
+S1587,Delhi,SC,Female,TFW,70.06,195,195,1,4,State Tech University,0.573
+S1588,Karnataka,OBC,Female,None,70.21,182,182,3,5,State Tech University,0.514
+S1589,Delhi,SC,Female,None,81.87,227,227,0,7,NIT Example,0.648
+S1590,Maharashtra,EWS,Female,None,61.03,149,149,1,4,Regional Engineering College,0.434
+S1591,Rajasthan,OBC,Female,None,49.68,162,162,1,5,Regional Engineering College,0.493
+S1592,Tamil Nadu,GEN,Female,None,66.76,202,202,1,5,State Tech University,0.605
+S1593,Karnataka,OBC,Female,None,87.83,196,196,2,3,State Tech University,0.577
+S1594,Tamil Nadu,SC,Male,Defence,70.09,188,198,2,9,State Tech University,0.586
+S1595,Haryana,OBC,Female,NRI,80.19,190,150,2,5,Regional Engineering College,0.438
+S1596,Karnataka,GEN,Male,None,62.04,161,161,2,8,Regional Engineering College,0.488
+S1597,Maharashtra,OBC,Male,None,77.97,202,202,4,4,State Tech University,0.605
+S1598,Maharashtra,GEN,Female,None,72.0,179,179,2,3,Regional Engineering College,0.57
+S1599,Karnataka,GEN,Female,None,90.6,259,259,2,7,NIT Example,0.794
+S1600,Haryana,OBC,Male,None,67.34,169,169,1,8,Regional Engineering College,0.525
+S1601,Gujarat,EWS,Female,TFW,87.12,193,193,1,9,State Tech University,0.564
+S1602,Rajasthan,OBC,Female,NRI,65.09,137,97,4,4,Community College,0.477
+S1603,Maharashtra,OBC,Female,None,99.0,259,259,1,5,IIT Example,0.764
+S1604,Maharashtra,OBC,Female,None,88.4,235,235,2,6,NIT Example,0.685
+S1605,Gujarat,OBC,Female,NRI,77.76,205,165,2,9,Regional Engineering College,0.506
+S1606,Uttar Pradesh,GEN,Female,TFW,74.3,213,213,0,8,State Tech University,0.655
+S1607,Maharashtra,OBC,Female,Defence,72.76,238,248,0,8,NIT Example,0.744
+S1608,Haryana,GEN,Female,None,97.94,283,283,4,4,IIT Example,0.873
+S1609,Gujarat,GEN,Female,TFW,66.39,215,215,2,4,State Tech University,0.664
+S1610,Rajasthan,GEN,Male,None,71.68,169,169,1,3,Regional Engineering College,0.525
+S1611,Tamil Nadu,OBC,Male,None,58.17,203,203,0,10,State Tech University,0.609
+S1612,Tamil Nadu,ST,Female,None,86.94,211,211,3,6,NIT Example,0.575
+S1613,Uttar Pradesh,GEN,Female,None,71.6,173,173,3,4,Regional Engineering College,0.543
+S1614,Karnataka,GEN,Female,None,70.02,161,161,1,8,Regional Engineering College,0.488
+S1615,Rajasthan,SC,Male,None,73.07,203,203,5,10,NIT Example,0.539
+S1616,Karnataka,OBC,Female,None,85.45,274,274,4,10,IIT Example,0.832
+S1617,Karnataka,SC,Male,None,74.58,172,172,3,4,State Tech University,0.468
+S1618,Gujarat,GEN,Female,None,68.32,178,178,2,9,Regional Engineering College,0.565
+S1619,Rajasthan,SC,Male,None,94.46,286,286,1,4,IIT Example,0.886
+S1620,Karnataka,GEN,Female,TFW,74.33,199,199,1,4,State Tech University,0.591
+S1621,Gujarat,GEN,Male,None,87.56,267,267,1,3,IIT Example,0.8
+S1622,Delhi,GEN,Female,None,72.08,209,209,2,9,State Tech University,0.636
+S1623,Gujarat,SC,Female,TFW,84.2,208,208,3,5,NIT Example,0.562
+S1624,Uttar Pradesh,GEN,Male,NRI,84.58,206,166,0,8,Regional Engineering College,0.511
+S1625,Tamil Nadu,SC,Male,None,52.09,154,154,3,10,Regional Engineering College,0.456
+S1626,Tamil Nadu,OBC,Male,None,69.61,197,197,2,3,State Tech University,0.582
+S1627,Gujarat,GEN,Other,None,98.44,273,273,3,10,IIT Example,0.827
+S1628,Uttar Pradesh,OBC,Female,None,77.83,178,178,1,8,State Tech University,0.495
+S1629,Tamil Nadu,SC,Male,None,94.27,193,193,3,6,State Tech University,0.564
+S1630,Maharashtra,ST,Female,NRI,83.78,249,209,2,9,NIT Example,0.566
+S1631,Delhi,EWS,Female,None,63.79,202,202,3,3,State Tech University,0.605
+S1632,Rajasthan,GEN,Female,Defence,67.84,148,158,2,9,Regional Engineering College,0.475
+S1633,Rajasthan,GEN,Female,None,75.64,218,218,3,6,State Tech University,0.677
+S1634,Rajasthan,GEN,Male,None,83.1,173,173,2,3,Regional Engineering College,0.543
+S1635,Delhi,OBC,Male,None,66.6,167,167,0,10,Regional Engineering College,0.515
+S1636,Delhi,ST,Male,None,72.36,184,184,0,6,State Tech University,0.523
+S1637,Maharashtra,GEN,Female,None,59.9,177,177,2,5,Regional Engineering College,0.561
+S1638,Rajasthan,EWS,Male,None,46.59,129,129,1,3,Local Government College,0.473
+S1639,Karnataka,GEN,Male,TFW,90.77,212,212,3,4,State Tech University,0.65
+S1640,Gujarat,OBC,Female,None,64.91,185,185,1,9,State Tech University,0.527
+S1641,Uttar Pradesh,GEN,Male,None,69.27,178,178,3,5,Regional Engineering College,0.565
+S1642,Rajasthan,SC,Other,None,77.32,233,233,0,4,NIT Example,0.675
+S1643,Haryana,SC,Female,None,83.69,173,173,3,10,State Tech University,0.473
+S1644,Gujarat,GEN,Male,None,79.93,221,221,2,6,NIT Example,0.621
+S1645,Maharashtra,OBC,Other,None,75.41,154,154,0,4,Regional Engineering College,0.456
+S1646,Tamil Nadu,GEN,Other,None,69.37,218,218,3,7,State Tech University,0.677
+S1647,Tamil Nadu,GEN,Male,TFW,84.45,242,242,1,5,NIT Example,0.716
+S1648,Rajasthan,SC,Male,None,50.58,122,122,2,10,Local Government College,0.441
+S1649,Karnataka,OBC,Female,None,78.27,202,202,2,4,State Tech University,0.605
+S1650,Uttar Pradesh,EWS,Female,None,74.73,174,174,3,5,State Tech University,0.477
+S1651,Maharashtra,OBC,Female,None,89.24,184,184,3,5,State Tech University,0.523
+S1652,Uttar Pradesh,OBC,Male,None,65.9,160,160,2,3,Regional Engineering College,0.484
+S1653,Karnataka,EWS,Female,None,75.52,213,213,2,5,NIT Example,0.585
+S1654,Rajasthan,EWS,Female,None,99.0,243,243,7,3,NIT Example,0.721
+S1655,Delhi,OBC,Male,None,73.92,204,204,3,8,State Tech University,0.614
+S1656,Gujarat,OBC,Female,None,76.7,241,241,2,3,NIT Example,0.712
+S1657,Uttar Pradesh,GEN,Male,NRI,59.76,184,144,2,6,Local Government College,0.541
+S1658,Tamil Nadu,OBC,Male,None,95.88,251,251,2,5,IIT Example,0.727
+S1659,Rajasthan,GEN,Male,None,88.28,172,172,2,5,Regional Engineering College,0.538
+S1660,Rajasthan,OBC,Female,None,59.58,154,154,0,5,Regional Engineering College,0.456
+S1661,Uttar Pradesh,GEN,Female,Defence,76.93,216,226,4,6,NIT Example,0.644
+S1662,Gujarat,OBC,Female,None,79.85,204,204,2,5,State Tech University,0.614
+S1663,Rajasthan,SC,Male,None,63.8,140,140,2,9,Regional Engineering College,0.393
+S1664,Maharashtra,EWS,Male,None,72.74,180,180,1,4,State Tech University,0.505
+S1665,Rajasthan,GEN,Female,None,78.5,238,238,0,8,NIT Example,0.698
+S1666,Delhi,GEN,Female,None,51.99,98,98,0,4,Community College,0.482
+S1667,Rajasthan,EWS,Male,TFW,89.28,258,258,2,4,IIT Example,0.759
+S1668,Tamil Nadu,OBC,Female,None,83.63,262,262,3,10,IIT Example,0.777
+S1669,Karnataka,OBC,Female,NRI,98.8,257,217,4,7,NIT Example,0.603
+S1670,Karnataka,ST,Male,TFW,71.1,183,183,4,9,State Tech University,0.518
+S1671,Tamil Nadu,GEN,Female,Defence,77.2,179,189,2,9,State Tech University,0.545
+S1672,Haryana,OBC,Male,None,73.07,207,207,3,5,State Tech University,0.627
+S1673,Tamil Nadu,GEN,Female,None,95.24,239,239,1,8,NIT Example,0.703
+S1674,Uttar Pradesh,OBC,Male,None,74.89,171,171,3,10,State Tech University,0.464
+S1675,Gujarat,SC,Female,None,74.17,240,240,3,9,IIT Example,0.677
+S1676,Uttar Pradesh,GEN,Female,TFW,73.13,188,188,2,9,State Tech University,0.541
+S1677,Gujarat,SC,Female,None,66.41,200,200,1,6,NIT Example,0.525
+S1678,Karnataka,GEN,Male,None,69.52,189,189,3,10,State Tech University,0.545
+S1679,Maharashtra,EWS,Male,None,62.4,137,137,1,5,Local Government College,0.509
+S1680,Haryana,OBC,Female,None,77.69,153,153,3,4,Regional Engineering College,0.452
+S1681,Rajasthan,GEN,Male,None,79.26,160,160,0,3,Regional Engineering College,0.484
+S1682,Rajasthan,OBC,Female,None,73.19,170,170,2,3,State Tech University,0.459
+S1683,Haryana,EWS,Female,NRI,80.7,227,187,3,6,State Tech University,0.536
+S1684,Tamil Nadu,GEN,Female,None,99.0,275,275,7,3,IIT Example,0.836
+S1685,Rajasthan,OBC,Male,Defence,74.56,150,160,3,8,Regional Engineering College,0.484
+S1686,Uttar Pradesh,SC,Female,NRI,85.22,198,158,1,7,Regional Engineering College,0.475
+S1687,Delhi,OBC,Male,None,65.13,137,137,3,9,Local Government College,0.509
+S1688,Uttar Pradesh,ST,Female,TFW,68.97,208,208,2,3,NIT Example,0.562
+S1689,Haryana,ST,Female,None,78.24,225,225,1,3,NIT Example,0.639
+S1690,Haryana,GEN,Male,None,67.6,148,148,5,5,Local Government College,0.559
+S1691,Rajasthan,GEN,Male,None,81.75,181,181,3,4,State Tech University,0.509
+S1692,Tamil Nadu,GEN,Female,None,89.46,236,236,1,7,NIT Example,0.689
+S1693,Uttar Pradesh,OBC,Male,None,79.49,229,229,1,5,NIT Example,0.657
+S1694,Delhi,GEN,Male,None,85.15,212,212,1,5,State Tech University,0.65
+S1695,Tamil Nadu,GEN,Male,None,81.38,223,223,2,6,NIT Example,0.63
+S1696,Karnataka,GEN,Male,None,90.39,236,236,1,8,NIT Example,0.689
+S1697,Maharashtra,GEN,Male,None,75.53,150,150,5,7,Regional Engineering College,0.438
+S1698,Karnataka,GEN,Female,None,73.68,186,186,3,5,State Tech University,0.532
+S1699,Gujarat,SC,Female,None,52.5,165,165,3,9,State Tech University,0.436
+S1700,Tamil Nadu,GEN,Male,None,99.0,213,213,4,5,State Tech University,0.655
+S1701,Gujarat,OBC,Female,None,64.24,91,91,0,8,Community College,0.45
+S1702,Rajasthan,EWS,Female,None,61.39,185,185,2,7,State Tech University,0.527
+S1703,Delhi,OBC,Female,None,57.91,138,138,1,5,Local Government College,0.514
+S1704,Tamil Nadu,GEN,Female,NRI,60.26,157,117,2,6,Community College,0.568
+S1705,Rajasthan,GEN,Female,None,65.73,169,169,2,5,Regional Engineering College,0.525
+S1706,Uttar Pradesh,EWS,Female,None,84.69,221,221,2,6,NIT Example,0.621
+S1707,Karnataka,GEN,Male,Defence,84.31,207,217,3,5,State Tech University,0.673
+S1708,Rajasthan,GEN,Male,NRI,62.24,187,147,1,9,Local Government College,0.555
+S1709,Rajasthan,OBC,Female,Defence,64.08,185,195,0,6,State Tech University,0.573
+S1710,Gujarat,GEN,Male,None,65.15,182,182,0,3,State Tech University,0.514
+S1711,Delhi,GEN,Male,TFW,67.6,142,142,1,9,Local Government College,0.532
+S1712,Uttar Pradesh,GEN,Male,None,60.83,129,129,2,3,Local Government College,0.473
+S1713,Gujarat,GEN,Male,TFW,79.08,198,198,1,4,State Tech University,0.586
+S1714,Rajasthan,GEN,Female,None,79.42,227,227,2,7,NIT Example,0.648
+S1715,Karnataka,GEN,Male,None,73.86,235,235,5,5,NIT Example,0.685
+S1716,Gujarat,GEN,Female,None,98.02,246,246,4,8,NIT Example,0.735
+S1717,Uttar Pradesh,OBC,Male,None,70.68,199,199,0,4,State Tech University,0.591
+S1718,Tamil Nadu,OBC,Female,None,70.95,168,168,4,6,Regional Engineering College,0.52
+S1719,Uttar Pradesh,OBC,Female,None,75.27,138,138,0,8,Local Government College,0.514
+S1720,Delhi,SC,Other,None,62.29,149,149,3,5,Regional Engineering College,0.434
+S1721,Maharashtra,GEN,Male,None,95.71,251,251,3,8,NIT Example,0.757
+S1722,Gujarat,GEN,Female,TFW,77.47,182,182,1,4,State Tech University,0.514
+S1723,Haryana,GEN,Female,None,95.94,300,300,0,3,IIT Example,0.95
+S1724,Tamil Nadu,OBC,Female,None,86.09,260,260,1,3,IIT Example,0.768
+S1725,Maharashtra,SC,Female,None,77.86,247,247,1,9,IIT Example,0.709
+S1726,Haryana,OBC,Female,Defence,82.33,217,227,1,5,NIT Example,0.648
+S1727,Haryana,SC,Male,None,86.73,223,223,0,9,NIT Example,0.63
+S1728,Delhi,GEN,Male,None,87.19,216,216,2,3,State Tech University,0.668
+S1729,Haryana,OBC,Female,None,60.0,165,165,1,6,Regional Engineering College,0.506
+S1730,Delhi,OBC,Female,None,50.41,121,121,0,3,Local Government College,0.436
+S1731,Uttar Pradesh,GEN,Female,TFW,82.32,213,213,0,7,State Tech University,0.655
+S1732,Tamil Nadu,GEN,Female,None,91.68,271,271,1,6,IIT Example,0.818
+S1733,Uttar Pradesh,OBC,Male,None,98.15,256,256,2,8,IIT Example,0.75
+S1734,Gujarat,GEN,Female,None,79.11,253,253,1,5,NIT Example,0.766
+S1735,Rajasthan,ST,Male,Defence,85.26,228,238,3,3,IIT Example,0.668
+S1736,Gujarat,GEN,Female,None,56.61,118,118,2,3,Community College,0.573
+S1737,Karnataka,SC,Female,TFW,66.3,149,149,1,7,Regional Engineering College,0.434
+S1738,Uttar Pradesh,SC,Male,None,68.84,191,191,2,9,State Tech University,0.555
+S1739,Tamil Nadu,GEN,Female,None,61.97,161,161,2,5,Regional Engineering College,0.488
+S1740,Haryana,GEN,Male,None,74.49,134,134,1,5,Local Government College,0.495
+S1741,Uttar Pradesh,OBC,Female,None,71.91,185,185,1,7,State Tech University,0.527
+S1742,Maharashtra,GEN,Female,None,76.5,189,189,3,6,State Tech University,0.545
+S1743,Karnataka,GEN,Male,None,85.68,249,249,2,9,NIT Example,0.748
+S1744,Karnataka,SC,Male,None,79.76,211,211,2,3,NIT Example,0.575
+S1745,Karnataka,GEN,Male,None,72.91,172,172,2,3,Regional Engineering College,0.538
+S1746,Tamil Nadu,GEN,Male,None,86.93,232,232,0,3,NIT Example,0.671
+S1747,Maharashtra,EWS,Male,None,61.98,152,152,1,8,Regional Engineering College,0.447
+S1748,Karnataka,GEN,Female,None,60.08,180,180,2,10,State Tech University,0.505
+S1749,Tamil Nadu,GEN,Male,None,70.5,182,182,2,7,State Tech University,0.514
+S1750,Karnataka,GEN,Male,None,71.15,161,161,4,4,Regional Engineering College,0.488
+S1751,Rajasthan,GEN,Female,None,65.37,157,157,1,9,Regional Engineering College,0.47
+S1752,Rajasthan,GEN,Female,None,99.0,278,278,2,9,IIT Example,0.85
+S1753,Karnataka,OBC,Other,None,77.96,235,235,1,7,NIT Example,0.685
+S1754,Gujarat,GEN,Male,None,83.54,192,192,3,4,State Tech University,0.559
+S1755,Maharashtra,OBC,Male,None,70.97,156,156,2,5,Regional Engineering College,0.465
+S1756,Rajasthan,GEN,Female,None,50.18,132,132,1,7,Local Government College,0.486
+S1757,Gujarat,ST,Male,None,86.34,210,210,2,8,NIT Example,0.571
+S1758,Delhi,SC,Female,None,64.5,129,129,4,3,Local Government College,0.473
+S1759,Tamil Nadu,SC,Male,None,93.24,189,189,2,10,State Tech University,0.545
+S1760,Haryana,SC,Male,None,81.85,228,228,2,7,NIT Example,0.653
+S1761,Tamil Nadu,GEN,Other,None,62.64,150,150,0,9,Regional Engineering College,0.438
+S1762,Gujarat,GEN,Male,None,50.39,113,113,1,9,Community College,0.55
+S1763,Gujarat,GEN,Female,TFW,69.94,197,197,1,9,State Tech University,0.582
+S1764,Rajasthan,OBC,Female,None,57.0,148,148,1,6,Regional Engineering College,0.429
+S1765,Rajasthan,GEN,Female,None,86.26,243,243,3,6,NIT Example,0.721
+S1766,Karnataka,GEN,Male,Defence,68.27,164,174,0,3,Regional Engineering College,0.547
+S1767,Gujarat,OBC,Female,TFW,79.92,192,192,4,3,State Tech University,0.559
+S1768,Gujarat,GEN,Female,None,61.42,181,181,3,5,State Tech University,0.509
+S1769,Delhi,OBC,Female,None,72.65,202,202,0,9,State Tech University,0.605
+S1770,Uttar Pradesh,GEN,Male,None,93.91,242,242,1,4,NIT Example,0.716
+S1771,Tamil Nadu,GEN,Male,Defence,78.99,172,182,2,8,State Tech University,0.514
+S1772,Maharashtra,OBC,Female,None,81.93,182,182,3,5,State Tech University,0.514
+S1773,Maharashtra,GEN,Male,None,62.8,150,150,3,3,Regional Engineering College,0.438
+S1774,Rajasthan,GEN,Male,None,56.44,179,179,4,7,Regional Engineering College,0.57
+S1775,Haryana,GEN,Male,None,70.15,182,182,1,3,State Tech University,0.514
+S1776,Delhi,GEN,Male,None,99.0,270,270,5,5,IIT Example,0.814
+S1777,Tamil Nadu,GEN,Female,None,79.63,186,186,5,10,State Tech University,0.532
+S1778,Delhi,ST,Female,None,84.72,202,202,4,9,NIT Example,0.535
+S1779,Tamil Nadu,GEN,Male,None,90.6,200,200,2,5,State Tech University,0.595
+S1780,Uttar Pradesh,GEN,Male,None,92.61,240,240,3,4,NIT Example,0.707
+S1781,Haryana,OBC,Female,None,85.7,217,217,2,9,NIT Example,0.603
+S1782,Tamil Nadu,GEN,Male,None,84.85,197,197,5,7,State Tech University,0.582
+S1783,Karnataka,GEN,Male,None,88.27,222,222,2,8,NIT Example,0.625
+S1784,Maharashtra,GEN,Male,None,77.32,202,202,0,6,State Tech University,0.605
+S1785,Maharashtra,SC,Male,None,87.88,233,233,1,3,NIT Example,0.675
+S1786,Uttar Pradesh,GEN,Female,None,52.09,152,152,1,10,Regional Engineering College,0.447
+S1787,Maharashtra,GEN,Male,None,84.03,219,219,2,8,State Tech University,0.682
+S1788,Delhi,EWS,Female,None,58.91,145,145,2,9,Regional Engineering College,0.415
+S1789,Gujarat,EWS,Female,None,54.33,144,144,1,9,Regional Engineering College,0.411
+S1790,Karnataka,OBC,Female,None,92.04,218,218,2,9,NIT Example,0.607
+S1791,Haryana,OBC,Female,None,81.92,208,208,0,5,State Tech University,0.632
+S1792,Haryana,GEN,Female,TFW,83.65,225,225,2,6,NIT Example,0.639
+S1793,Uttar Pradesh,SC,Female,None,69.62,186,186,3,5,State Tech University,0.532
+S1794,Gujarat,GEN,Male,None,86.55,254,254,1,9,NIT Example,0.771
+S1795,Maharashtra,ST,Female,None,74.29,187,187,1,6,State Tech University,0.536
+S1796,Karnataka,EWS,Female,Defence,72.68,207,217,1,4,NIT Example,0.603
+S1797,Maharashtra,GEN,Female,None,82.7,208,208,0,4,State Tech University,0.632
+S1798,Haryana,GEN,Male,TFW,63.0,218,218,1,5,State Tech University,0.677
+S1799,Karnataka,GEN,Male,None,54.83,130,130,4,5,Local Government College,0.477
+S1800,Haryana,GEN,Male,None,67.19,166,166,5,10,Regional Engineering College,0.511
+S1801,Tamil Nadu,ST,Female,None,62.99,142,142,1,8,Regional Engineering College,0.402
+S1802,Delhi,GEN,Female,TFW,40.8,119,119,2,5,Community College,0.577
+S1803,Haryana,GEN,Female,TFW,66.76,160,160,3,8,Regional Engineering College,0.484
+S1804,Karnataka,OBC,Female,None,80.74,173,173,3,3,State Tech University,0.473
+S1805,Maharashtra,SC,Male,None,95.51,261,261,0,3,IIT Example,0.773
+S1806,Tamil Nadu,SC,Male,None,68.02,186,186,0,9,State Tech University,0.532
+S1807,Karnataka,GEN,Female,None,73.93,174,174,1,8,Regional Engineering College,0.547
+S1808,Haryana,OBC,Female,None,58.01,183,183,4,4,State Tech University,0.518
+S1809,Karnataka,GEN,Male,TFW,60.67,132,132,0,9,Local Government College,0.486
+S1810,Rajasthan,GEN,Male,None,72.51,221,221,2,10,NIT Example,0.621
+S1811,Uttar Pradesh,OBC,Male,None,58.92,141,141,1,3,Regional Engineering College,0.397
+S1812,Tamil Nadu,EWS,Male,None,79.67,177,177,2,3,State Tech University,0.491
+S1813,Rajasthan,GEN,Female,None,90.06,251,251,5,10,NIT Example,0.757
+S1814,Uttar Pradesh,GEN,Female,TFW,70.57,177,177,1,9,Regional Engineering College,0.561
+S1815,Delhi,GEN,Male,None,78.61,223,223,1,7,NIT Example,0.63
+S1816,Rajasthan,GEN,Female,None,78.59,222,222,2,9,NIT Example,0.625
+S1817,Uttar Pradesh,OBC,Male,None,64.13,170,170,1,4,State Tech University,0.459
+S1818,Rajasthan,GEN,Female,None,78.76,167,167,2,8,Regional Engineering College,0.515
+S1819,Rajasthan,OBC,Female,None,85.92,221,221,2,9,NIT Example,0.621
+S1820,Gujarat,ST,Female,None,92.95,234,234,2,6,NIT Example,0.68
+S1821,Karnataka,SC,Female,None,76.06,185,185,1,8,State Tech University,0.527
+S1822,Maharashtra,GEN,Male,None,90.78,263,263,6,8,IIT Example,0.782
+S1823,Karnataka,SC,Female,None,71.76,151,151,0,3,Regional Engineering College,0.443
+S1824,Haryana,EWS,Female,None,75.72,204,204,3,4,State Tech University,0.614
+S1825,Maharashtra,GEN,Female,None,93.06,261,261,2,5,IIT Example,0.773
+S1826,Rajasthan,GEN,Male,None,68.29,166,166,3,3,Regional Engineering College,0.511
+S1827,Gujarat,SC,Male,NRI,94.17,260,220,1,4,NIT Example,0.616
+S1828,Haryana,OBC,Male,None,75.96,205,205,3,8,State Tech University,0.618
+S1829,Rajasthan,OBC,Female,None,76.03,154,154,1,5,Regional Engineering College,0.456
+S1830,Haryana,GEN,Male,None,74.13,239,239,0,9,NIT Example,0.703
+S1831,Rajasthan,GEN,Female,None,65.42,175,175,1,7,Regional Engineering College,0.552
+S1832,Karnataka,EWS,Female,None,80.51,201,201,1,3,State Tech University,0.6
+S1833,Rajasthan,GEN,Female,None,74.65,227,227,4,4,NIT Example,0.648
+S1834,Haryana,OBC,Female,None,66.51,228,228,0,9,NIT Example,0.653
+S1835,Uttar Pradesh,GEN,Male,None,85.42,270,270,1,6,IIT Example,0.814
+S1836,Haryana,EWS,Male,None,84.6,218,218,4,10,NIT Example,0.607
+S1837,Rajasthan,ST,Female,None,71.25,211,211,2,9,NIT Example,0.575
+S1838,Maharashtra,ST,Female,None,57.7,138,138,3,7,Regional Engineering College,0.384
+S1839,Delhi,GEN,Female,TFW,68.79,237,237,2,6,NIT Example,0.694
+S1840,Maharashtra,ST,Male,None,53.26,114,114,2,5,Local Government College,0.405
+S1841,Gujarat,SC,Female,None,75.5,167,167,1,8,State Tech University,0.445
+S1842,Gujarat,GEN,Female,None,98.11,227,227,3,9,NIT Example,0.648
+S1843,Uttar Pradesh,OBC,Male,None,92.81,208,208,3,9,State Tech University,0.632
+S1844,Tamil Nadu,ST,Male,None,79.11,181,181,1,9,State Tech University,0.509
+S1845,Gujarat,OBC,Male,None,71.87,196,196,3,5,State Tech University,0.577
+S1846,Karnataka,OBC,Female,None,76.52,159,159,1,7,Regional Engineering College,0.479
+S1847,Tamil Nadu,EWS,Male,None,64.1,154,154,2,9,Regional Engineering College,0.456
+S1848,Maharashtra,OBC,Female,None,75.95,190,190,2,4,State Tech University,0.55
+S1849,Rajasthan,GEN,Female,Defence,85.38,225,235,3,8,NIT Example,0.685
+S1850,Tamil Nadu,GEN,Female,None,78.25,187,187,3,6,State Tech University,0.536
+S1851,Rajasthan,SC,Female,None,96.72,261,261,2,5,IIT Example,0.773
+S1852,Maharashtra,OBC,Female,None,50.13,134,134,5,10,Local Government College,0.495
+S1853,Karnataka,GEN,Male,NRI,68.65,197,157,1,4,Regional Engineering College,0.47
+S1854,Karnataka,OBC,Male,None,51.18,126,126,2,9,Local Government College,0.459
+S1855,Karnataka,OBC,Male,None,82.93,211,211,0,4,NIT Example,0.575
+S1856,Uttar Pradesh,OBC,Male,None,75.5,262,262,1,10,IIT Example,0.777
+S1857,Tamil Nadu,GEN,Male,None,88.84,260,260,3,3,IIT Example,0.768
+S1858,Karnataka,EWS,Other,None,46.25,103,103,2,3,Community College,0.505
+S1859,Tamil Nadu,OBC,Male,None,79.28,204,204,0,3,State Tech University,0.614
+S1860,Maharashtra,OBC,Female,None,74.54,214,214,3,8,NIT Example,0.589
+S1861,Karnataka,ST,Male,None,53.92,108,108,2,4,Local Government College,0.377
+S1862,Tamil Nadu,GEN,Female,TFW,72.93,166,166,0,8,Regional Engineering College,0.511
+S1863,Delhi,OBC,Female,None,62.83,171,171,1,9,State Tech University,0.464
+S1864,Uttar Pradesh,GEN,Male,None,88.68,201,201,4,7,State Tech University,0.6
+S1865,Rajasthan,GEN,Female,None,72.57,193,193,4,5,State Tech University,0.564
+S1866,Uttar Pradesh,EWS,Female,NRI,71.72,201,161,3,9,Regional Engineering College,0.488
+S1867,Delhi,SC,Female,None,78.37,249,249,1,9,IIT Example,0.718
+S1868,Uttar Pradesh,OBC,Male,None,64.1,181,181,2,4,State Tech University,0.509
+S1869,Haryana,GEN,Male,None,69.07,142,142,1,9,Local Government College,0.532
+S1870,Delhi,OBC,Female,TFW,79.66,224,224,1,8,NIT Example,0.635
+S1871,Rajasthan,GEN,Male,None,64.44,180,180,2,5,State Tech University,0.505
+S1872,Gujarat,GEN,Male,None,86.12,214,214,0,5,State Tech University,0.659
+S1873,Gujarat,GEN,Male,None,61.69,165,165,3,8,Regional Engineering College,0.506
+S1874,Uttar Pradesh,OBC,Female,NRI,75.46,215,175,3,4,State Tech University,0.482
+S1875,Rajasthan,GEN,Male,None,71.93,218,218,0,7,State Tech University,0.677
+S1876,Karnataka,OBC,Female,None,68.48,209,209,0,9,State Tech University,0.636
+S1877,Gujarat,SC,Male,None,85.51,230,230,3,10,NIT Example,0.662
+S1878,Haryana,GEN,Male,None,88.93,220,220,2,10,NIT Example,0.616
+S1879,Tamil Nadu,OBC,Female,None,84.08,212,212,3,3,NIT Example,0.58
+S1880,Delhi,GEN,Female,None,75.65,163,163,4,3,Regional Engineering College,0.497
+S1881,Haryana,GEN,Female,None,71.24,178,178,6,3,Regional Engineering College,0.565
+S1882,Gujarat,OBC,Male,None,99.0,259,259,2,9,IIT Example,0.764
+S1883,Delhi,GEN,Female,None,65.85,158,158,2,8,Regional Engineering College,0.475
+S1884,Haryana,OBC,Male,None,82.35,175,175,1,10,State Tech University,0.482
+S1885,Haryana,SC,Female,None,82.48,230,230,1,8,NIT Example,0.662
+S1886,Karnataka,GEN,Male,None,68.92,185,185,2,4,State Tech University,0.527
+S1887,Gujarat,SC,Female,None,99.0,229,229,3,4,NIT Example,0.657
+S1888,Uttar Pradesh,SC,Female,None,71.94,193,193,0,3,State Tech University,0.564
+S1889,Maharashtra,GEN,Female,None,69.81,236,236,2,7,NIT Example,0.689
+S1890,Karnataka,GEN,Female,None,37.6,99,99,5,9,Community College,0.486
+S1891,Delhi,OBC,Female,None,65.98,209,209,8,4,State Tech University,0.636
+S1892,Tamil Nadu,GEN,Male,None,66.54,139,139,0,9,Local Government College,0.518
+S1893,Haryana,OBC,Female,None,83.6,300,300,3,10,IIT Example,0.95
+S1894,Haryana,EWS,Male,None,61.85,113,113,3,6,Local Government College,0.4
+S1895,Karnataka,GEN,Male,None,79.1,215,215,0,6,State Tech University,0.664
+S1896,Uttar Pradesh,OBC,Male,None,68.78,221,221,1,6,NIT Example,0.621
+S1897,Maharashtra,OBC,Male,None,48.41,120,120,2,10,Local Government College,0.432
+S1898,Karnataka,GEN,Female,None,77.06,215,215,1,8,State Tech University,0.664
+S1899,Delhi,OBC,Female,None,78.73,179,179,1,4,State Tech University,0.5
+S1900,Tamil Nadu,GEN,Male,Defence,55.2,161,171,0,6,Regional Engineering College,0.534
+S1901,Rajasthan,GEN,Male,None,64.63,196,196,3,7,State Tech University,0.577
+S1902,Karnataka,GEN,Female,None,62.95,187,187,0,6,State Tech University,0.536
+S1903,Maharashtra,ST,Male,None,52.04,150,150,3,10,Regional Engineering College,0.438
+S1904,Gujarat,GEN,Female,None,95.0,254,254,4,9,NIT Example,0.771
+S1905,Uttar Pradesh,GEN,Female,None,92.45,228,228,1,3,NIT Example,0.653
+S1906,Haryana,GEN,Male,None,84.98,240,240,1,9,NIT Example,0.707
+S1907,Uttar Pradesh,GEN,Male,None,57.91,198,198,1,10,State Tech University,0.586
+S1908,Rajasthan,GEN,Male,None,64.17,234,234,0,4,NIT Example,0.68
+S1909,Uttar Pradesh,GEN,Female,None,92.38,257,257,5,6,NIT Example,0.785
+S1910,Karnataka,OBC,Male,NRI,72.3,158,118,2,9,Local Government College,0.423
+S1911,Rajasthan,GEN,Male,None,75.79,238,238,0,7,NIT Example,0.698
+S1912,Haryana,GEN,Female,None,69.85,201,201,1,7,State Tech University,0.6
+S1913,Delhi,SC,Male,None,84.46,231,231,4,10,NIT Example,0.666
+S1914,Delhi,SC,Female,None,63.36,130,130,4,4,Regional Engineering College,0.347
+S1915,Tamil Nadu,GEN,Female,None,70.94,214,214,4,3,State Tech University,0.659
+S1916,Haryana,GEN,Male,Defence,70.48,191,201,3,4,State Tech University,0.6
+S1917,Tamil Nadu,OBC,Female,None,80.15,227,227,2,10,NIT Example,0.648
+S1918,Maharashtra,OBC,Male,None,58.32,148,148,2,3,Regional Engineering College,0.429
+S1919,Delhi,SC,Female,None,59.12,142,142,6,5,Regional Engineering College,0.402
+S1920,Karnataka,GEN,Female,None,61.02,118,118,3,10,Community College,0.573
+S1921,Gujarat,EWS,Male,None,69.44,153,153,4,8,Regional Engineering College,0.452
+S1922,Haryana,GEN,Male,None,76.11,228,228,1,10,NIT Example,0.653
+S1923,Karnataka,GEN,Female,None,94.56,255,255,1,5,NIT Example,0.775
+S1924,Rajasthan,SC,Female,None,79.75,204,204,3,10,NIT Example,0.544
+S1925,Maharashtra,GEN,Female,Defence,86.1,228,238,2,8,NIT Example,0.698
+S1926,Uttar Pradesh,SC,Male,TFW,80.32,213,213,5,4,NIT Example,0.585
+S1927,Delhi,ST,Female,NRI,47.33,164,124,2,10,Local Government College,0.45
+S1928,Tamil Nadu,GEN,Female,NRI,73.24,215,175,1,9,Regional Engineering College,0.552
+S1929,Rajasthan,EWS,Male,None,68.06,184,184,2,8,State Tech University,0.523
+S1930,Karnataka,GEN,Male,Defence,80.38,217,227,1,8,NIT Example,0.648
+S1931,Delhi,GEN,Male,TFW,72.55,143,143,3,5,Local Government College,0.536
+S1932,Haryana,OBC,Female,None,70.2,136,136,0,5,Local Government College,0.505
+S1933,Delhi,OBC,Male,None,67.36,193,193,1,10,State Tech University,0.564
+S1934,Maharashtra,GEN,Female,None,76.89,204,204,3,10,State Tech University,0.614
+S1935,Delhi,GEN,Male,None,72.16,154,154,2,3,Regional Engineering College,0.456
+S1936,Delhi,GEN,Female,None,96.24,281,281,2,5,IIT Example,0.864
+S1937,Karnataka,OBC,Male,None,53.93,151,151,3,9,Regional Engineering College,0.443
+S1938,Karnataka,GEN,Male,TFW,64.37,151,151,0,6,Regional Engineering College,0.443
+S1939,Rajasthan,GEN,Female,None,84.34,191,191,1,7,State Tech University,0.555
+S1940,Delhi,OBC,Male,None,79.05,222,222,2,8,NIT Example,0.625
+S1941,Tamil Nadu,OBC,Male,None,80.5,181,181,4,6,State Tech University,0.509
+S1942,Delhi,GEN,Male,TFW,82.8,198,198,1,10,State Tech University,0.586
+S1943,Tamil Nadu,GEN,Female,None,69.4,169,169,2,5,Regional Engineering College,0.525
+S1944,Haryana,OBC,Female,None,99.0,223,223,3,8,NIT Example,0.63
+S1945,Haryana,GEN,Male,Defence,97.95,221,231,2,10,NIT Example,0.666
+S1946,Maharashtra,ST,Male,None,61.96,173,173,3,4,State Tech University,0.473
+S1947,Tamil Nadu,OBC,Male,None,94.57,227,227,2,8,NIT Example,0.648
+S1948,Tamil Nadu,OBC,Female,NRI,53.64,166,126,3,3,Local Government College,0.459
+S1949,Rajasthan,GEN,Female,None,58.53,144,144,1,10,Local Government College,0.541
+S1950,Maharashtra,GEN,Male,Defence,87.58,206,216,3,4,State Tech University,0.668
+S1951,Gujarat,OBC,Female,None,77.85,214,214,1,8,NIT Example,0.589
+S1952,Maharashtra,GEN,Female,None,63.87,198,198,3,3,State Tech University,0.586
+S1953,Uttar Pradesh,OBC,Female,Defence,69.06,154,164,2,5,Regional Engineering College,0.502
+S1954,Uttar Pradesh,ST,Female,None,71.76,168,168,1,7,State Tech University,0.45
+S1955,Maharashtra,SC,Female,None,71.92,174,174,3,4,State Tech University,0.477
+S1956,Maharashtra,GEN,Female,None,69.31,188,188,5,6,State Tech University,0.541
+S1957,Uttar Pradesh,GEN,Male,None,72.16,117,117,0,9,Community College,0.568
+S1958,Maharashtra,ST,Male,None,75.73,245,245,0,5,IIT Example,0.7
+S1959,Uttar Pradesh,SC,Female,None,56.36,150,150,0,10,Regional Engineering College,0.438
+S1960,Karnataka,GEN,Female,None,59.05,134,134,5,6,Local Government College,0.495
+S1961,Tamil Nadu,OBC,Female,None,73.87,221,221,2,10,NIT Example,0.621
+S1962,Delhi,GEN,Male,None,78.2,230,230,2,8,NIT Example,0.662
+S1963,Delhi,GEN,Female,None,46.75,122,122,3,9,Local Government College,0.441
+S1964,Rajasthan,GEN,Male,None,66.35,182,182,4,9,State Tech University,0.514
+S1965,Maharashtra,OBC,Male,None,64.59,168,168,1,10,Regional Engineering College,0.52
+S1966,Maharashtra,ST,Male,None,76.94,240,240,1,10,IIT Example,0.677
+S1967,Delhi,GEN,Male,None,90.11,279,279,2,6,IIT Example,0.855
+S1968,Gujarat,ST,Female,None,97.37,199,199,0,5,NIT Example,0.521
+S1969,Tamil Nadu,GEN,Female,None,72.83,204,204,0,5,State Tech University,0.614
+S1970,Delhi,SC,Female,TFW,92.46,199,199,2,4,State Tech University,0.591
+S1971,Haryana,GEN,Male,None,85.16,207,207,0,7,State Tech University,0.627
+S1972,Tamil Nadu,OBC,Female,None,69.76,207,207,1,9,State Tech University,0.627
+S1973,Karnataka,GEN,Female,None,70.39,163,163,4,4,Regional Engineering College,0.497
+S1974,Karnataka,OBC,Female,None,66.11,109,109,2,6,Community College,0.532
+S1975,Uttar Pradesh,GEN,Female,None,77.62,197,197,1,9,State Tech University,0.582
+S1976,Rajasthan,ST,Male,None,74.86,170,170,2,3,State Tech University,0.459
+S1977,Karnataka,GEN,Male,None,54.76,165,165,0,3,Regional Engineering College,0.506
+S1978,Tamil Nadu,GEN,Female,None,65.52,187,187,5,6,State Tech University,0.536
+S1979,Uttar Pradesh,GEN,Male,None,82.76,198,198,1,6,State Tech University,0.586
+S1980,Tamil Nadu,GEN,Female,None,93.18,270,270,1,4,IIT Example,0.814
+S1981,Maharashtra,OBC,Female,None,90.3,206,206,0,5,State Tech University,0.623
+S1982,Maharashtra,GEN,Male,None,66.36,190,190,0,4,State Tech University,0.55
+S1983,Gujarat,GEN,Female,TFW,94.4,226,226,3,10,NIT Example,0.644
+S1984,Uttar Pradesh,SC,Female,None,48.57,120,120,2,8,Local Government College,0.432
+S1985,Gujarat,OBC,Female,None,97.08,274,274,1,4,IIT Example,0.832
+S1986,Haryana,GEN,Male,None,89.35,253,253,4,4,NIT Example,0.766
+S1987,Tamil Nadu,SC,Male,None,84.56,261,261,2,6,IIT Example,0.773
+S1988,Maharashtra,OBC,Male,None,88.75,262,262,4,7,IIT Example,0.777
+S1989,Delhi,GEN,Male,NRI,77.49,212,172,2,5,Regional Engineering College,0.538
+S1990,Delhi,GEN,Female,NRI,78.17,177,137,1,7,Local Government College,0.509
+S1991,Rajasthan,OBC,Female,NRI,76.78,211,171,3,10,State Tech University,0.464
+S1992,Delhi,OBC,Male,None,77.73,204,204,4,6,State Tech University,0.614
+S1993,Gujarat,ST,Male,None,81.36,208,208,1,8,NIT Example,0.562
+S1994,Maharashtra,GEN,Male,TFW,74.59,216,216,2,3,State Tech University,0.668
+S1995,Gujarat,EWS,Female,None,90.26,231,231,0,4,NIT Example,0.666
+S1996,Haryana,EWS,Male,None,94.1,229,229,3,3,NIT Example,0.657
+S1997,Haryana,OBC,Female,None,95.93,266,266,4,7,IIT Example,0.795
+S1998,Uttar Pradesh,GEN,Male,None,58.12,108,108,1,6,Community College,0.527
+S1999,Rajasthan,OBC,Female,None,79.46,184,184,5,3,State Tech University,0.523
+S2000,Rajasthan,SC,Female,None,86.54,245,245,0,9,IIT Example,0.7
