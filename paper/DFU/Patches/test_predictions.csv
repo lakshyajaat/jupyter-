@@ -1,164 +1,164 @@
 filepath,true_idx,true_label,pred_idx,pred_label,pred_prob
-/home/lakshya/jupyter/paper/DFU/TestSet/0.jpg,1,unknown,1,unknown,0.991836
-/home/lakshya/jupyter/paper/DFU/TestSet/0cbt67mm0fr01.jpg,1,unknown,1,unknown,0.99297297
-/home/lakshya/jupyter/paper/DFU/TestSet/1 .jpg,1,unknown,1,unknown,0.99322104
-/home/lakshya/jupyter/paper/DFU/TestSet/1.jpg,1,unknown,1,unknown,0.9933496
-/home/lakshya/jupyter/paper/DFU/TestSet/10.jpg,1,unknown,1,unknown,0.9917613
-/home/lakshya/jupyter/paper/DFU/TestSet/11.jpg,1,unknown,1,unknown,0.99256647
-/home/lakshya/jupyter/paper/DFU/TestSet/1167 (1).jpg,1,unknown,1,unknown,0.99327916
-/home/lakshya/jupyter/paper/DFU/TestSet/1167.jpg,1,unknown,1,unknown,0.9922926
-/home/lakshya/jupyter/paper/DFU/TestSet/12.jpg,1,unknown,1,unknown,0.99249613
-/home/lakshya/jupyter/paper/DFU/TestSet/13.jpg,1,unknown,1,unknown,0.9922489
-/home/lakshya/jupyter/paper/DFU/TestSet/14.jpg,1,unknown,1,unknown,0.99261004
-/home/lakshya/jupyter/paper/DFU/TestSet/15.jpg,1,unknown,1,unknown,0.9923632
-/home/lakshya/jupyter/paper/DFU/TestSet/16.jpg,1,unknown,1,unknown,0.9927371
-/home/lakshya/jupyter/paper/DFU/TestSet/17.jpg,1,unknown,1,unknown,0.99236685
-/home/lakshya/jupyter/paper/DFU/TestSet/18.jpg,1,unknown,1,unknown,0.9936399
-/home/lakshya/jupyter/paper/DFU/TestSet/1882_19-Effective-Home-Remedies-For-Corns-And-Calluses (1).jpg,1,unknown,1,unknown,0.992886
-/home/lakshya/jupyter/paper/DFU/TestSet/1882_19-Effective-Home-Remedies-For-Corns-And-Calluses.jpg,1,unknown,1,unknown,0.9928041
-/home/lakshya/jupyter/paper/DFU/TestSet/19.jpg,1,unknown,1,unknown,0.9937411
-/home/lakshya/jupyter/paper/DFU/TestSet/2.jpg,1,unknown,1,unknown,0.99299604
-/home/lakshya/jupyter/paper/DFU/TestSet/20.jpg,1,unknown,1,unknown,0.9925362
-/home/lakshya/jupyter/paper/DFU/TestSet/21.jpg,1,unknown,1,unknown,0.99219793
-/home/lakshya/jupyter/paper/DFU/TestSet/22.jpg,1,unknown,1,unknown,0.9933344
-/home/lakshya/jupyter/paper/DFU/TestSet/222748d9f97a36c08da91dc46f6f5200.jpg,1,unknown,1,unknown,0.9938746
-/home/lakshya/jupyter/paper/DFU/TestSet/23.jpg,1,unknown,1,unknown,0.992305
-/home/lakshya/jupyter/paper/DFU/TestSet/240_F_214198906_xKY39M1gdfq0dhoyLlik7dSrIRdiacQO.jpg,1,unknown,1,unknown,0.9920976
-/home/lakshya/jupyter/paper/DFU/TestSet/25.jpg,1,unknown,1,unknown,0.9924809
-/home/lakshya/jupyter/paper/DFU/TestSet/2854.fig.1.png,1,unknown,1,unknown,0.99863
-/home/lakshya/jupyter/paper/DFU/TestSet/2cyruuzga5e01.jpg,1,unknown,1,unknown,0.99249554
-/home/lakshya/jupyter/paper/DFU/TestSet/3.jpg,1,unknown,1,unknown,0.9927764
-/home/lakshya/jupyter/paper/DFU/TestSet/30.jpg,1,unknown,1,unknown,0.9927522
-/home/lakshya/jupyter/paper/DFU/TestSet/36.jpg,1,unknown,1,unknown,0.99192095
-/home/lakshya/jupyter/paper/DFU/TestSet/37.jpg,1,unknown,1,unknown,0.9930611
-/home/lakshya/jupyter/paper/DFU/TestSet/38.jpg,1,unknown,1,unknown,0.9931058
-/home/lakshya/jupyter/paper/DFU/TestSet/3809525079_71eabf91b5_z.jpg,1,unknown,1,unknown,0.9915577
-/home/lakshya/jupyter/paper/DFU/TestSet/4 (2).jpg,1,unknown,1,unknown,0.9923356
-/home/lakshya/jupyter/paper/DFU/TestSet/4-Figure3-used.png,1,unknown,1,unknown,0.9947378
-/home/lakshya/jupyter/paper/DFU/TestSet/4.jpg,1,unknown,1,unknown,0.9917697
-/home/lakshya/jupyter/paper/DFU/TestSet/46683AFD00000578-5088439-image-a-7_1510827626291.jpg,1,unknown,1,unknown,0.9931272
-/home/lakshya/jupyter/paper/DFU/TestSet/47.jpg,1,unknown,1,unknown,0.9928803
-/home/lakshya/jupyter/paper/DFU/TestSet/48.jpg,1,unknown,1,unknown,0.9921267
-/home/lakshya/jupyter/paper/DFU/TestSet/5.jpg,1,unknown,1,unknown,0.9927309
-/home/lakshya/jupyter/paper/DFU/TestSet/50.jpg,1,unknown,1,unknown,0.99259406
-/home/lakshya/jupyter/paper/DFU/TestSet/6.jpg,1,unknown,1,unknown,0.9923815
-/home/lakshya/jupyter/paper/DFU/TestSet/62e0142009a44d1a98f41d8d8874cced.png,1,unknown,1,unknown,0.99419534
-/home/lakshya/jupyter/paper/DFU/TestSet/642x361_Foot_Corn_SLIDE_2.jpg,1,unknown,1,unknown,0.9929745
-/home/lakshya/jupyter/paper/DFU/TestSet/7.jpg,1,unknown,1,unknown,0.9916291
-/home/lakshya/jupyter/paper/DFU/TestSet/7527tn.jpg,1,unknown,1,unknown,0.99215525
-/home/lakshya/jupyter/paper/DFU/TestSet/7a5e12fa15.jpg,1,unknown,1,unknown,0.9936141
-/home/lakshya/jupyter/paper/DFU/TestSet/7e88c7_71fd61f6ac3d48cab475dfa44ea94017.jpg,1,unknown,1,unknown,0.99352807
-/home/lakshya/jupyter/paper/DFU/TestSet/8.jpg,1,unknown,1,unknown,0.99268055
-/home/lakshya/jupyter/paper/DFU/TestSet/9.jpg,1,unknown,1,unknown,0.9929067
-/home/lakshya/jupyter/paper/DFU/TestSet/A-diabetic-foot-ulcer-presents-significant-morbidity-and-mortality-to-patients-Proper_Q320.jpg,0,infected,1,unknown,0.9951095
-/home/lakshya/jupyter/paper/DFU/TestSet/B9780323072427000279_f027-008-9780323072427.jpg,1,unknown,1,unknown,0.99346864
-/home/lakshya/jupyter/paper/DFU/TestSet/C0365633-Diabetic_Heel_Ulcer.jpg,0,infected,1,unknown,0.992324
-/home/lakshya/jupyter/paper/DFU/TestSet/C1.jpg,1,unknown,1,unknown,0.991979
-/home/lakshya/jupyter/paper/DFU/TestSet/C2.jpg,1,unknown,1,unknown,0.992002
-/home/lakshya/jupyter/paper/DFU/TestSet/C3.jpg,1,unknown,1,unknown,0.9919442
-/home/lakshya/jupyter/paper/DFU/TestSet/Callus-Formation1.jpg,1,unknown,1,unknown,0.99231994
-/home/lakshya/jupyter/paper/DFU/TestSet/Class-1-Foot-at-risk-a-and-b-Foot-with-callus-but-no-ulcer-b-a (1).png,0,infected,1,unknown,0.99775946
-/home/lakshya/jupyter/paper/DFU/TestSet/Class-1-Foot-at-risk-a-and-b-Foot-with-callus-but-no-ulcer-b-a (2).png,0,infected,1,unknown,0.99775946
-/home/lakshya/jupyter/paper/DFU/TestSet/DSC00319.jpeg,1,unknown,1,unknown,0.9918662
-/home/lakshya/jupyter/paper/DFU/TestSet/Diabetic foot ulcer.jpg,0,infected,1,unknown,0.99489576
-/home/lakshya/jupyter/paper/DFU/TestSet/Diabetic-amputation-rates-continue-to-be-a-problem.jpg,1,unknown,1,unknown,0.9925369
-/home/lakshya/jupyter/paper/DFU/TestSet/Diabetic-neuropathic-feet-Callus-formation-as-a-presentation-of-neuropathy.png,1,unknown,1,unknown,0.9926863
-/home/lakshya/jupyter/paper/DFU/TestSet/DiabeticPicture4.jpg,1,unknown,1,unknown,0.99434924
-/home/lakshya/jupyter/paper/DFU/TestSet/F3.large.jpg,1,unknown,1,unknown,0.9936228
-/home/lakshya/jupyter/paper/DFU/TestSet/Foot-ulcer-600x399.png,0,infected,1,unknown,0.99260277
-/home/lakshya/jupyter/paper/DFU/TestSet/Footpuncture-blog2.jpg,1,unknown,1,unknown,0.9951435
-/home/lakshya/jupyter/paper/DFU/TestSet/GettyImages-840167308-1-650x450.jpg,1,unknown,1,unknown,0.99287945
-/home/lakshya/jupyter/paper/DFU/TestSet/Initial-presentation-of-the-diabetic-ulcer-at-the-left-lateral-foot.png,0,infected,1,unknown,0.99170226
-/home/lakshya/jupyter/paper/DFU/TestSet/M2800025-Diabetic_neuropathy_ulceration_of_sole_of_foot-SPL_popup.jpg,0,infected,1,unknown,0.9924769
-/home/lakshya/jupyter/paper/DFU/TestSet/PRF_071312_FIG1.jpg,1,unknown,1,unknown,0.9928114
-/home/lakshya/jupyter/paper/DFU/TestSet/Painless-ulcer-on-plantar-surface-of-her-right-big-toe.png,0,infected,1,unknown,0.99316204
-/home/lakshya/jupyter/paper/DFU/TestSet/RTEmagicC_017_FP0216_F1.jpg.jpg,1,unknown,1,unknown,0.9925195
-/home/lakshya/jupyter/paper/DFU/TestSet/Seed-Corn-under-Ball-of-Foot.jpg,1,unknown,1,unknown,0.9935237
-/home/lakshya/jupyter/paper/DFU/TestSet/a-Plantar-hallux-subungual-ulcer-b-ulcer-healing-after-tenotomy-of-the-flexor.png,0,infected,1,unknown,0.99924964
-/home/lakshya/jupyter/paper/DFU/TestSet/a39266877b6897fad51e9383d93daa05--diabetes-weird.jpg,1,unknown,1,unknown,0.99146664
-/home/lakshya/jupyter/paper/DFU/TestSet/afp19980315p1325-f4.jpg,1,unknown,1,unknown,0.9920953
-/home/lakshya/jupyter/paper/DFU/TestSet/b4b2e1341a7bf627a58f6ac32212ed93.jpg,1,unknown,1,unknown,0.99292505
-/home/lakshya/jupyter/paper/DFU/TestSet/bleeding-under-callus-preulcerative (1).jpg,0,infected,1,unknown,0.9933129
-/home/lakshya/jupyter/paper/DFU/TestSet/bleeding-under-callus-preulcerative.jpg,0,infected,1,unknown,0.9933129
-/home/lakshya/jupyter/paper/DFU/TestSet/calluses.jpg,1,unknown,1,unknown,0.9928041
-/home/lakshya/jupyter/paper/DFU/TestSet/complex_wound_management.jpg,1,unknown,1,unknown,0.99208343
-/home/lakshya/jupyter/paper/DFU/TestSet/corn-1200x820.jpg,1,unknown,1,unknown,0.9926797
-/home/lakshya/jupyter/paper/DFU/TestSet/corns.jpg,1,unknown,1,unknown,0.9930294
-/home/lakshya/jupyter/paper/DFU/TestSet/diabetic foot ulcer..jpg,0,infected,1,unknown,0.99179536
-/home/lakshya/jupyter/paper/DFU/TestSet/diabetic-foot-ulcer (1).jpg,0,infected,1,unknown,0.9937437
-/home/lakshya/jupyter/paper/DFU/TestSet/diabetic-foot-ulcer-pictures-5 (1).jpg,0,infected,1,unknown,0.99276793
-/home/lakshya/jupyter/paper/DFU/TestSet/diabetic-foot-ulcer-pictures-5.jpg,0,infected,1,unknown,0.99310005
-/home/lakshya/jupyter/paper/DFU/TestSet/diabetic-foot-ulcer-pictures.jpg,0,infected,1,unknown,0.9927146
-/home/lakshya/jupyter/paper/DFU/TestSet/diabetic-foot-ulcer.jpg,0,infected,1,unknown,0.9927371
-/home/lakshya/jupyter/paper/DFU/TestSet/diabetic-foot-ulcer_opt.jpg,0,infected,1,unknown,0.9923691
-/home/lakshya/jupyter/paper/DFU/TestSet/diabetic-ulcer-diseases-feet-CT3FE6.jpg,0,infected,1,unknown,0.9942022
-/home/lakshya/jupyter/paper/DFU/TestSet/diabetic_foot_ulcer.jpg,0,infected,1,unknown,0.9935056
-/home/lakshya/jupyter/paper/DFU/TestSet/diabetische.jpg,1,unknown,1,unknown,0.9948136
-/home/lakshya/jupyter/paper/DFU/TestSet/diabetoc-foot-ulcer.jpg,0,infected,1,unknown,0.9922549
-/home/lakshya/jupyter/paper/DFU/TestSet/display.jpg,1,unknown,1,unknown,0.99303365
-/home/lakshya/jupyter/paper/DFU/TestSet/download (1).jpg,1,unknown,1,unknown,0.9934869
-/home/lakshya/jupyter/paper/DFU/TestSet/download.jpg,1,unknown,1,unknown,0.99287224
-/home/lakshya/jupyter/paper/DFU/TestSet/e8511b3d622ba7d21d0b7749ff2111b9.jpg,1,unknown,1,unknown,0.99269027
-/home/lakshya/jupyter/paper/DFU/TestSet/fca6301733db7bae3970f6a2db215b30.jpg,1,unknown,1,unknown,0.99226874
-/home/lakshya/jupyter/paper/DFU/TestSet/feat_footulcer_cellul_1110_127752_127753.jpg,0,infected,1,unknown,0.99212146
-/home/lakshya/jupyter/paper/DFU/TestSet/feat_footulcer_necro_1110_127573.jpg,0,infected,1,unknown,0.9927684
-/home/lakshya/jupyter/paper/DFU/TestSet/fig1.jpg,1,unknown,1,unknown,0.9927131
-/home/lakshya/jupyter/paper/DFU/TestSet/foot-doctor-for-corn-callus-treatment.png,1,unknown,1,unknown,0.9919152
-/home/lakshya/jupyter/paper/DFU/TestSet/foot-ulcer-217x300.jpg,0,infected,1,unknown,0.992815
-/home/lakshya/jupyter/paper/DFU/TestSet/foot-ulcer-pic (1).png,0,infected,1,unknown,0.9963948
-/home/lakshya/jupyter/paper/DFU/TestSet/foot-ulcer-pic.png,0,infected,1,unknown,0.9927434
-/home/lakshya/jupyter/paper/DFU/TestSet/foot_ulcer_5.jpg,0,infected,1,unknown,0.99560225
-/home/lakshya/jupyter/paper/DFU/TestSet/hallux-IPJ-ulcer-post1A.jpg,0,infected,1,unknown,0.9960972
-/home/lakshya/jupyter/paper/DFU/TestSet/honey1.jpg,1,unknown,1,unknown,0.99388534
-/home/lakshya/jupyter/paper/DFU/TestSet/how-to-heal-a-diabetic-foot-ulcer-700393-2.jpg,0,infected,1,unknown,0.9929148
-/home/lakshya/jupyter/paper/DFU/TestSet/image1.jpeg,1,unknown,1,unknown,0.99382246
-/home/lakshya/jupyter/paper/DFU/TestSet/image3.jpeg,1,unknown,1,unknown,0.99312794
-/home/lakshya/jupyter/paper/DFU/TestSet/image4.jpeg,1,unknown,1,unknown,0.9926468
-/home/lakshya/jupyter/paper/DFU/TestSet/images (1).jpg,1,unknown,1,unknown,0.9933872
-/home/lakshya/jupyter/paper/DFU/TestSet/images (10).jpg,1,unknown,1,unknown,0.9918554
-/home/lakshya/jupyter/paper/DFU/TestSet/images (11).jpg,1,unknown,1,unknown,0.99387765
-/home/lakshya/jupyter/paper/DFU/TestSet/images (12).jpg,1,unknown,1,unknown,0.99366367
-/home/lakshya/jupyter/paper/DFU/TestSet/images (13).jpg,1,unknown,1,unknown,0.9923489
-/home/lakshya/jupyter/paper/DFU/TestSet/images (14).jpg,1,unknown,1,unknown,0.99333805
-/home/lakshya/jupyter/paper/DFU/TestSet/images (15).jpg,1,unknown,1,unknown,0.9928221
-/home/lakshya/jupyter/paper/DFU/TestSet/images (16).jpg,1,unknown,1,unknown,0.9930971
-/home/lakshya/jupyter/paper/DFU/TestSet/images (17).jpg,1,unknown,1,unknown,0.9923941
-/home/lakshya/jupyter/paper/DFU/TestSet/images (18).jpg,1,unknown,1,unknown,0.99187964
-/home/lakshya/jupyter/paper/DFU/TestSet/images (19).jpg,1,unknown,1,unknown,0.99514055
-/home/lakshya/jupyter/paper/DFU/TestSet/images (2).jpg,1,unknown,1,unknown,0.99304694
-/home/lakshya/jupyter/paper/DFU/TestSet/images (20).jpg,1,unknown,1,unknown,0.99456465
-/home/lakshya/jupyter/paper/DFU/TestSet/images (21).jpg,1,unknown,1,unknown,0.9918045
-/home/lakshya/jupyter/paper/DFU/TestSet/images (22).jpg,1,unknown,1,unknown,0.993305
-/home/lakshya/jupyter/paper/DFU/TestSet/images (23).jpg,1,unknown,1,unknown,0.99169993
-/home/lakshya/jupyter/paper/DFU/TestSet/images (24).jpg,1,unknown,1,unknown,0.99186605
-/home/lakshya/jupyter/paper/DFU/TestSet/images (25).jpg,1,unknown,1,unknown,0.99272895
-/home/lakshya/jupyter/paper/DFU/TestSet/images (26).jpg,1,unknown,1,unknown,0.9925063
-/home/lakshya/jupyter/paper/DFU/TestSet/images (27).jpg,1,unknown,1,unknown,0.9921428
-/home/lakshya/jupyter/paper/DFU/TestSet/images (28).jpg,1,unknown,1,unknown,0.9938441
-/home/lakshya/jupyter/paper/DFU/TestSet/images (29).jpg,1,unknown,1,unknown,0.9934744
-/home/lakshya/jupyter/paper/DFU/TestSet/images (3).jpg,1,unknown,1,unknown,0.9920527
-/home/lakshya/jupyter/paper/DFU/TestSet/images (30).jpg,1,unknown,1,unknown,0.9923718
-/home/lakshya/jupyter/paper/DFU/TestSet/images (31).jpg,1,unknown,1,unknown,0.9948107
-/home/lakshya/jupyter/paper/DFU/TestSet/images (32).jpg,1,unknown,1,unknown,0.99372923
-/home/lakshya/jupyter/paper/DFU/TestSet/images (33).jpg,1,unknown,1,unknown,0.9917795
-/home/lakshya/jupyter/paper/DFU/TestSet/images (34).jpg,1,unknown,1,unknown,0.99261534
-/home/lakshya/jupyter/paper/DFU/TestSet/images (35).jpg,1,unknown,1,unknown,0.99487275
-/home/lakshya/jupyter/paper/DFU/TestSet/images (4).jpg,1,unknown,1,unknown,0.9924418
-/home/lakshya/jupyter/paper/DFU/TestSet/images (5).jpg,1,unknown,1,unknown,0.99289095
-/home/lakshya/jupyter/paper/DFU/TestSet/images (6).jpg,1,unknown,1,unknown,0.9934045
-/home/lakshya/jupyter/paper/DFU/TestSet/images (7).jpg,1,unknown,1,unknown,0.9921599
-/home/lakshya/jupyter/paper/DFU/TestSet/images (8).jpg,1,unknown,1,unknown,0.99173284
-/home/lakshya/jupyter/paper/DFU/TestSet/images (9).jpg,1,unknown,1,unknown,0.9948664
-/home/lakshya/jupyter/paper/DFU/TestSet/images.jpg,1,unknown,1,unknown,0.99692947
-/home/lakshya/jupyter/paper/DFU/TestSet/lesioni-piede-diabetico_01.jpg,1,unknown,1,unknown,0.9929884
-/home/lakshya/jupyter/paper/DFU/TestSet/m5_05.jpg,1,unknown,1,unknown,0.9929188
-/home/lakshya/jupyter/paper/DFU/TestSet/maxresdefault.jpg,1,unknown,1,unknown,0.9984567
-/home/lakshya/jupyter/paper/DFU/TestSet/pre-ulceration (1).jpg,0,infected,1,unknown,0.99241644
-/home/lakshya/jupyter/paper/DFU/TestSet/pre-ulceration.jpg,0,infected,1,unknown,0.99241644
-/home/lakshya/jupyter/paper/DFU/TestSet/pt08cover4_0.jpg,1,unknown,1,unknown,0.9948337
-/home/lakshya/jupyter/paper/DFU/TestSet/pt1114diabetes_1.png,1,unknown,1,unknown,0.9919008
-/home/lakshya/jupyter/paper/DFU/TestSet/soft-corn-between-toes.jpg,1,unknown,1,unknown,0.99226534
-/home/lakshya/jupyter/paper/DFU/TestSet/tungiasis-3.jpg,1,unknown,1,unknown,0.9924089
-/home/lakshya/jupyter/paper/DFU/TestSet/ulcers (1).jpg,0,infected,1,unknown,0.9929022
-/home/lakshya/jupyter/paper/DFU/TestSet/ulcers_before.jpg,0,infected,1,unknown,0.99331987
-/home/lakshya/jupyter/paper/DFU/TestSet/wc_121102_diabetic_foot_ulcer_wound_200x151.jpg,0,infected,1,unknown,0.99401003
+/home/lakshya/jupyter/paper/DFU/TestSet/0.jpg,1,unknown,1,unknown,0.99690455
+/home/lakshya/jupyter/paper/DFU/TestSet/0cbt67mm0fr01.jpg,1,unknown,1,unknown,0.99680054
+/home/lakshya/jupyter/paper/DFU/TestSet/1 .jpg,1,unknown,1,unknown,0.99705243
+/home/lakshya/jupyter/paper/DFU/TestSet/1.jpg,1,unknown,1,unknown,0.9971252
+/home/lakshya/jupyter/paper/DFU/TestSet/10.jpg,1,unknown,1,unknown,0.9968927
+/home/lakshya/jupyter/paper/DFU/TestSet/11.jpg,1,unknown,1,unknown,0.9970535
+/home/lakshya/jupyter/paper/DFU/TestSet/1167 (1).jpg,1,unknown,1,unknown,0.9970792
+/home/lakshya/jupyter/paper/DFU/TestSet/1167.jpg,1,unknown,1,unknown,0.99625325
+/home/lakshya/jupyter/paper/DFU/TestSet/12.jpg,1,unknown,1,unknown,0.9970079
+/home/lakshya/jupyter/paper/DFU/TestSet/13.jpg,1,unknown,1,unknown,0.99716836
+/home/lakshya/jupyter/paper/DFU/TestSet/14.jpg,1,unknown,1,unknown,0.99707854
+/home/lakshya/jupyter/paper/DFU/TestSet/15.jpg,1,unknown,1,unknown,0.99675196
+/home/lakshya/jupyter/paper/DFU/TestSet/16.jpg,1,unknown,1,unknown,0.9969035
+/home/lakshya/jupyter/paper/DFU/TestSet/17.jpg,1,unknown,1,unknown,0.9970504
+/home/lakshya/jupyter/paper/DFU/TestSet/18.jpg,1,unknown,1,unknown,0.9974099
+/home/lakshya/jupyter/paper/DFU/TestSet/1882_19-Effective-Home-Remedies-For-Corns-And-Calluses (1).jpg,1,unknown,1,unknown,0.9967908
+/home/lakshya/jupyter/paper/DFU/TestSet/1882_19-Effective-Home-Remedies-For-Corns-And-Calluses.jpg,1,unknown,1,unknown,0.99730045
+/home/lakshya/jupyter/paper/DFU/TestSet/19.jpg,1,unknown,1,unknown,0.9975853
+/home/lakshya/jupyter/paper/DFU/TestSet/2.jpg,1,unknown,1,unknown,0.99708694
+/home/lakshya/jupyter/paper/DFU/TestSet/20.jpg,1,unknown,1,unknown,0.9969656
+/home/lakshya/jupyter/paper/DFU/TestSet/21.jpg,1,unknown,1,unknown,0.99670947
+/home/lakshya/jupyter/paper/DFU/TestSet/22.jpg,1,unknown,1,unknown,0.9971163
+/home/lakshya/jupyter/paper/DFU/TestSet/222748d9f97a36c08da91dc46f6f5200.jpg,1,unknown,1,unknown,0.99633193
+/home/lakshya/jupyter/paper/DFU/TestSet/23.jpg,1,unknown,1,unknown,0.99687386
+/home/lakshya/jupyter/paper/DFU/TestSet/240_F_214198906_xKY39M1gdfq0dhoyLlik7dSrIRdiacQO.jpg,1,unknown,1,unknown,0.9969266
+/home/lakshya/jupyter/paper/DFU/TestSet/25.jpg,1,unknown,1,unknown,0.99705905
+/home/lakshya/jupyter/paper/DFU/TestSet/2854.fig.1.png,1,unknown,1,unknown,0.997912
+/home/lakshya/jupyter/paper/DFU/TestSet/2cyruuzga5e01.jpg,1,unknown,1,unknown,0.9968868
+/home/lakshya/jupyter/paper/DFU/TestSet/3.jpg,1,unknown,1,unknown,0.99700207
+/home/lakshya/jupyter/paper/DFU/TestSet/30.jpg,1,unknown,1,unknown,0.99687046
+/home/lakshya/jupyter/paper/DFU/TestSet/36.jpg,1,unknown,1,unknown,0.9969441
+/home/lakshya/jupyter/paper/DFU/TestSet/37.jpg,1,unknown,1,unknown,0.9969909
+/home/lakshya/jupyter/paper/DFU/TestSet/38.jpg,1,unknown,1,unknown,0.99701345
+/home/lakshya/jupyter/paper/DFU/TestSet/3809525079_71eabf91b5_z.jpg,1,unknown,1,unknown,0.9960718
+/home/lakshya/jupyter/paper/DFU/TestSet/4 (2).jpg,1,unknown,1,unknown,0.99691474
+/home/lakshya/jupyter/paper/DFU/TestSet/4-Figure3-used.png,1,unknown,1,unknown,0.99663484
+/home/lakshya/jupyter/paper/DFU/TestSet/4.jpg,1,unknown,1,unknown,0.99678576
+/home/lakshya/jupyter/paper/DFU/TestSet/46683AFD00000578-5088439-image-a-7_1510827626291.jpg,1,unknown,1,unknown,0.9970023
+/home/lakshya/jupyter/paper/DFU/TestSet/47.jpg,1,unknown,1,unknown,0.99734384
+/home/lakshya/jupyter/paper/DFU/TestSet/48.jpg,1,unknown,1,unknown,0.99662125
+/home/lakshya/jupyter/paper/DFU/TestSet/5.jpg,1,unknown,1,unknown,0.99733055
+/home/lakshya/jupyter/paper/DFU/TestSet/50.jpg,1,unknown,1,unknown,0.9971855
+/home/lakshya/jupyter/paper/DFU/TestSet/6.jpg,1,unknown,1,unknown,0.99708575
+/home/lakshya/jupyter/paper/DFU/TestSet/62e0142009a44d1a98f41d8d8874cced.png,1,unknown,1,unknown,0.99752444
+/home/lakshya/jupyter/paper/DFU/TestSet/642x361_Foot_Corn_SLIDE_2.jpg,1,unknown,1,unknown,0.9971697
+/home/lakshya/jupyter/paper/DFU/TestSet/7.jpg,1,unknown,1,unknown,0.99673337
+/home/lakshya/jupyter/paper/DFU/TestSet/7527tn.jpg,1,unknown,1,unknown,0.9971521
+/home/lakshya/jupyter/paper/DFU/TestSet/7a5e12fa15.jpg,1,unknown,1,unknown,0.9968014
+/home/lakshya/jupyter/paper/DFU/TestSet/7e88c7_71fd61f6ac3d48cab475dfa44ea94017.jpg,1,unknown,1,unknown,0.9971282
+/home/lakshya/jupyter/paper/DFU/TestSet/8.jpg,1,unknown,1,unknown,0.9968569
+/home/lakshya/jupyter/paper/DFU/TestSet/9.jpg,1,unknown,1,unknown,0.99639446
+/home/lakshya/jupyter/paper/DFU/TestSet/A-diabetic-foot-ulcer-presents-significant-morbidity-and-mortality-to-patients-Proper_Q320.jpg,0,infected,1,unknown,0.997104
+/home/lakshya/jupyter/paper/DFU/TestSet/B9780323072427000279_f027-008-9780323072427.jpg,1,unknown,1,unknown,0.99660015
+/home/lakshya/jupyter/paper/DFU/TestSet/C0365633-Diabetic_Heel_Ulcer.jpg,0,infected,1,unknown,0.9967283
+/home/lakshya/jupyter/paper/DFU/TestSet/C1.jpg,1,unknown,1,unknown,0.9971903
+/home/lakshya/jupyter/paper/DFU/TestSet/C2.jpg,1,unknown,1,unknown,0.99725336
+/home/lakshya/jupyter/paper/DFU/TestSet/C3.jpg,1,unknown,1,unknown,0.99718386
+/home/lakshya/jupyter/paper/DFU/TestSet/Callus-Formation1.jpg,1,unknown,1,unknown,0.997191
+/home/lakshya/jupyter/paper/DFU/TestSet/Class-1-Foot-at-risk-a-and-b-Foot-with-callus-but-no-ulcer-b-a (1).png,0,infected,1,unknown,0.99734
+/home/lakshya/jupyter/paper/DFU/TestSet/Class-1-Foot-at-risk-a-and-b-Foot-with-callus-but-no-ulcer-b-a (2).png,0,infected,1,unknown,0.99734
+/home/lakshya/jupyter/paper/DFU/TestSet/DSC00319.jpeg,1,unknown,1,unknown,0.9971324
+/home/lakshya/jupyter/paper/DFU/TestSet/Diabetic foot ulcer.jpg,0,infected,1,unknown,0.9973769
+/home/lakshya/jupyter/paper/DFU/TestSet/Diabetic-amputation-rates-continue-to-be-a-problem.jpg,1,unknown,1,unknown,0.99714035
+/home/lakshya/jupyter/paper/DFU/TestSet/Diabetic-neuropathic-feet-Callus-formation-as-a-presentation-of-neuropathy.png,1,unknown,1,unknown,0.99711776
+/home/lakshya/jupyter/paper/DFU/TestSet/DiabeticPicture4.jpg,1,unknown,1,unknown,0.9971252
+/home/lakshya/jupyter/paper/DFU/TestSet/F3.large.jpg,1,unknown,1,unknown,0.9974394
+/home/lakshya/jupyter/paper/DFU/TestSet/Foot-ulcer-600x399.png,0,infected,1,unknown,0.99720085
+/home/lakshya/jupyter/paper/DFU/TestSet/Footpuncture-blog2.jpg,1,unknown,1,unknown,0.9975017
+/home/lakshya/jupyter/paper/DFU/TestSet/GettyImages-840167308-1-650x450.jpg,1,unknown,1,unknown,0.99733907
+/home/lakshya/jupyter/paper/DFU/TestSet/Initial-presentation-of-the-diabetic-ulcer-at-the-left-lateral-foot.png,0,infected,1,unknown,0.99687576
+/home/lakshya/jupyter/paper/DFU/TestSet/M2800025-Diabetic_neuropathy_ulceration_of_sole_of_foot-SPL_popup.jpg,0,infected,1,unknown,0.9968189
+/home/lakshya/jupyter/paper/DFU/TestSet/PRF_071312_FIG1.jpg,1,unknown,1,unknown,0.99700814
+/home/lakshya/jupyter/paper/DFU/TestSet/Painless-ulcer-on-plantar-surface-of-her-right-big-toe.png,0,infected,1,unknown,0.9969489
+/home/lakshya/jupyter/paper/DFU/TestSet/RTEmagicC_017_FP0216_F1.jpg.jpg,1,unknown,1,unknown,0.99693215
+/home/lakshya/jupyter/paper/DFU/TestSet/Seed-Corn-under-Ball-of-Foot.jpg,1,unknown,1,unknown,0.99715626
+/home/lakshya/jupyter/paper/DFU/TestSet/a-Plantar-hallux-subungual-ulcer-b-ulcer-healing-after-tenotomy-of-the-flexor.png,0,infected,1,unknown,0.99855584
+/home/lakshya/jupyter/paper/DFU/TestSet/a39266877b6897fad51e9383d93daa05--diabetes-weird.jpg,1,unknown,1,unknown,0.99714595
+/home/lakshya/jupyter/paper/DFU/TestSet/afp19980315p1325-f4.jpg,1,unknown,1,unknown,0.9966583
+/home/lakshya/jupyter/paper/DFU/TestSet/b4b2e1341a7bf627a58f6ac32212ed93.jpg,1,unknown,1,unknown,0.9972562
+/home/lakshya/jupyter/paper/DFU/TestSet/bleeding-under-callus-preulcerative (1).jpg,0,infected,1,unknown,0.9970156
+/home/lakshya/jupyter/paper/DFU/TestSet/bleeding-under-callus-preulcerative.jpg,0,infected,1,unknown,0.9970156
+/home/lakshya/jupyter/paper/DFU/TestSet/calluses.jpg,1,unknown,1,unknown,0.99730045
+/home/lakshya/jupyter/paper/DFU/TestSet/complex_wound_management.jpg,1,unknown,1,unknown,0.9966462
+/home/lakshya/jupyter/paper/DFU/TestSet/corn-1200x820.jpg,1,unknown,1,unknown,0.99696875
+/home/lakshya/jupyter/paper/DFU/TestSet/corns.jpg,1,unknown,1,unknown,0.997224
+/home/lakshya/jupyter/paper/DFU/TestSet/diabetic foot ulcer..jpg,0,infected,1,unknown,0.9969696
+/home/lakshya/jupyter/paper/DFU/TestSet/diabetic-foot-ulcer (1).jpg,0,infected,1,unknown,0.99770784
+/home/lakshya/jupyter/paper/DFU/TestSet/diabetic-foot-ulcer-pictures-5 (1).jpg,0,infected,1,unknown,0.99659026
+/home/lakshya/jupyter/paper/DFU/TestSet/diabetic-foot-ulcer-pictures-5.jpg,0,infected,1,unknown,0.9969637
+/home/lakshya/jupyter/paper/DFU/TestSet/diabetic-foot-ulcer-pictures.jpg,0,infected,1,unknown,0.99717987
+/home/lakshya/jupyter/paper/DFU/TestSet/diabetic-foot-ulcer.jpg,0,infected,1,unknown,0.9969512
+/home/lakshya/jupyter/paper/DFU/TestSet/diabetic-foot-ulcer_opt.jpg,0,infected,1,unknown,0.99691916
+/home/lakshya/jupyter/paper/DFU/TestSet/diabetic-ulcer-diseases-feet-CT3FE6.jpg,0,infected,1,unknown,0.99634224
+/home/lakshya/jupyter/paper/DFU/TestSet/diabetic_foot_ulcer.jpg,0,infected,1,unknown,0.99700695
+/home/lakshya/jupyter/paper/DFU/TestSet/diabetische.jpg,1,unknown,1,unknown,0.9972136
+/home/lakshya/jupyter/paper/DFU/TestSet/diabetoc-foot-ulcer.jpg,0,infected,1,unknown,0.99701583
+/home/lakshya/jupyter/paper/DFU/TestSet/display.jpg,1,unknown,1,unknown,0.9968502
+/home/lakshya/jupyter/paper/DFU/TestSet/download (1).jpg,1,unknown,1,unknown,0.99685585
+/home/lakshya/jupyter/paper/DFU/TestSet/download.jpg,1,unknown,1,unknown,0.9973937
+/home/lakshya/jupyter/paper/DFU/TestSet/e8511b3d622ba7d21d0b7749ff2111b9.jpg,1,unknown,1,unknown,0.99683255
+/home/lakshya/jupyter/paper/DFU/TestSet/fca6301733db7bae3970f6a2db215b30.jpg,1,unknown,1,unknown,0.99676996
+/home/lakshya/jupyter/paper/DFU/TestSet/feat_footulcer_cellul_1110_127752_127753.jpg,0,infected,1,unknown,0.99714285
+/home/lakshya/jupyter/paper/DFU/TestSet/feat_footulcer_necro_1110_127573.jpg,0,infected,1,unknown,0.9970584
+/home/lakshya/jupyter/paper/DFU/TestSet/fig1.jpg,1,unknown,1,unknown,0.9970806
+/home/lakshya/jupyter/paper/DFU/TestSet/foot-doctor-for-corn-callus-treatment.png,1,unknown,1,unknown,0.9969669
+/home/lakshya/jupyter/paper/DFU/TestSet/foot-ulcer-217x300.jpg,0,infected,1,unknown,0.9970066
+/home/lakshya/jupyter/paper/DFU/TestSet/foot-ulcer-pic (1).png,0,infected,1,unknown,0.9961122
+/home/lakshya/jupyter/paper/DFU/TestSet/foot-ulcer-pic.png,0,infected,1,unknown,0.9951324
+/home/lakshya/jupyter/paper/DFU/TestSet/foot_ulcer_5.jpg,0,infected,1,unknown,0.99827564
+/home/lakshya/jupyter/paper/DFU/TestSet/hallux-IPJ-ulcer-post1A.jpg,0,infected,1,unknown,0.99832803
+/home/lakshya/jupyter/paper/DFU/TestSet/honey1.jpg,1,unknown,1,unknown,0.997329
+/home/lakshya/jupyter/paper/DFU/TestSet/how-to-heal-a-diabetic-foot-ulcer-700393-2.jpg,0,infected,1,unknown,0.9973585
+/home/lakshya/jupyter/paper/DFU/TestSet/image1.jpeg,1,unknown,1,unknown,0.9971782
+/home/lakshya/jupyter/paper/DFU/TestSet/image3.jpeg,1,unknown,1,unknown,0.99699175
+/home/lakshya/jupyter/paper/DFU/TestSet/image4.jpeg,1,unknown,1,unknown,0.997151
+/home/lakshya/jupyter/paper/DFU/TestSet/images (1).jpg,1,unknown,1,unknown,0.99755174
+/home/lakshya/jupyter/paper/DFU/TestSet/images (10).jpg,1,unknown,1,unknown,0.9971572
+/home/lakshya/jupyter/paper/DFU/TestSet/images (11).jpg,1,unknown,1,unknown,0.99686855
+/home/lakshya/jupyter/paper/DFU/TestSet/images (12).jpg,1,unknown,1,unknown,0.9967444
+/home/lakshya/jupyter/paper/DFU/TestSet/images (13).jpg,1,unknown,1,unknown,0.99682
+/home/lakshya/jupyter/paper/DFU/TestSet/images (14).jpg,1,unknown,1,unknown,0.9970728
+/home/lakshya/jupyter/paper/DFU/TestSet/images (15).jpg,1,unknown,1,unknown,0.99737656
+/home/lakshya/jupyter/paper/DFU/TestSet/images (16).jpg,1,unknown,1,unknown,0.99721164
+/home/lakshya/jupyter/paper/DFU/TestSet/images (17).jpg,1,unknown,1,unknown,0.9971456
+/home/lakshya/jupyter/paper/DFU/TestSet/images (18).jpg,1,unknown,1,unknown,0.9971186
+/home/lakshya/jupyter/paper/DFU/TestSet/images (19).jpg,1,unknown,1,unknown,0.99762255
+/home/lakshya/jupyter/paper/DFU/TestSet/images (2).jpg,1,unknown,1,unknown,0.99679404
+/home/lakshya/jupyter/paper/DFU/TestSet/images (20).jpg,1,unknown,1,unknown,0.99757856
+/home/lakshya/jupyter/paper/DFU/TestSet/images (21).jpg,1,unknown,1,unknown,0.9963437
+/home/lakshya/jupyter/paper/DFU/TestSet/images (22).jpg,1,unknown,1,unknown,0.99709934
+/home/lakshya/jupyter/paper/DFU/TestSet/images (23).jpg,1,unknown,1,unknown,0.9963445
+/home/lakshya/jupyter/paper/DFU/TestSet/images (24).jpg,1,unknown,1,unknown,0.9971812
+/home/lakshya/jupyter/paper/DFU/TestSet/images (25).jpg,1,unknown,1,unknown,0.997239
+/home/lakshya/jupyter/paper/DFU/TestSet/images (26).jpg,1,unknown,1,unknown,0.9971232
+/home/lakshya/jupyter/paper/DFU/TestSet/images (27).jpg,1,unknown,1,unknown,0.9972752
+/home/lakshya/jupyter/paper/DFU/TestSet/images (28).jpg,1,unknown,1,unknown,0.9964588
+/home/lakshya/jupyter/paper/DFU/TestSet/images (29).jpg,1,unknown,1,unknown,0.9971962
+/home/lakshya/jupyter/paper/DFU/TestSet/images (3).jpg,1,unknown,1,unknown,0.9973816
+/home/lakshya/jupyter/paper/DFU/TestSet/images (30).jpg,1,unknown,1,unknown,0.9963373
+/home/lakshya/jupyter/paper/DFU/TestSet/images (31).jpg,1,unknown,1,unknown,0.9967241
+/home/lakshya/jupyter/paper/DFU/TestSet/images (32).jpg,1,unknown,1,unknown,0.99695444
+/home/lakshya/jupyter/paper/DFU/TestSet/images (33).jpg,1,unknown,1,unknown,0.9969266
+/home/lakshya/jupyter/paper/DFU/TestSet/images (34).jpg,1,unknown,1,unknown,0.9969432
+/home/lakshya/jupyter/paper/DFU/TestSet/images (35).jpg,1,unknown,1,unknown,0.9970975
+/home/lakshya/jupyter/paper/DFU/TestSet/images (4).jpg,1,unknown,1,unknown,0.99717677
+/home/lakshya/jupyter/paper/DFU/TestSet/images (5).jpg,1,unknown,1,unknown,0.99745244
+/home/lakshya/jupyter/paper/DFU/TestSet/images (6).jpg,1,unknown,1,unknown,0.9972276
+/home/lakshya/jupyter/paper/DFU/TestSet/images (7).jpg,1,unknown,1,unknown,0.997175
+/home/lakshya/jupyter/paper/DFU/TestSet/images (8).jpg,1,unknown,1,unknown,0.9968425
+/home/lakshya/jupyter/paper/DFU/TestSet/images (9).jpg,1,unknown,1,unknown,0.99769896
+/home/lakshya/jupyter/paper/DFU/TestSet/images.jpg,1,unknown,1,unknown,0.9981205
+/home/lakshya/jupyter/paper/DFU/TestSet/lesioni-piede-diabetico_01.jpg,1,unknown,1,unknown,0.9975442
+/home/lakshya/jupyter/paper/DFU/TestSet/m5_05.jpg,1,unknown,1,unknown,0.9970643
+/home/lakshya/jupyter/paper/DFU/TestSet/maxresdefault.jpg,1,unknown,1,unknown,0.9972953
+/home/lakshya/jupyter/paper/DFU/TestSet/pre-ulceration (1).jpg,0,infected,1,unknown,0.9968675
+/home/lakshya/jupyter/paper/DFU/TestSet/pre-ulceration.jpg,0,infected,1,unknown,0.9968675
+/home/lakshya/jupyter/paper/DFU/TestSet/pt08cover4_0.jpg,1,unknown,1,unknown,0.9972041
+/home/lakshya/jupyter/paper/DFU/TestSet/pt1114diabetes_1.png,1,unknown,1,unknown,0.9971106
+/home/lakshya/jupyter/paper/DFU/TestSet/soft-corn-between-toes.jpg,1,unknown,1,unknown,0.9971299
+/home/lakshya/jupyter/paper/DFU/TestSet/tungiasis-3.jpg,1,unknown,1,unknown,0.99735034
+/home/lakshya/jupyter/paper/DFU/TestSet/ulcers (1).jpg,0,infected,1,unknown,0.9968845
+/home/lakshya/jupyter/paper/DFU/TestSet/ulcers_before.jpg,0,infected,1,unknown,0.997405
+/home/lakshya/jupyter/paper/DFU/TestSet/wc_121102_diabetic_foot_ulcer_wound_200x151.jpg,0,infected,1,unknown,0.99728584
