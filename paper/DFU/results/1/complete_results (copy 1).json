@@ -1,0 +1,98 @@
+{
+  "teacher": {
+    "accuracy": 100.0,
+    "f1_score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "confusion_matrix": [
+      [
+        10,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "parameters": 24559172,
+    "latency": {
+      "mean": 2.503140899952996,
+      "std": 0.372023157206909,
+      "min": 1.944227999956638,
+      "max": 3.0381519991351524
+    }
+  },
+  "student": {
+    "accuracy": 100.0,
+    "f1_score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "confusion_matrix": [
+      [
+        10,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "parameters": 2552836,
+    "latency": {
+      "mean": 1.9457860000147775,
+      "std": 0.2931638851681185,
+      "min": 1.6259869998975773,
+      "max": 2.7698339999915333
+    }
+  },
+  "pruned_round1": {
+    "accuracy": 100.0,
+    "f1_score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "confusion_matrix": [
+      [
+        10,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "parameters": 2552836,
+    "latency": {
+      "mean": 1.7780513400066411,
+      "std": 0.15115792436358744,
+      "min": 1.65898900013417,
+      "max": 2.2607840001001023
+    },
+    "sparsity": 10.000228335525355,
+    "pruned_params": 218981
+  },
+  "pruned_round2": {
+    "accuracy": 100.0,
+    "f1_score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "confusion_matrix": [
+      [
+        10,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "parameters": 2552836,
+    "latency": {
+      "mean": 1.7463458999191062,
+      "std": 0.06011584730043367,
+      "min": 1.6723130001992104,
+      "max": 1.9365319994903984
+    },
+    "sparsity": 10.000228335525355,
+    "pruned_params": 218981
+  }
+}
