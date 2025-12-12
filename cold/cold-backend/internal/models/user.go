@@ -6,6 +6,8 @@ type User struct {
 	ID           int       `json:"id"`
 	Name         string    `json:"name"`
 	Email        string    `json:"email"`
+	Phone        string    `json:"phone"`
+	Village      string    `json:"village"`
 	PasswordHash string    `json:"-"` // Never expose in JSON
 	Role         string    `json:"role"` // admin or employee
 	CreatedAt    time.Time `json:"created_at"`

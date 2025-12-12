@@ -176,6 +176,22 @@
     </div>
 
     <script>
+        // Check if user is admin
+        (function() {
+            const userStr = localStorage.getItem('user');
+            if (!userStr) {
+                window.location.href = '/login';
+                return;
+            }
+
+            const user = JSON.parse(userStr);
+            if (user.role !== 'admin') {
+                alert('Access Denied: Admin access required');
+                window.location.href = '/dashboard';
+                return;
+            }
+        })();
+
         function navigate(path) {
             window.location.href = path;
         }

@@ -47,7 +47,7 @@ func (h *PageHandler) EventTracerPage(w http.ResponseWriter, r *http.Request) {
 
 // EntryRoomPage serves entry room page
 func (h *PageHandler) EntryRoomPage(w http.ResponseWriter, r *http.Request) {
-	h.templates.ExecuteTemplate(w, "entery_room.html", nil)
+	h.templates.ExecuteTemplate(w, "entry_room.html", nil)
 }
 
 // MainEntryPage serves main entry page

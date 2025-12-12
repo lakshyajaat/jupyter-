@@ -129,6 +129,22 @@
     </div>
 
     <script>
+        // Check if user is admin
+        (function() {
+            const userStr = localStorage.getItem('user');
+            if (!userStr) {
+                window.location.href = '/login';
+                return;
+            }
+
+            const user = JSON.parse(userStr);
+            if (user.role !== 'admin') {
+                alert('Access Denied: Admin access required');
+                window.location.href = '/dashboard';
+                return;
+            }
+        })();
+
         let allUsers = [];
         const token = localStorage.getItem('token');
 
@@ -259,7 +275,7 @@
             const role = document.getElementById('userRole').value;
 
             const userData = { name, email, role };
-            if (password) userData.password_hash = password;
+            if (password) userData.password = password;
 
             try {
                 const url = userId ? `/api/users/${userId}` : '/api/users';

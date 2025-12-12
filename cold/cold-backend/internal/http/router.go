@@ -10,6 +10,8 @@ import (
 func NewRouter(
 	userHandler *handlers.UserHandler,
 	authHandler *handlers.AuthHandler,
+	customerHandler *handlers.CustomerHandler,
+	entryHandler *handlers.EntryHandler,
 	pageHandler *handlers.PageHandler,
 	authMiddleware *middleware.AuthMiddleware,
 ) *mux.Router {
@@ -44,13 +46,31 @@ func NewRouter(
 	r.HandleFunc("/employees", pageHandler.EmployeesPage).Methods("GET")
 
 	// Protected API routes - Users
-	protected := r.PathPrefix("/api/users").Subrouter()
-	protected.Use(authMiddleware.Authenticate)
-	protected.HandleFunc("", userHandler.ListUsers).Methods("GET")
-	protected.HandleFunc("", userHandler.CreateUser).Methods("POST")
-	protected.HandleFunc("/{id}", userHandler.GetUser).Methods("GET")
-	protected.HandleFunc("/{id}", userHandler.UpdateUser).Methods("PUT")
-	protected.HandleFunc("/{id}", userHandler.DeleteUser).Methods("DELETE")
+	usersAPI := r.PathPrefix("/api/users").Subrouter()
+	usersAPI.Use(authMiddleware.Authenticate)
+	usersAPI.HandleFunc("", userHandler.ListUsers).Methods("GET")
+	usersAPI.HandleFunc("", userHandler.CreateUser).Methods("POST")
+	usersAPI.HandleFunc("/{id}", userHandler.GetUser).Methods("GET")
+	usersAPI.HandleFunc("/{id}", userHandler.UpdateUser).Methods("PUT")
+	usersAPI.HandleFunc("/{id}", userHandler.DeleteUser).Methods("DELETE")
+
+	// Protected API routes - Customers
+	customersAPI := r.PathPrefix("/api/customers").Subrouter()
+	customersAPI.Use(authMiddleware.Authenticate)
+	customersAPI.HandleFunc("", customerHandler.ListCustomers).Methods("GET")
+	customersAPI.HandleFunc("", customerHandler.CreateCustomer).Methods("POST")
+	customersAPI.HandleFunc("/search", customerHandler.SearchByPhone).Methods("GET")
+	customersAPI.HandleFunc("/{id}", customerHandler.GetCustomer).Methods("GET")
+	customersAPI.HandleFunc("/{id}", customerHandler.UpdateCustomer).Methods("PUT")
+	customersAPI.HandleFunc("/{id}", customerHandler.DeleteCustomer).Methods("DELETE")
+
+	// Protected API routes - Entries
+	entriesAPI := r.PathPrefix("/api/entries").Subrouter()
+	entriesAPI.Use(authMiddleware.Authenticate)
+	entriesAPI.HandleFunc("", entryHandler.ListEntries).Methods("GET")
+	entriesAPI.HandleFunc("", entryHandler.CreateEntry).Methods("POST")
+	entriesAPI.HandleFunc("/{id}", entryHandler.GetEntry).Methods("GET")
+	entriesAPI.HandleFunc("/customer/{customer_id}", entryHandler.ListEntriesByCustomer).Methods("GET")
 
 	return r
 }

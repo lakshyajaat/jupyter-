@@ -26,15 +26,21 @@ func main() {
 	// Initialize JWT manager
 	jwtManager := auth.NewJWTManager(cfg)
 
-	// Initialize repository
-	repo := repositories.NewUserRepository(pool)
+	// Initialize repositories
+	userRepo := repositories.NewUserRepository(pool)
+	customerRepo := repositories.NewCustomerRepository(pool)
+	entryRepo := repositories.NewEntryRepository(pool)
 
-	// Initialize service
-	service := services.NewUserService(repo, jwtManager)
+	// Initialize services
+	userService := services.NewUserService(userRepo, jwtManager)
+	customerService := services.NewCustomerService(customerRepo)
+	entryService := services.NewEntryService(entryRepo, customerRepo)
 
 	// Initialize handlers
-	userHandler := handlers.NewUserHandler(service)
-	authHandler := handlers.NewAuthHandler(service)
+	userHandler := handlers.NewUserHandler(userService)
+	authHandler := handlers.NewAuthHandler(userService)
+	customerHandler := handlers.NewCustomerHandler(customerService)
+	entryHandler := handlers.NewEntryHandler(entryService)
 	pageHandler := handlers.NewPageHandler()
 
 	// Initialize middleware
@@ -42,7 +48,7 @@ func main() {
 	corsMiddleware := middleware.NewCORS(cfg)
 
 	// Create router
-	router := h.NewRouter(userHandler, authHandler, pageHandler, authMiddleware)
+	router := h.NewRouter(userHandler, authHandler, customerHandler, entryHandler, pageHandler, authMiddleware)
 
 	// Wrap router with CORS
 	handler := corsMiddleware(router)
