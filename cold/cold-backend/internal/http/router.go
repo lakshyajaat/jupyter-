@@ -12,6 +12,8 @@ func NewRouter(
 	authHandler *handlers.AuthHandler,
 	customerHandler *handlers.CustomerHandler,
 	entryHandler *handlers.EntryHandler,
+	roomEntryHandler *handlers.RoomEntryHandler,
+	entryEventHandler *handlers.EntryEventHandler,
 	pageHandler *handlers.PageHandler,
 	authMiddleware *middleware.AuthMiddleware,
 ) *mux.Router {
@@ -69,8 +71,22 @@ func NewRouter(
 	entriesAPI.Use(authMiddleware.Authenticate)
 	entriesAPI.HandleFunc("", entryHandler.ListEntries).Methods("GET")
 	entriesAPI.HandleFunc("", entryHandler.CreateEntry).Methods("POST")
+	entriesAPI.HandleFunc("/count", entryHandler.GetCountByCategory).Methods("GET")
+	entriesAPI.HandleFunc("/unassigned", roomEntryHandler.GetUnassignedEntries).Methods("GET")
 	entriesAPI.HandleFunc("/{id}", entryHandler.GetEntry).Methods("GET")
 	entriesAPI.HandleFunc("/customer/{customer_id}", entryHandler.ListEntriesByCustomer).Methods("GET")
+
+	// Protected API routes - Room Entries
+	roomEntriesAPI := r.PathPrefix("/api/room-entries").Subrouter()
+	roomEntriesAPI.Use(authMiddleware.Authenticate)
+	roomEntriesAPI.HandleFunc("", roomEntryHandler.ListRoomEntries).Methods("GET")
+	roomEntriesAPI.HandleFunc("", roomEntryHandler.CreateRoomEntry).Methods("POST")
+	roomEntriesAPI.HandleFunc("/{id}", roomEntryHandler.GetRoomEntry).Methods("GET")
+
+	// Protected API routes - Entry Events
+	entryEventsAPI := r.PathPrefix("/api/entry-events").Subrouter()
+	entryEventsAPI.Use(authMiddleware.Authenticate)
+	entryEventsAPI.HandleFunc("", entryEventHandler.CreateEntryEvent).Methods("POST")
 
 	return r
 }

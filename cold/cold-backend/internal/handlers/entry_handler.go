@@ -83,3 +83,34 @@ func (h *EntryHandler) ListEntriesByCustomer(w http.ResponseWriter, r *http.Requ
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(entries)
 }
+
+func (h *EntryHandler) GetCountByCategory(w http.ResponseWriter, r *http.Request) {
+	category := r.URL.Query().Get("category")
+	if category == "" {
+		http.Error(w, "category query parameter is required", http.StatusBadRequest)
+		return
+	}
+
+	count, err := h.Service.GetCountByCategory(context.Background(), category)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusBadRequest)
+		return
+	}
+
+	// Calculate next number based on category
+	// SEED: 1-599 range (next = count + 1)
+	// SELL: 600-1500 range (next = 600 + count)
+	var next int
+	if category == "seed" {
+		next = count + 1
+	} else if category == "sell" {
+		next = 600 + count
+	}
+
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(map[string]interface{}{
+		"category": category,
+		"count":    count,
+		"next":     next,
+	})
+}

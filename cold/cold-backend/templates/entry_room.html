@@ -103,26 +103,20 @@
                 </div>
                 <div>
                     <label class="block text-sm font-semibold text-gray-700 mb-2">
-                        Phone * <span class="text-sm text-gray-500">(Search to auto-fill)</span>
+                        Phone * <span class="text-sm text-gray-500">(Must be 10 digits)</span>
                     </label>
-                    <div class="flex gap-2">
-                        <input
-                            type="tel"
-                            id="userPhone"
-                            required
-                            class="flex-1 neu-input"
-                            placeholder="Enter phone"
-                            maxlength="15"
-                        >
-                        <button type="button" onclick="searchUser()" class="neu-button bg-blue-500 text-white">
-                            <i class="bi bi-search"></i>
-                        </button>
-                    </div>
-                    <div id="searchError" class="hidden mt-2 p-2 bg-red-100 border-2 border-red-600">
-                        <p class="text-red-700 text-sm font-semibold"></p>
-                    </div>
-                    <div id="searchSuccess" class="hidden mt-2 p-2 bg-green-100 border-2 border-green-600">
-                        <p class="text-green-700 text-sm font-semibold">Customer found! Details auto-filled.</p>
+                    <input
+                        type="tel"
+                        id="userPhone"
+                        required
+                        class="w-full neu-input"
+                        placeholder="Enter 10-digit phone number"
+                        maxlength="10"
+                        minlength="10"
+                        pattern="[0-9]{10}"
+                    >
+                    <div id="searchStatus" class="hidden mt-2 p-2 border-2">
+                        <p class="text-sm font-semibold"></p>
                     </div>
                 </div>
                 <div>
@@ -153,8 +147,12 @@
                                 value="seed"
                                 required
                                 class="mr-2"
+                                onchange="updateCategoryInfo()"
                             >
-                            <span class="text-xl font-bold text-green-700">SEED</span>
+                            <div>
+                                <span class="text-xl font-bold text-green-700">SEED</span>
+                                <p id="seedCount" class="text-xs text-gray-600 mt-1 hidden">Loading...</p>
+                            </div>
                         </label>
                         <label class="neu-border p-4 bg-orange-50 cursor-pointer hover:bg-orange-100 transition-colors">
                             <input
@@ -163,8 +161,12 @@
                                 value="sell"
                                 required
                                 class="mr-2"
+                                onchange="updateCategoryInfo()"
                             >
-                            <span class="text-xl font-bold text-orange-700">SELL</span>
+                            <div>
+                                <span class="text-xl font-bold text-orange-700">SELL</span>
+                                <p id="sellCount" class="text-xs text-gray-600 mt-1 hidden">Loading...</p>
+                            </div>
                         </label>
                     </div>
                 </div>
@@ -180,14 +182,16 @@
                         min="1"
                         class="w-full neu-input"
                         placeholder="Enter quantity"
+                        oninput="updateTruckPreview()"
                     >
                 </div>
 
-                <div class="mb-6 p-4 bg-blue-50 neu-border">
-                    <p class="text-sm text-gray-600">
-                        <i class="bi bi-info-circle"></i>
-                        Truck number will be auto-generated as: <strong>CATEGORY-XXX/QUANTITY</strong>
+                <div id="truckPreview" class="mb-6 p-4 bg-blue-50 neu-border hidden">
+                    <p class="text-sm text-gray-600 mb-2">
+                        <i class="bi bi-truck"></i>
+                        Truck number preview:
                     </p>
+                    <p class="text-3xl font-bold text-blue-700" id="previewTruckNumber">-</p>
                 </div>
 
                 <div class="flex gap-4">
@@ -202,15 +206,94 @@
         </div>
 
         <!-- Success Message -->
-        <div id="successMessage" class="hidden mt-6 neu-border bg-green-100 p-6">
-            <h3 class="text-xl font-bold text-green-700 mb-2 flex items-center gap-2">
+        <div id="successMessage" class="hidden mt-6 neu-border bg-green-100 p-8">
+            <h3 class="text-2xl font-bold text-green-700 mb-4 flex items-center gap-2">
                 <i class="bi bi-check-circle-fill"></i>
                 Entry Created Successfully!
             </h3>
-            <p class="text-green-700">Truck Number: <span id="assignedTruck" class="font-bold"></span></p>
-            <button onclick="resetForm()" class="mt-4 neu-button bg-green-500 text-white">
-                Create Another Entry
+            <div class="p-6 bg-white neu-border mb-4">
+                <p class="text-lg text-gray-700 mb-2">Auto-Generated Truck Number:</p>
+                <p class="text-4xl font-bold text-green-700" id="assignedTruck"></p>
+            </div>
+            <button onclick="resetForm()" class="neu-button bg-green-500 text-white w-full">
+                <i class="bi bi-plus-circle"></i> Create Another Entry
             </button>
+        </div>
+
+        <!-- Recent Entries Grid -->
+        <div class="mt-8 grid grid-cols-2 gap-8">
+            <!-- Recent Main Entries -->
+            <div class="neu-border bg-white p-6">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-2xl font-bold flex items-center gap-2">
+                        <i class="bi bi-clock-history"></i>
+                        Recent Main Entries
+                    </h2>
+                    <div class="flex items-center gap-2">
+                        <label class="text-sm font-semibold">Show:</label>
+                        <select id="entriesLimit" onchange="changeEntriesLimit()" class="neu-input text-sm p-2">
+                            <option value="10">10 entries</option>
+                            <option value="20">20 entries</option>
+                            <option value="50">50 entries</option>
+                            <option value="100">100 entries</option>
+                            <option value="0">All entries</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="recentEntries" class="overflow-auto" style="max-height: 600px;">
+                    <table class="w-full">
+                        <thead class="sticky top-0 bg-white">
+                            <tr class="border-b-2 border-black">
+                                <th class="text-left p-2 font-bold">Truck No</th>
+                                <th class="text-left p-2 font-bold">Name</th>
+                                <th class="text-left p-2 font-bold">Phone</th>
+                                <th class="text-left p-2 font-bold">Village</th>
+                                <th class="text-left p-2 font-bold">Quantity</th>
+                                <th class="text-left p-2 font-bold">Category</th>
+                                <th class="text-left p-2 font-bold">Created</th>
+                            </tr>
+                        </thead>
+                        <tbody id="entriesTableBody">
+                            <tr>
+                                <td colspan="7" class="text-center p-4 text-gray-500">Loading entries...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Recent Room Entries -->
+            <div class="neu-border bg-white p-6">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-2xl font-bold flex items-center gap-2">
+                        <i class="bi bi-door-open"></i>
+                        Recent Room Entries
+                    </h2>
+                    <button onclick="printRoomEntries()" class="neu-button bg-blue-500 text-white text-sm">
+                        <i class="bi bi-printer"></i> Print
+                    </button>
+                </div>
+                <div id="recentRoomEntries" class="overflow-auto" style="max-height: 600px;">
+                    <table class="w-full" id="roomEntriesTable">
+                        <thead class="sticky top-0 bg-white">
+                            <tr class="border-b-2 border-black">
+                                <th class="text-left p-2 font-bold">Truck No</th>
+                                <th class="text-left p-2 font-bold">Room</th>
+                                <th class="text-left p-2 font-bold">Floor</th>
+                                <th class="text-left p-2 font-bold">Gate</th>
+                                <th class="text-left p-2 font-bold">Remark</th>
+                                <th class="text-left p-2 font-bold">Qty</th>
+                                <th class="text-left p-2 font-bold">Date</th>
+                            </tr>
+                        </thead>
+                        <tbody id="roomEntriesTableBody">
+                            <tr>
+                                <td colspan="7" class="text-center p-4 text-gray-500">Loading room entries...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -218,34 +301,228 @@
         const token = localStorage.getItem('token');
         let currentUser = null;
 
+        // Auto-search timeout
+        let searchTimeout = null;
+        let entriesLimit = 10; // Default to show 10 entries
 
-        async function searchUser() {
-            const phone = document.getElementById('userPhone').value.trim();
-            const errorEl = document.getElementById('searchError');
-            const successEl = document.getElementById('searchSuccess');
+        // Category counts
+        let seedCount = 0;
+        let sellCount = 0;
 
-            if (!phone) {
-                showError('Please enter a phone number');
+        // Load recent entries on page load
+        window.addEventListener('load', function() {
+            loadRecentEntries();
+            loadRoomEntries();
+
+            // Add auto-search on phone number input
+            const phoneInput = document.getElementById('userPhone');
+            if (phoneInput) {
+                phoneInput.addEventListener('input', function(e) {
+                    const phone = e.target.value.trim();
+
+                    // Clear previous timeout
+                    if (searchTimeout) {
+                        clearTimeout(searchTimeout);
+                    }
+
+                    // Clear status
+                    hideSearchStatus();
+
+                    // If phone is empty, clear other fields
+                    if (!phone) {
+                        clearCustomerFields();
+                        return;
+                    }
+
+                    // Only search if phone number looks valid (minimum 10 digits)
+                    if (phone.length >= 10) {
+                        // Debounce: wait 500ms after user stops typing
+                        searchTimeout = setTimeout(() => {
+                            autoSearchPhone(phone);
+                        }, 500);
+                    }
+                });
+            }
+        });
+
+        async function updateCategoryInfo() {
+            const categoryRadio = document.querySelector('input[name="truckCategory"]:checked');
+            if (!categoryRadio) return;
+
+            const category = categoryRadio.value;
+
+            // Hide all count displays first
+            document.getElementById('seedCount').classList.add('hidden');
+            document.getElementById('sellCount').classList.add('hidden');
+
+            try {
+                // Fetch count for selected category
+                const response = await fetch(`/api/entries/count?category=${category}`, {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to fetch count');
+                }
+
+                const data = await response.json();
+
+                // Store count in global variable
+                if (category === 'seed') {
+                    seedCount = data.count;
+                    document.getElementById('seedCount').textContent = `Current: ${data.count} | Next number: ${data.next}`;
+                    document.getElementById('seedCount').classList.remove('hidden');
+                } else if (category === 'sell') {
+                    sellCount = data.count;
+                    document.getElementById('sellCount').textContent = `Current: ${data.count} | Next number: ${data.next}`;
+                    document.getElementById('sellCount').classList.remove('hidden');
+                }
+
+                // Update truck preview
+                updateTruckPreview();
+            } catch (error) {
+                console.error('Error fetching category count:', error);
+            }
+        }
+
+        function updateTruckPreview() {
+            const categoryRadio = document.querySelector('input[name="truckCategory"]:checked');
+            const quantity = parseInt(document.getElementById('expectedQuantity').value);
+
+            if (!categoryRadio || !quantity || quantity < 1) {
+                document.getElementById('truckPreview').classList.add('hidden');
                 return;
             }
 
+            const category = categoryRadio.value;
+            let nextNumber;
+            let truckNumber;
+
+            if (category === 'seed') {
+                nextNumber = seedCount + 1;
+                truckNumber = String(nextNumber).padStart(3, '0') + '/' + quantity;
+            } else if (category === 'sell') {
+                nextNumber = 600 + sellCount;
+                truckNumber = nextNumber + '/' + quantity;
+            }
+
+            document.getElementById('previewTruckNumber').textContent = truckNumber;
+            document.getElementById('truckPreview').classList.remove('hidden');
+        }
+
+        function changeEntriesLimit() {
+            const select = document.getElementById('entriesLimit');
+            entriesLimit = parseInt(select.value);
+            loadRecentEntries();
+        }
+
+        async function loadRecentEntries() {
+            try {
+                const response = await fetch('/api/entries', {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to load entries');
+                }
+
+                const entries = await response.json();
+
+                // Show entries based on selected limit (0 means all)
+                const entriesToShow = entriesLimit === 0 ? entries : entries.slice(0, entriesLimit);
+                displayRecentEntries(entriesToShow);
+            } catch (error) {
+                console.error('Error loading entries:', error);
+                document.getElementById('entriesTableBody').innerHTML =
+                    '<tr><td colspan="7" class="text-center p-4 text-red-500">Failed to load entries</td></tr>';
+            }
+        }
+
+        function displayRecentEntries(entries) {
+            const tbody = document.getElementById('entriesTableBody');
+
+            if (entries.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="7" class="text-center p-4 text-gray-500">No entries yet</td></tr>';
+                return;
+            }
+
+            tbody.innerHTML = entries.map(entry => {
+                const date = new Date(entry.created_at);
+                const formattedDate = date.toLocaleString('en-IN', {
+                    day: '2-digit',
+                    month: '2-digit',
+                    year: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+
+                const categoryColor = entry.truck_category === 'seed' ? 'text-green-700 bg-green-100' : 'text-orange-700 bg-orange-100';
+
+                return `
+                    <tr class="border-b border-gray-200 hover:bg-gray-50">
+                        <td class="p-2 font-bold">${entry.truck_number}</td>
+                        <td class="p-2">${entry.name}</td>
+                        <td class="p-2">${entry.phone}</td>
+                        <td class="p-2">${entry.village || '-'}</td>
+                        <td class="p-2">${entry.expected_quantity}</td>
+                        <td class="p-2"><span class="px-2 py-1 rounded font-bold ${categoryColor}">${entry.truck_category.toUpperCase()}</span></td>
+                        <td class="p-2 text-sm">${formattedDate}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+
+        async function autoSearchPhone(phone) {
             try {
                 const response = await fetch(`/api/customers/search?phone=${phone}`, {
                     headers: { 'Authorization': `Bearer ${token}` }
                 });
 
                 if (!response.ok) {
-                    throw new Error('Customer not found - you can still create a new entry');
+                    // Customer not found - show message and clear fields
+                    showSearchStatus('New customer - please fill in details', 'info');
+                    clearCustomerFields();
+                    return;
                 }
 
                 currentUser = await response.json();
                 displayUserDetails(currentUser);
-                errorEl.classList.add('hidden');
-                successEl.classList.remove('hidden');
+                showSearchStatus('Customer found! Details auto-filled.', 'success');
             } catch (error) {
-                showError(error.message);
-                successEl.classList.add('hidden');
+                console.error('Error searching customer:', error);
+                showSearchStatus('New customer - please fill in details', 'info');
+                clearCustomerFields();
             }
+        }
+
+        function clearCustomerFields() {
+            document.getElementById('userName').value = '';
+            document.getElementById('userVillage').value = '';
+            document.getElementById('userEmail').value = '';
+            document.getElementById('userId').value = '';
+            currentUser = null;
+        }
+
+        function showSearchStatus(message, type) {
+            const statusEl = document.getElementById('searchStatus');
+            const statusText = statusEl.querySelector('p');
+
+            statusText.textContent = message;
+            statusEl.classList.remove('hidden', 'bg-green-100', 'border-green-600', 'text-green-700', 'bg-blue-100', 'border-blue-600', 'text-blue-700');
+
+            if (type === 'success') {
+                statusEl.classList.add('bg-green-100', 'border-green-600');
+                statusText.className = 'text-sm font-semibold text-green-700';
+            } else if (type === 'info') {
+                statusEl.classList.add('bg-blue-100', 'border-blue-600');
+                statusText.className = 'text-sm font-semibold text-blue-700';
+            }
+        }
+
+        function hideSearchStatus() {
+            const statusEl = document.getElementById('searchStatus');
+            statusEl.classList.add('hidden');
         }
 
         function displayUserDetails(user) {
@@ -271,6 +548,12 @@
             const phone = document.getElementById('userPhone').value.trim();
             const village = document.getElementById('userVillage').value.trim();
             const email = document.getElementById('userEmail').value.trim();
+
+            // Validate phone number (must be exactly 10 digits)
+            if (phone.length !== 10 || !/^\d{10}$/.test(phone)) {
+                alert('Phone number must be exactly 10 digits');
+                return;
+            }
 
             // Validate required fields
             if (!name || !phone || !village) {
@@ -311,7 +594,10 @@
                 }
 
                 const result = await response.json();
-                showSuccess(result.truck_number || 'AUTO-' + result.id);
+                console.log('Entry created:', result);
+                const truckNumber = result.truck_number || 'AUTO-' + result.id;
+                console.log('Truck number:', truckNumber);
+                showSuccess(truckNumber);
             } catch (error) {
                 alert('Error creating entry: ' + error.message);
             }
@@ -324,10 +610,25 @@
         }
 
         function showSuccess(truckNumber) {
-            document.getElementById('assignedTruck').textContent = truckNumber;
-            document.getElementById('successMessage').classList.remove('hidden');
-            // Scroll to success message
-            document.getElementById('successMessage').scrollIntoView({ behavior: 'smooth', block: 'center' });
+            console.log('showSuccess called with:', truckNumber);
+            const truckEl = document.getElementById('assignedTruck');
+            const successEl = document.getElementById('successMessage');
+
+            if (truckEl) {
+                truckEl.textContent = truckNumber;
+                console.log('Truck number set to element');
+            }
+
+            if (successEl) {
+                successEl.classList.remove('hidden');
+                console.log('Success message shown');
+                // Scroll to success message
+                successEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }
+
+            // Reload recent entries and room entries to show the new entry
+            loadRecentEntries();
+            loadRoomEntries();
         }
 
         function resetForm() {
@@ -337,8 +638,12 @@
             document.getElementById('userEmail').value = '';
             document.getElementById('entrySubmitForm').reset();
             document.getElementById('successMessage').classList.add('hidden');
-            document.getElementById('searchError').classList.add('hidden');
-            document.getElementById('searchSuccess').classList.add('hidden');
+            document.getElementById('truckPreview').classList.add('hidden');
+            hideSearchStatus();
+
+            // Hide count displays
+            document.getElementById('seedCount').classList.add('hidden');
+            document.getElementById('sellCount').classList.add('hidden');
 
             // Uncheck all radio buttons
             const radios = document.querySelectorAll('input[name="truckCategory"]');
@@ -350,7 +655,371 @@
         function goBack() {
             window.history.back();
         }
+
+        async function loadRoomEntries() {
+            try {
+                const response = await fetch('/api/room-entries', {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to load room entries');
+                }
+
+                const roomEntries = await response.json();
+                displayRoomEntries(roomEntries || []);
+            } catch (error) {
+                console.error('Error loading room entries:', error);
+                document.getElementById('roomEntriesTableBody').innerHTML =
+                    '<tr><td colspan="7" class="text-center p-4 text-red-500">Failed to load room entries</td></tr>';
+            }
+        }
+
+        function displayRoomEntries(roomEntries) {
+            const tbody = document.getElementById('roomEntriesTableBody');
+
+            if (roomEntries.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="7" class="text-center p-4 text-gray-500">No room entries yet</td></tr>';
+                return;
+            }
+
+            tbody.innerHTML = roomEntries.map(entry => {
+                const date = new Date(entry.created_at);
+                const formattedDate = date.toLocaleString('en-IN', {
+                    day: '2-digit',
+                    month: '2-digit',
+                    year: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+
+                return `
+                    <tr class="border-b border-gray-200 hover:bg-yellow-50 cursor-pointer" onclick="goToInvoice(${entry.entry_id}, ${entry.id})">
+                        <td class="p-2 font-bold">${entry.truck_number}</td>
+                        <td class="p-2">${entry.room_no}</td>
+                        <td class="p-2">${entry.floor}</td>
+                        <td class="p-2">${entry.gate_no}</td>
+                        <td class="p-2">${entry.remark || '-'}</td>
+                        <td class="p-2">${entry.quantity}</td>
+                        <td class="p-2 text-sm">${formattedDate}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        function goToInvoice(entryId, roomEntryId) {
+            window.location.href = `/loading-invoice?entry_id=${entryId}&room_entry_id=${roomEntryId}`;
+        }
+
+        // Decode JWT to get employee details
+        function getEmployeeFromToken() {
+            if (!token) return null;
+
+            try {
+                const base64Url = token.split('.')[1];
+                const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+                const jsonPayload = decodeURIComponent(atob(base64).split('').map(function(c) {
+                    return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+                }).join(''));
+
+                return JSON.parse(jsonPayload);
+            } catch (error) {
+                console.error('Error decoding token:', error);
+                return null;
+            }
+        }
+
+        async function printReceipt(entryId, roomEntryId) {
+            try {
+                // Fetch entry details
+                const entryResponse = await fetch(`/api/entries/${entryId}`, {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+                const entry = await entryResponse.json();
+
+                // Fetch room entry details
+                const roomEntryResponse = await fetch(`/api/room-entries/${roomEntryId}`, {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+                const roomEntry = await roomEntryResponse.json();
+
+                // Get employee details from token
+                const employee = getEmployeeFromToken();
+
+                // Calculate rent (example: ₹10 per unit per day)
+                const ratePerUnit = 10;
+                const rentPrice = roomEntry.quantity * ratePerUnit;
+
+                // Format dates
+                const entryDate = new Date(entry.created_at).toLocaleString('en-IN');
+                const roomEntryDate = new Date(roomEntry.created_at).toLocaleString('en-IN');
+                const printDate = new Date().toLocaleString('en-IN');
+
+                // Create receipt
+                const printWindow = window.open('', '_blank');
+                printWindow.document.write(`
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                        <title>Storage Receipt - ${entry.truck_number}</title>
+                        <style>
+                            * {
+                                margin: 0;
+                                padding: 0;
+                                box-sizing: border-box;
+                            }
+                            body {
+                                font-family: 'Arial', sans-serif;
+                                padding: 20px;
+                                background: white;
+                            }
+                            .receipt {
+                                max-width: 800px;
+                                margin: 0 auto;
+                                border: 3px solid #000;
+                                padding: 30px;
+                            }
+                            .header {
+                                text-align: center;
+                                border-bottom: 3px solid #000;
+                                padding-bottom: 20px;
+                                margin-bottom: 30px;
+                            }
+                            .header h1 {
+                                font-size: 32px;
+                                margin-bottom: 10px;
+                            }
+                            .header p {
+                                font-size: 16px;
+                                color: #666;
+                            }
+                            .section {
+                                margin-bottom: 25px;
+                            }
+                            .section-title {
+                                font-size: 18px;
+                                font-weight: bold;
+                                background: #f0f0f0;
+                                padding: 10px;
+                                border-left: 5px solid #000;
+                                margin-bottom: 15px;
+                            }
+                            .info-grid {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
+                                gap: 15px;
+                            }
+                            .info-item {
+                                padding: 10px;
+                                border-bottom: 1px solid #ddd;
+                            }
+                            .info-label {
+                                font-weight: bold;
+                                color: #666;
+                                font-size: 12px;
+                                text-transform: uppercase;
+                            }
+                            .info-value {
+                                font-size: 16px;
+                                margin-top: 5px;
+                                color: #000;
+                            }
+                            .total-section {
+                                background: #000;
+                                color: white;
+                                padding: 20px;
+                                margin-top: 30px;
+                                text-align: center;
+                            }
+                            .total-section .amount {
+                                font-size: 36px;
+                                font-weight: bold;
+                                margin: 10px 0;
+                            }
+                            .footer {
+                                margin-top: 40px;
+                                padding-top: 20px;
+                                border-top: 2px solid #000;
+                                text-align: center;
+                                color: #666;
+                            }
+                            .print-button {
+                                background: #4CAF50;
+                                color: white;
+                                padding: 15px 30px;
+                                border: none;
+                                border-radius: 5px;
+                                font-size: 16px;
+                                cursor: pointer;
+                                margin: 20px auto;
+                                display: block;
+                            }
+                            @media print {
+                                .print-button { display: none; }
+                                body { padding: 0; }
+                            }
+                        </style>
+                    </head>
+                    <body>
+                        <div class="receipt">
+                            <div class="header">
+                                <h1>COLD STORAGE RECEIPT</h1>
+                                <p>Storage Entry & Payment Receipt</p>
+                            </div>
+
+                            <div class="section">
+                                <div class="section-title">ENTRY INFORMATION</div>
+                                <div class="info-grid">
+                                    <div class="info-item">
+                                        <div class="info-label">Truck Number</div>
+                                        <div class="info-value">${entry.truck_number}</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">Category</div>
+                                        <div class="info-value">${entry.truck_category.toUpperCase()}</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">Expected Quantity</div>
+                                        <div class="info-value">${entry.expected_quantity} units</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">Actual Quantity</div>
+                                        <div class="info-value">${roomEntry.quantity} units</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section">
+                                <div class="section-title">CUSTOMER DETAILS</div>
+                                <div class="info-grid">
+                                    <div class="info-item">
+                                        <div class="info-label">Name</div>
+                                        <div class="info-value">${entry.name}</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">Phone</div>
+                                        <div class="info-value">${entry.phone}</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">Village</div>
+                                        <div class="info-value">${entry.village || 'N/A'}</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section">
+                                <div class="section-title">STORAGE LOCATION</div>
+                                <div class="info-grid">
+                                    <div class="info-item">
+                                        <div class="info-label">Room Number</div>
+                                        <div class="info-value">${roomEntry.room_no}</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">Floor</div>
+                                        <div class="info-value">${roomEntry.floor}</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">Gate Number</div>
+                                        <div class="info-value">${roomEntry.gate_no}</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">Remark</div>
+                                        <div class="info-value">${roomEntry.remark || 'None'}</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section">
+                                <div class="section-title">TIMESTAMPS</div>
+                                <div class="info-grid">
+                                    <div class="info-item">
+                                        <div class="info-label">Entry Created</div>
+                                        <div class="info-value">${entryDate}</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">Room Entry</div>
+                                        <div class="info-value">${roomEntryDate}</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">Receipt Printed</div>
+                                        <div class="info-value">${printDate}</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section">
+                                <div class="section-title">EMPLOYEE INFORMATION</div>
+                                <div class="info-grid">
+                                    <div class="info-item">
+                                        <div class="info-label">Employee Email</div>
+                                        <div class="info-value">${employee?.email || 'N/A'}</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">Employee ID</div>
+                                        <div class="info-value">#${employee?.user_id || 'N/A'}</div>
+                                    </div>
+                                    <div class="info-item">
+                                        <div class="info-label">Role</div>
+                                        <div class="info-value">${employee?.role?.toUpperCase() || 'N/A'}</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="total-section">
+                                <div style="font-size: 14px;">RENT PRICE FOR SESSION</div>
+                                <div class="amount">₹${rentPrice.toLocaleString('en-IN')}</div>
+                                <div style="font-size: 12px; margin-top: 10px;">
+                                    (${roomEntry.quantity} units × ₹${ratePerUnit} per unit)
+                                </div>
+                            </div>
+
+                            <div class="footer">
+                                <p><strong>Status:</strong> Ready for Exit (2nd Last Step)</p>
+                                <p style="margin-top: 10px; font-size: 12px;">
+                                    This is a computer-generated receipt. No signature required.
+                                </p>
+                            </div>
+                        </div>
+
+                        <button class="print-button" onclick="window.print()">
+                            🖨️ Print Receipt
+                        </button>
+                    </body>
+                    </html>
+                `);
+
+                printWindow.document.close();
+                printWindow.focus();
+
+                // Update status to "Ready for Exit" (2nd last step)
+                await updateEntryStatus(entryId, 'READY', 'Receipt printed - Ready for exit');
+
+            } catch (error) {
+                console.error('Error printing receipt:', error);
+                alert('Error printing receipt: ' + error.message);
+            }
+        }
+
+        async function updateEntryStatus(entryId, eventType, notes) {
+            try {
+                await fetch('/api/entry-events', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        entry_id: entryId,
+                        event_type: eventType,
+                        status: 'READY',
+                        notes: notes
+                    })
+                });
+            } catch (error) {
+                console.error('Error updating status:', error);
+            }
+        }
     </script>
-    
+
 </body>
 </html>

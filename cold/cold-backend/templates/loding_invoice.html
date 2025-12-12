@@ -3,128 +3,409 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guru Kripa Coldstore</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Cold Storage Receipt</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body {
-            font-family: 'Space Grotesk', sans-serif;
-            background-color: #f0f0f0;
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+            background: #f5f5f5;
         }
-        .neu-brutal {
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .receipt {
             background: white;
-            border: 3px solid black;
-            box-shadow: 5px 5px 0px black;
-            transition: all 0.2s ease;
+            border: 3px solid #000;
+            padding: 40px;
+            margin-bottom: 20px;
         }
-        .neu-brutal:hover {
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #000;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 16px;
+            color: #666;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            background: #000;
+            color: white;
+            padding: 12px 15px;
+            margin-bottom: 20px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .info-item {
+            padding: 15px;
+            border: 2px solid #ddd;
+            background: #f9f9f9;
+        }
+        .info-label {
+            font-weight: bold;
+            color: #666;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        .info-value {
+            font-size: 18px;
+            color: #000;
+        }
+        .total-section {
+            background: #000;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .total-section .label {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .total-section .amount {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .total-section .breakdown {
+            font-size: 14px;
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #000;
+            text-align: center;
+            color: #666;
+        }
+        .buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .btn {
+            background: #4CAF50;
+            color: white;
+            padding: 15px 40px;
+            border: 3px solid #000;
+            border-radius: 0;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 0 10px;
+            font-weight: bold;
+            box-shadow: 4px 4px 0 #000;
+            transition: all 0.2s;
+        }
+        .btn:hover {
             transform: translate(-2px, -2px);
-            box-shadow: 7px 7px 0px black;
+            box-shadow: 6px 6px 0 #000;
         }
-        input, select {
-            border: 2px solid black !important;
-            background: white !important;
-        }
-        button {
-            transition: all 0.2s ease;
-        }
-        button:active {
+        .btn:active {
             transform: translate(2px, 2px);
-            box-shadow: 2px 2px 0px black !important;
+            box-shadow: 2px 2px 0 #000;
+        }
+        .btn-secondary {
+            background: #666;
+        }
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 20px;
         }
         @media print {
-            .no-print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .buttons, .btn {
                 display: none;
             }
-            .neu-brutal {
-                box-shadow: none !important;
-                border: 1px solid black !important;
+            .receipt {
+                border: none;
+                padding: 20px;
             }
         }
     </style>
 </head>
-<body class="min-h-screen p-4 md:p-8">
-    <div class="max-w-2xl mx-auto neu-brutal p-6 md:p-8">
-        <h1 class="text-3xl font-bold text-center mb-8">Guru Kripa Coldstore</h1>
-        
-        <form id="coldstoreForm" class="space-y-4">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                    <label class="block font-bold mb-1">Thock No.:</label>
-                    <input type="text" class="w-full p-2 neu-brutal" required>
+<body>
+    <div class="container">
+        <div id="loading" class="loading">
+            <i class="bi bi-hourglass-split" style="font-size: 48px;"></i>
+            <p>Loading receipt...</p>
+        </div>
+
+        <div id="receiptContent" style="display: none;">
+            <div class="receipt">
+                <div class="header">
+                    <h1>COLD STORAGE RECEIPT</h1>
+                    <p>Storage Entry & Payment Invoice</p>
                 </div>
-                <div>
-                    <label class="block font-bold mb-1">Item Type:</label>
-                    <input type="text" class="w-full p-2 neu-brutal" required>
+
+                <div class="section">
+                    <div class="section-title">ENTRY INFORMATION</div>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <div class="info-label">Truck Number</div>
+                            <div class="info-value" id="truckNumber">-</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Category</div>
+                            <div class="info-value" id="category">-</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Expected Quantity</div>
+                            <div class="info-value" id="expectedQty">-</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Actual Quantity</div>
+                            <div class="info-value" id="actualQty">-</div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <label class="block font-bold mb-1">Invoice Number:</label>
-                    <input type="text" class="w-full p-2 neu-brutal" required>
+
+                <div class="section">
+                    <div class="section-title">CUSTOMER DETAILS</div>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <div class="info-label">Name</div>
+                            <div class="info-value" id="customerName">-</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Phone</div>
+                            <div class="info-value" id="customerPhone">-</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Village</div>
+                            <div class="info-value" id="customerVillage">-</div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <label class="block font-bold mb-1">Expected Quantity:</label>
-                    <input type="number" class="w-full p-2 neu-brutal" required>
+
+                <div class="section">
+                    <div class="section-title">STORAGE LOCATION</div>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <div class="info-label">Room Number</div>
+                            <div class="info-value" id="roomNo">-</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Floor</div>
+                            <div class="info-value" id="floor">-</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Gate Number</div>
+                            <div class="info-value" id="gateNo">-</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Remark</div>
+                            <div class="info-value" id="remark">-</div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <label class="block font-bold mb-1">Quantity in Room:</label>
-                    <input type="number" class="w-full p-2 neu-brutal" required>
+
+                <div class="section">
+                    <div class="section-title">TIMESTAMPS</div>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <div class="info-label">Entry Created</div>
+                            <div class="info-value" id="entryDate">-</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Room Entry</div>
+                            <div class="info-value" id="roomEntryDate">-</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Invoice Generated</div>
+                            <div class="info-value" id="invoiceDate">-</div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <label class="block font-bold mb-1">Room Number:</label>
-                    <input type="text" class="w-full p-2 neu-brutal" required>
+
+                <div class="section">
+                    <div class="section-title">EMPLOYEE INFORMATION</div>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <div class="info-label">Employee Email</div>
+                            <div class="info-value" id="employeeEmail">-</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Employee ID</div>
+                            <div class="info-value" id="employeeId">-</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Role</div>
+                            <div class="info-value" id="employeeRole">-</div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <label class="block font-bold mb-1">Floor Number:</label>
-                    <input type="text" class="w-full p-2 neu-brutal" required>
+
+                <div class="total-section">
+                    <div class="label">RENT PRICE FOR SESSION</div>
+                    <div class="amount" id="totalAmount">₹0</div>
+                    <div class="breakdown" id="breakdown">-</div>
                 </div>
-                <div>
-                    <label class="block font-bold mb-1">Remarks:</label>
-                    <input type="text" class="w-full p-2 neu-brutal">
-                </div>
-                <div>
-                    <label class="block font-bold mb-1">Toilet Payment:</label>
-                    <input type="number" class="w-full p-2 neu-brutal">
+
+                <div class="footer">
+                    <p><strong>Status:</strong> <span style="color: #4CAF50; font-size: 18px;">Ready for Exit (2nd Last Step)</span></p>
+                    <p style="margin-top: 15px; font-size: 12px;">
+                        This is a computer-generated receipt. No signature required.
+                    </p>
                 </div>
             </div>
 
-            <div class="mt-4 text-right">
-                <p class="font-bold">Date and Time: <span id="datetime"></span></p>
-            </div>
-
-            <div class="flex justify-center mt-6 space-x-4">
-                <button type="button" onclick="printForm()" class="neu-brutal bg-yellow-300 px-8 py-2 font-bold no-print">
-                    <i class="bi bi-printer"></i> Print
+            <div class="buttons">
+                <button class="btn" onclick="window.print()">
+                    <i class="bi bi-printer"></i> Print Receipt
                 </button>
-                <button type="reset" class="neu-brutal bg-red-300 px-8 py-2 font-bold no-print">
-                    <i class="bi bi-arrow-counterclockwise"></i> Reset
+                <button class="btn btn-secondary" onclick="window.history.back()">
+                    <i class="bi bi-arrow-left"></i> Back
                 </button>
             </div>
-        </form>
+        </div>
     </div>
 
     <script>
-        // Update date and time
-        function updateDateTime() {
-            const now = new Date();
-            document.getElementById('datetime').textContent = now.toLocaleString();
-        }
-        
-        // Update initially and every second
-        updateDateTime();
-        setInterval(updateDateTime, 1000);
+        const token = localStorage.getItem('token');
 
-        // Print functionality
-        function printForm() {
-            // Validate form
-            const form = document.getElementById('coldstoreForm');
-            if (!form.checkValidity()) {
-                alert('Please fill in all required fields');
-                return;
+        // Get URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const entryId = urlParams.get('entry_id');
+        const roomEntryId = urlParams.get('room_entry_id');
+
+        // Decode JWT to get employee details
+        function getEmployeeFromToken() {
+            if (!token) return null;
+
+            try {
+                const base64Url = token.split('.')[1];
+                const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+                const jsonPayload = decodeURIComponent(atob(base64).split('').map(function(c) {
+                    return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+                }).join(''));
+
+                return JSON.parse(jsonPayload);
+            } catch (error) {
+                console.error('Error decoding token:', error);
+                return null;
             }
-            
-            window.print();
         }
+
+        async function loadReceipt() {
+            try {
+                if (!entryId || !roomEntryId) {
+                    throw new Error('Missing entry ID or room entry ID');
+                }
+
+                // Fetch entry details
+                const entryResponse = await fetch(`/api/entries/${entryId}`, {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+                const entry = await entryResponse.json();
+
+                // Fetch room entry details
+                const roomEntryResponse = await fetch(`/api/room-entries/${roomEntryId}`, {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+                const roomEntry = await roomEntryResponse.json();
+
+                // Get employee details
+                const employee = getEmployeeFromToken();
+
+                // Calculate rent (₹10 per unit)
+                const ratePerUnit = 10;
+                const rentPrice = roomEntry.quantity * ratePerUnit;
+
+                // Format dates
+                const entryDate = new Date(entry.created_at).toLocaleString('en-IN');
+                const roomEntryDate = new Date(roomEntry.created_at).toLocaleString('en-IN');
+                const invoiceDate = new Date().toLocaleString('en-IN');
+
+                // Populate receipt
+                document.getElementById('truckNumber').textContent = entry.truck_number;
+                document.getElementById('category').textContent = entry.truck_category.toUpperCase();
+                document.getElementById('expectedQty').textContent = entry.expected_quantity + ' units';
+                document.getElementById('actualQty').textContent = roomEntry.quantity + ' units';
+
+                document.getElementById('customerName').textContent = entry.name;
+                document.getElementById('customerPhone').textContent = entry.phone;
+                document.getElementById('customerVillage').textContent = entry.village || 'N/A';
+
+                document.getElementById('roomNo').textContent = roomEntry.room_no;
+                document.getElementById('floor').textContent = roomEntry.floor;
+                document.getElementById('gateNo').textContent = roomEntry.gate_no;
+                document.getElementById('remark').textContent = roomEntry.remark || 'None';
+
+                document.getElementById('entryDate').textContent = entryDate;
+                document.getElementById('roomEntryDate').textContent = roomEntryDate;
+                document.getElementById('invoiceDate').textContent = invoiceDate;
+
+                document.getElementById('employeeEmail').textContent = employee?.email || 'N/A';
+                document.getElementById('employeeId').textContent = '#' + (employee?.user_id || 'N/A');
+                document.getElementById('employeeRole').textContent = employee?.role?.toUpperCase() || 'N/A';
+
+                document.getElementById('totalAmount').textContent = '₹' + rentPrice.toLocaleString('en-IN');
+                document.getElementById('breakdown').textContent = `(${roomEntry.quantity} units × ₹${ratePerUnit} per unit)`;
+
+                // Update status to "Ready for Exit"
+                await updateEntryStatus(entryId, 'READY', 'Invoice generated - Ready for exit');
+
+                // Show receipt
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('receiptContent').style.display = 'block';
+
+            } catch (error) {
+                console.error('Error loading receipt:', error);
+                document.getElementById('loading').innerHTML = `
+                    <i class="bi bi-exclamation-triangle" style="font-size: 48px; color: red;"></i>
+                    <p style="color: red;">Error loading receipt: ${error.message}</p>
+                    <button class="btn btn-secondary" onclick="window.history.back()">Go Back</button>
+                `;
+            }
+        }
+
+        async function updateEntryStatus(entryId, eventType, notes) {
+            try {
+                await fetch('/api/entry-events', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        entry_id: entryId,
+                        event_type: eventType,
+                        status: 'READY',
+                        notes: notes
+                    })
+                });
+            } catch (error) {
+                console.error('Error updating status:', error);
+            }
+        }
+
+        // Load receipt on page load
+        window.addEventListener('load', loadReceipt);
     </script>
 </body>
 </html>

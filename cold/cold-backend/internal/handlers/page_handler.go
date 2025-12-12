@@ -72,7 +72,7 @@ func (h *PageHandler) LoadingInvoicePage(w http.ResponseWriter, r *http.Request)
 
 // RoomConfig1Page serves room configuration 1
 func (h *PageHandler) RoomConfig1Page(w http.ResponseWriter, r *http.Request) {
-	h.templates.ExecuteTemplate(w, "room_form_1.html", nil)
+	h.templates.ExecuteTemplate(w, "room-config-1.html", nil)
 }
 
 // LogoutPage handles logout

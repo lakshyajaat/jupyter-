@@ -58,10 +58,7 @@
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
                     <option value="7">G1</option>
-                    <option value="8">G2</option>
 
                 </select>
             </div>
@@ -78,6 +75,11 @@
             </div>
             <div>
                 <label class="block mb-2">Gatar Number</label>
+                <input type="text" class="w-full p-2 neu-brutal" required>
+            </div>
+            
+            <div>
+                <label class="block mb-2">Thock Number</label>
                 <input type="text" class="w-full p-2 neu-brutal" required>
             </div>
             <div>
@@ -121,10 +123,11 @@
                     <thead class="table-header">
                         <tr>
                             <th class="p-2 text-left">Thock Number</th>
+                            <th class="p-2 text-left">Action</th>
                             <th class="p-2 text-left">Name</th>
                             <th class="p-2 text-left">Village</th>
                             <th class="p-2 text-left">Quantity</th>
-                            <th class="p-2 text-left">Action</th>
+                            
                         </tr>
                     </thead>
                     <tbody id="mainEntriesTable"></tbody>
@@ -172,9 +175,6 @@
                 <td class="p-2">
                     <button class="neu-button px-2 py-1">
                         <i class="bi bi-pencil"></i>
-                    </button>
-                    <button class="neu-button px-2 py-1 bg-red-400">
-                        <i class="bi bi-trash"></i>
                     </button>
                 </td>
             `;

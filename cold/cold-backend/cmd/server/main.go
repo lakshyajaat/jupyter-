@@ -30,17 +30,22 @@ func main() {
 	userRepo := repositories.NewUserRepository(pool)
 	customerRepo := repositories.NewCustomerRepository(pool)
 	entryRepo := repositories.NewEntryRepository(pool)
+	entryEventRepo := repositories.NewEntryEventRepository(pool)
+	roomEntryRepo := repositories.NewRoomEntryRepository(pool)
 
 	// Initialize services
 	userService := services.NewUserService(userRepo, jwtManager)
 	customerService := services.NewCustomerService(customerRepo)
-	entryService := services.NewEntryService(entryRepo, customerRepo)
+	entryService := services.NewEntryService(entryRepo, customerRepo, entryEventRepo)
+	roomEntryService := services.NewRoomEntryService(roomEntryRepo, entryRepo, entryEventRepo)
 
 	// Initialize handlers
 	userHandler := handlers.NewUserHandler(userService)
 	authHandler := handlers.NewAuthHandler(userService)
 	customerHandler := handlers.NewCustomerHandler(customerService)
 	entryHandler := handlers.NewEntryHandler(entryService)
+	roomEntryHandler := handlers.NewRoomEntryHandler(roomEntryService)
+	entryEventHandler := handlers.NewEntryEventHandler(entryEventRepo)
 	pageHandler := handlers.NewPageHandler()
 
 	// Initialize middleware
@@ -48,7 +53,7 @@ func main() {
 	corsMiddleware := middleware.NewCORS(cfg)
 
 	// Create router
-	router := h.NewRouter(userHandler, authHandler, customerHandler, entryHandler, pageHandler, authMiddleware)
+	router := h.NewRouter(userHandler, authHandler, customerHandler, entryHandler, roomEntryHandler, entryEventHandler, pageHandler, authMiddleware)
 
 	// Wrap router with CORS
 	handler := corsMiddleware(router)

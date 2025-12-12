@@ -3,7 +3,6 @@ package repositories
 import (
 	"context"
 	"fmt"
-	"strings"
 
 	"cold-backend/internal/models"
 	"github.com/jackc/pgx/v5/pgxpool"
@@ -18,16 +17,26 @@ func NewEntryRepository(db *pgxpool.Pool) *EntryRepository {
 }
 
 func (r *EntryRepository) Create(ctx context.Context, e *models.Entry) error {
-	// Generate truck number based on category and entry count
+	// Count existing entries for this category to get next sequential number
 	var count int
-	err := r.DB.QueryRow(ctx, `SELECT COUNT(*) FROM entries WHERE truck_category = $1`, e.TruckCategory).Scan(&count)
+	err := r.DB.QueryRow(ctx,
+		`SELECT COUNT(*) FROM entries WHERE truck_category=$1`,
+		e.TruckCategory).Scan(&count)
 	if err != nil {
 		return err
 	}
 
-	// Generate truck number: SEED-001/450, SELL-001/800, etc.
-	categoryUpper := strings.ToUpper(e.TruckCategory)
-	truckNumber := fmt.Sprintf("%s-%03d/%d", categoryUpper, count+1, e.ExpectedQuantity)
+	// Generate truck number: NO/QUANTITY format
+	// SEED: 001-599 range (sequential from 1)
+	// SELL: 600-1500 range (sequential from 600)
+	var truckNumber string
+	if e.TruckCategory == "seed" {
+		nextNumber := count + 1
+		truckNumber = fmt.Sprintf("%03d/%d", nextNumber, e.ExpectedQuantity)
+	} else if e.TruckCategory == "sell" {
+		nextNumber := 600 + count
+		truckNumber = fmt.Sprintf("%d/%d", nextNumber, e.ExpectedQuantity)
+	}
 	e.TruckNumber = truckNumber
 
 	return r.DB.QueryRow(ctx,
@@ -77,6 +86,42 @@ func (r *EntryRepository) ListByCustomer(ctx context.Context, customerID int) ([
 	rows, err := r.DB.Query(ctx,
 		`SELECT id, customer_id, phone, name, village, expected_quantity, truck_category, truck_number, created_by_user_id, created_at, updated_at
          FROM entries WHERE customer_id=$1 ORDER BY created_at DESC`, customerID)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var entries []*models.Entry
+	for rows.Next() {
+		var entry models.Entry
+		err := rows.Scan(&entry.ID, &entry.CustomerID, &entry.Phone, &entry.Name, &entry.Village,
+			&entry.ExpectedQuantity, &entry.TruckCategory, &entry.TruckNumber, &entry.CreatedByUserID,
+			&entry.CreatedAt, &entry.UpdatedAt)
+		if err != nil {
+			return nil, err
+		}
+		entries = append(entries, &entry)
+	}
+	return entries, nil
+}
+
+func (r *EntryRepository) GetCountByCategory(ctx context.Context, category string) (int, error) {
+	var count int
+	err := r.DB.QueryRow(ctx,
+		`SELECT COUNT(*) FROM entries WHERE truck_category=$1`,
+		category).Scan(&count)
+	return count, err
+}
+
+func (r *EntryRepository) ListUnassigned(ctx context.Context) ([]*models.Entry, error) {
+	// Get entries that don't have a room entry yet
+	rows, err := r.DB.Query(ctx,
+		`SELECT e.id, e.customer_id, e.phone, e.name, e.village, e.expected_quantity,
+		        e.truck_category, e.truck_number, e.created_by_user_id, e.created_at, e.updated_at
+         FROM entries e
+         LEFT JOIN room_entries re ON e.id = re.entry_id
+         WHERE re.id IS NULL
+         ORDER BY e.created_at DESC`)
 	if err != nil {
 		return nil, err
 	}
