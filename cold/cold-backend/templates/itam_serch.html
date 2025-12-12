@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry Management System</title>
+    <script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .neu-brutal {
+            background: white;
+            border: 3px solid black;
+            box-shadow: 5px 5px 0px black;
+        }
+        .neu-brutal:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 7px 7px 0px black;
+        }
+        .neu-brutal-input {
+            border: 2px solid black;
+            padding: 8px;
+            background: #fff;
+        }
+        .neu-brutal-button {
+            background: #75c2c2;
+            border: 3px solid black;
+            box-shadow: 3px 3px 0px black;
+            transition: all 0.2s ease;
+        }
+        .neu-brutal-button:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 5px 5px 0px black;
+        }
+        .active-tab {
+            background: #1ccbd1;
+            transform: translateY(3px);
+            box-shadow: none;
+        }
+    </style>
+</head>
+<body class="bg-[#faf4ed] p-4 min-h-screen">
+    <div class="max-w-7xl mx-auto neu-brutal p-6 bg-white">
+        <!-- Navigation Tabs -->
+        <div class="flex gap-4 mb-6">
+            <button class="neu-brutal-button px-4 py-2" onclick="switchTab('main')">Main Entry</button>
+            <button class="neu-brutal-button px-4 py-2" onclick="switchTab('room')">Room Entry</button>
+            <button class="neu-brutal-button px-4 py-2 active-tab" onclick="switchTab('event')">All Event & Findar</button>
+        </div>
+
+        <!-- Find Entry Section -->
+        <div class="neu-brutal p-6 mb-6">
+            <h2 class="text-xl font-bold mb-4">Find Entry</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
+                <input type="text" placeholder="Thok Number" class="neu-brutal-input">
+                <input type="text" placeholder="Name" class="neu-brutal-input">
+                <input type="text" placeholder="Village" class="neu-brutal-input">
+                <input type="text" placeholder="Room Number" class="neu-brutal-input">
+                <input type="text" placeholder="Floor Number" class="neu-brutal-input">
+                <input type="date" placeholder="Date From" class="neu-brutal-input">
+                <input type="date" placeholder="Date In" class="neu-brutal-input">
+            </div>
+            <div class="flex gap-4">
+                <button class="neu-brutal-button px-6 py-2" onclick="applyFilter()">Apply Filter</button>
+                <button class="neu-brutal-button px-6 py-2" onclick="clearFilter()">Clear Filter</button>
+            </div>
+        </div>
+
+        <!-- All Entries Section -->
+        <div class="neu-brutal p-6">
+            <h2 class="text-xl font-bold mb-4">All Entries</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full border-collapse">
+                    <thead>
+                        <tr class="border-b-2 border-black">
+                            <th class="p-2 text-left">Thok Number</th>
+                            <th class="p-2 text-left">Name</th>
+                            <th class="p-2 text-left">Village</th>
+                            <th class="p-2 text-left">Room</th>
+                            <th class="p-2 text-left">Floor</th>
+                            <th class="p-2 text-left">Gatar Numbers</th>
+                            <th class="p-2 text-left">Quantity</th>
+                            <th class="p-2 text-left">Remarks</th>
+                            <th class="p-2 text-left">Date</th>
+                        </tr>
+                    </thead>
+                    <tbody id="entriesTableBody">
+                        <!-- Table data will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+            <div class="flex justify-between items-center mt-4">
+                <div class="neu-brutal-button px-4 py-2">
+                    <select id="perPage" class="bg-transparent border-none" onchange="updatePerPage()">
+                        <option value="10">10 per page</option>
+                        <option value="25">25 per page</option>
+                        <option value="50">50 per page</option>
+                    </select>
+                </div>
+                <button class="neu-brutal-button px-6 py-2" onclick="exportToExcel()">
+                    Export to Excel
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Sample data for demonstration
+        let entries = [
+            {
+                thokNumber: "THK001",
+                name: "John Doe",
+                village: "Village A",
+                room: "101",
+                floor: "1",
+                gatarNumbers: "G001",
+                quantity: "5",
+                remarks: "Complete",
+                date: "2023-10-20"
+            },
+            // Add more sample entries as needed
+        ];
+
+        function populateTable() {
+            const tbody = document.getElementById('entriesTableBody');
+            tbody.innerHTML = '';
+            
+            entries.forEach(entry => {
+                const row = document.createElement('tr');
+                row.className = 'border-b border-black';
+                row.innerHTML = `
+                    <td class="p-2">${entry.thokNumber}</td>
+                    <td class="p-2">${entry.name}</td>
+                    <td class="p-2">${entry.village}</td>
+                    <td class="p-2">${entry.room}</td>
+                    <td class="p-2">${entry.floor}</td>
+                    <td class="p-2">${entry.gatarNumbers}</td>
+                    <td class="p-2">${entry.quantity}</td>
+                    <td class="p-2">${entry.remarks}</td>
+                    <td class="p-2">${entry.date}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function switchTab(tab) {
+            const buttons = document.querySelectorAll('.neu-brutal-button');
+            buttons.forEach(btn => btn.classList.remove('active-tab'));
+            event.target.classList.add('active-tab');
+        }
+
+        function applyFilter() {
+            // Implement filter logic
+            alert('Filter applied!');
+        }
+
+        function clearFilter() {
+            // Clear all input fields
+            document.querySelectorAll('input').forEach(input => input.value = '');
+        }
+
+        function updatePerPage() {
+            const perPage = document.getElementById('perPage').value;
+            // Implement pagination logic
+            populateTable();
+        }
+
+        function exportToExcel() {
+            const wb = XLSX.utils.book_new();
+            const ws = XLSX.utils.json_to_sheet(entries);
+            XLSX.utils.book_append_sheet(wb, ws, "Entries");
+            XLSX.writeFile(wb, "entries.xlsx");
+        }
+       
+
+        // Initial population of table
+        populateTable();
+    </script>
+</body>
+</html>
